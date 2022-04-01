@@ -1,12 +1,17 @@
 ---
 Demo:
-    title: 'Azure Active Directory 셀프 서비스 암호 재설정'
-    module: '모듈 2 단원 2: Microsoft ID 및 액세스 관리 솔루션의 기능 설명: Azure AD의 다양한 인증 방법 설명'
+  title: Azure Active Directory 셀프 서비스 암호 재설정
+  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
+ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137894384"
 ---
+# <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>데모: Azure Active Directory SSPR(셀프 서비스 암호 재설정)
 
-# 데모: Azure Active Directory SSPR(셀프 서비스 암호 재설정)
-
-### 데모 시나리오
+### <a name="demo-scenario"></a>데모 시나리오
 
 이 데모에서는 셀프 서비스 암호 재설정을 사용하도록 설정할 수 있는 다양한 설정을 살펴봅니다.
 
@@ -17,7 +22,7 @@ Demo:
 1. 속성 창이 강조 표시됩니다.  속성 창에서 SSPR을 사용하도록 설정할 수 있는 대상(없음, 선택 또는 모두)을 확인합니다.
     1. "셀프 서비스 암호 재설정이 사용하도록 설정됨" 옆의 정보 아이콘 위에 커서를 올립니다. 그런 후 "선택됨"을 선택하면 제한된 사용자 그룹만 암호 재설정을 사용하도록 설정할 수 있음을 설명하고, "없음" 또는 "모두" 옵션을 선택하는 경우의 결과도 설명합니다.
     1. "그룹 선택" 옆의 정보 아이콘 위에 커서를 올립니다. 그런 후 이 옵션을 통해 암호를 직접 재설정할 수 있는 사용자 그룹을 지정할 수 있음을 설명합니다.   해당 그룹에 사용자를 포함해야 하며 사용자를 개별적으로 선택할 수는 없습니다.  그리고 그룹을 변경하면 선택하는 그룹이 현재 목록의 그룹 대신 사용됩니다.  그러므로 SSPR 그룹에만 사용자를 추가하는 것이 좋습니다.
-    1. 연한 파란색 정보 상자에 있는 옵션은 조직의 최종 사용자에게만 적용된다는 점을 학습자들에게 설명합니다. 관리자는 항상 셀프 서비스 암호 재설정을 진행할 수 있으며, 두 가지 인증 방법을 사용하여 암호를 재설정해야 합니다.
+    1. 연한 파란색 정보 상자에 있는 옵션은 조직의 최종 사용자에게만 적용된다는 점을 학습자들에게 설명합니다. 관리자는 항상 셀프 서비스 암호 재설정을 사용하도록 설정되며 두 가지 인증 방법을 사용하여 암호를 다시 설정해야 합니다.
 
 1. 암호 재설정의 왼쪽 탐색 패널에서 인증 방법을 선택합니다.
     1. "재설정에 필요한 방법 수" 옆에 있는 정보 아이콘 위에 커서를 올립니다.  해당 아이콘을 사용하여 이 디렉터리의 사용자가 암호를 재설정하려면 진행해야 하는 대체 식별 방법의 수를 설정할 수 있음을 설명합니다.   설정을 변경하지는 마세요.
@@ -35,7 +40,7 @@ Demo:
 
 1. 다음 데모를 위해 이 브라우저 페이지를 열어 두세요.
 
-#### 복습
+#### <a name="review"></a>검토
 
 이 데모에서는 셀프 서비스 암호 재설정과 관련된 설정을 살펴보았습니다. 
 
