@@ -2,12 +2,12 @@
 lab:
   title: 'Privileged Identity Management를 통한 Azure AD의 ID 거버넌스 방식 살펴보기 '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894241"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489238"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>랩: Privileged Identity Management를 통한 Azure AD의 ID 거버넌스 방식 살펴보기
 
@@ -50,9 +50,9 @@ ms.locfileid: "137894241"
 
 2. 왼쪽 탐색 패널에서 **ID 거버넌스** 를 선택합니다.
 
-3. 주 창에서 **시작** 에 밑줄이 표시되어 있는지 확인하고 화면 오른쪽 가운데에서 **역할 할당 관리** 를 선택합니다.  왼쪽 탐색 패널의 Privileged Identity Management 아래에서 **Azure AD 역할** 을 선택해도 됩니다.
+3. 왼쪽 탐색 패널의 Privileged Identity Management 아래에서 **Azure AD 역할** 을 선택합니다.
 
-4. 그러면 Privileged Identity Management 빠른 시작 창이 표시됩니다.  **액세스 관리** 를 선택합니다.
+4. 그러면 Privileged Identity Management 빠른 시작 창이 표시됩니다.  **관리** 를 선택합니다.
 
 5. 그러면 Contoso 역할 페이지가 표시됩니다.  페이지 위쪽의 검색 창에 **사용자** 를 입력합니다.  검색 결과에서 **사용자 관리자** 를 선택합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "137894241"
 19. 화면 오른쪽 위의 이메일 주소 옆에 있는 사용자 아이콘을 선택한 후 **로그아웃** 을 선택하여 로그아웃합니다. 그런 다음 브라우저 창을 모두 닫습니다.
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>작업 3: 작업 3:  이 작업에서는 Diego Siciliani로 Azure Portal에 로그인합니다. 그런 다음 Azure Active Directory의 Privileged Identity Management 기능에 액세스하여 할당된 역할인 사용자 관리자를 활성화합니다.  활성화 후에는 기존 사용자의 구성을 변경합니다. 참고: 이 작업을 진행하려면 즉시 액세스 가능하며 문자 메시지를 받을 수 있는 모바일 디바이스를 사용할 수 있어야 합니다.
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>작업 3: 이 작업에서는 Diego Siciliani로 Azure Portal에 로그인합니다. 그런 다음 Azure Active Directory의 Privileged Identity Management 기능에 액세스하여 할당된 역할인 사용자 관리자를 활성화합니다.  활성화 후에는 기존 사용자의 구성을 변경합니다. 참고: 이 작업을 진행하려면 즉시 액세스 가능하며 문자 메시지를 받을 수 있는 모바일 디바이스를 사용할 수 있어야 합니다.
 
 1. Microsoft Edge를 엽니다.  브라우저의 주소 표시줄에 **portal.azure.com** 을 입력합니다.
 
