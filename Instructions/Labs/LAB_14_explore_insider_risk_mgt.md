@@ -1,13 +1,13 @@
 ---
 lab:
   title: Microsoft 365의 내부 위험 관리 기능 살펴보기
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
-ms.openlocfilehash: df300750e4be2647bcdddcb42fa1d3a3c7a7c2ec
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
+ms.openlocfilehash: 2fb0e58f92070ce375d27b44bf298a7748db3f40
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894192"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614389"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-365"></a>랩: Microsoft 365의 내부 위험 관리 기능 살펴보기
 

@@ -1,13 +1,13 @@
 ---
 lab:
   title: 코어 eDiscovery 워크플로 살펴보기
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: cb7b0e4c2d7b2ac980e829f24ebbdbb31965e2b8
-ms.sourcegitcommit: 965f24bd5f74be6d0841bf526259a5651af4fdf5
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
+ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "139253910"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614377"
 ---
 # <a name="lab-explore-the-core-ediscovery-workflow"></a>랩: 코어 eDiscovery 워크플로 살펴보기
 
@@ -29,7 +29,7 @@ ms.locfileid: "139253910"
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시** 를 선택합니다.
 
-1. 관리 센터 아래에서 규정 준수를 선택합니다.  새 브라우저 페이지가 열리고 Microsoft 365 규정 준수 센터 시작 페이지가 표시됩니다.  
+1. 관리 센터 아래에서 규정 **준수** 를 선택합니다.  새 브라우저 페이지가 열리고 Microsoft 365 규정 준수 센터 시작 페이지가 표시됩니다.  
 
 1. 왼쪽 탐색 창에서 **권한** 을 선택합니다. 
 
@@ -43,7 +43,7 @@ ms.locfileid: "139253910"
 
 1. 페이지 위쪽에서 **+ 추가** 를 선택합니다.
 
-1. 이름 목록에서 MOD 관리자, Megan Bowen을 선택하고 페이지 아래쪽에서 추가를 선택합니다. 그런 후에 페이지 아래쪽에서 완료를 선택합니다.   
+1. 이름 목록에서 **MOD 관리자**, **Megan Bowen** 을 선택하고 페이지 아래쪽에서 **추가** 를 선택합니다. 그런 후에 페이지 아래쪽에서 **완료** 를 선택합니다.
 
 1. 추가된 구성원이 정확한지 확인하고 **저장** 을 선택합니다.
 
