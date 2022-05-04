@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Microsoft 365의 민감도 레이블
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894305"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614233"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>데모: Microsoft 365의 민감도 레이블
 
@@ -32,7 +32,7 @@ ms.locfileid: "137894305"
 
 1. 왼쪽 탐색 패널의 솔루션 아래에서 **정보 보호** 를 선택합니다.
 
-1. 노란색 정보 상자에 '조직에서 암호화된 민감도 레이블이 적용되어 OneDrive 및 SharePoint에 저장된 Office 온라인 파일의 콘텐츠를 처리하는 기능을 설정하지 않았습니다.'가 표시됩니다.  해당 상자에서 지금 사용을 선택합니다.  설정이 시스템 전체에 전파되려면 다소 시간이 걸릴 수 있습니다.
+1. 노란색 정보 상자에 조직에서 암호화된 민감도 레이블이 적용되어 OneDrive 및 SharePoint에 저장된 Office 온라인 파일의 콘텐츠를 처리하는 기능을 설정하지 않았다는 메시지가 표시됩니다.  해당 상자에서 지금 사용을 선택합니다.  설정이 시스템 전체에 전파되려면 다소 시간이 걸릴 수 있습니다.
 
 1. 페이지 위쪽의 **레이블** 탭이 선택되어 있는지(밑줄이 표시되어 있는지) 확인합니다.
 
