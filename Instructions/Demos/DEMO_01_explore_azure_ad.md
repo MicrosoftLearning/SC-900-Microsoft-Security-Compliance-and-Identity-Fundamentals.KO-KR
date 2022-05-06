@@ -2,16 +2,16 @@
 Demo:
   title: Azure Active Directory 사용자 설정
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 755c16992ea1b9a626850507dbebf270dbe7c0de
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894193"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557184"
 ---
 # <a name="demo-azure-active-directory-user-settings"></a>데모: Azure Active Directory 사용자 설정
 
-### <a name="demo-scenario"></a>데모 시나리오
+## <a name="demo-scenario"></a>데모 시나리오
 
 이 데모에서는 Azure Active Directory에 액세스하여 기존 사용자의 다양한 설정을 살펴봅니다.
 

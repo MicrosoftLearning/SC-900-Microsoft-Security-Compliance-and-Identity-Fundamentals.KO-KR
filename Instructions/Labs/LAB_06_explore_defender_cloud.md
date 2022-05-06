@@ -2,22 +2,26 @@
 lab:
   title: 클라우드용 Microsoft Defender 살펴보기
   module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 208e11a7e82497fbb900b4fa024fb6fb367d458e
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 580e84e726a6ba9c7d9109881710e08f059d0818
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894225"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557578"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>랩: 클라우드용 Microsoft Defender 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
+
 이 랩에서는 클라우드용 Microsoft Defender를 살펴보고 조직의 보안 태세 개선을 위해 Azure 보안 점수를 사용하는 방법을 알아봅니다.
 
 **예상 소요 시간:** 30분
 
-#### <a name="task-1-in-this-task-you-will-take-a-brief-tour-of-microsoft-defender-for-cloud"></a>작업 1: 이 작업에서는 클라우드용 Microsoft Defender를 간단하게 살펴봅니다.
-1.  Microsoft Edge를 엽니다. 주소 표시줄에 **portal.azure.com** 을 입력합니다.
+### <a name="task-1"></a>작업 1
+
+이 작업에서는 클라우드용 Microsoft Defender를 간단하게 살펴봅니다.
+
+1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.azure.com** 을 입력합니다.
 
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
@@ -48,35 +52,36 @@ ms.locfileid: "137894225"
 
 1. 주 페이지에서 **규정 준수** 를 선택합니다. 규정 준수 페이지에서는 규정 준수 컨트롤 목록이 제공됩니다.  각 컨트롤 아래에는 평가 집합이 있습니다. 이러한 평가는 Azure에서 클라우드 솔루션을 보호하는 방법에 대한 권장 사항을 제공하는 Azure Security Benchmark를 기준으로 작성된 것입니다.
     1. **IM. ID 관리** 를 선택하고 **IM.6 강력한 인증 컨트롤 사용** 을 선택합니다.  그러면 규정 준수 상태 개선을 위해 고객이 수행할 수 있는 작업 목록이 표시됩니다.
-    1. 화면 오른쪽 위에서 **X** 를 선택하여 페이지를 닫고 클라우드용 Microsoft Defender 개요 페이지로 돌아옵니다. 
+    1. 화면 오른쪽 위에서 **X** 를 선택하여 페이지를 닫고 클라우드용 Microsoft Defender 개요 페이지로 돌아옵니다.
     1. 다음 작업에서 사용해야 하니 클라우드용 Microsoft Defender 개요 페이지를 계속 열어 두세요.
 
+### <a name="task-2"></a>작업 2
 
-#### <a name="task-2-in-this-task-you-will-navigate-to-azure-secure-score-and-explore-recommendations-that-can-improve-your-secure-score"></a>작업 2: 이 작업에서는 Azure 보안 점수, 그리고 보안 점수를 높일 수 있는 권장 사항을 살펴봅니다. 
+이 작업에서는 Azure 보안 점수, 그리고 보안 점수를 높일 수 있는 권장 사항을 살펴봅니다.
 
 1. 클라우드용 Microsoft Defender 개요 페이지에서 **보안 점수** 카드를 선택합니다.
 1. **Azure Pass - 스폰서쉽** 을 선택합니다.  보안 점수를 확인합니다.
 1. 권장 사항 페이지에서 **보안 모범 사례 구현** 을 선택하여 목록을 확장합니다. 리소스 상태가 빨간색으로 표시됩니다.
-1. 리소스 상태가 빨간색으로 표시되는 **구독에 둘 이상의 소유자를 할당해야 합니다.** 항목을 선택합니다. 
+1. 리소스 상태가 빨간색으로 표시되는 **구독에 둘 이상의 소유자를 할당해야 합니다.** 항목을 선택합니다.
 1. **영향받는 리소스** 아래에 비정상 리소스가 선택되거나 밑줄이 표시되어 있는지 확인한 다음, 나열된 Azure 구독을 선택합니다.
 1. 액세스 제어(IAM) 페이지 위쪽에서 **+ 추가** 를 선택하고 드롭다운에서 **역할 할당 추가** 를 선택합니다.
     1. 페이지 왼쪽에서 나열된 첫 번째 항목인 **소유자** 를 선택하여 행이 회색으로 강조 표시되게 한 다음, 페이지 아래쪽에 있는 **다음** 을 선택합니다.
-    1. 멤버 옆에 있는 **+ 멤버 선택** 을 선택합니다. 
+    1. 멤버 옆에 있는 **+ 멤버 선택** 을 선택합니다.
     1. 화면 오른쪽에 열리는 멤버 선택 창에서 **Alex Wilber** 를 선택한 다음 페이지 아래쪽에 있는 **선택** 을 누릅니다.  
     1. 역할 할당 추가 페이지에서 Alex Wilber가 멤버로 나열되었는지 확인하고, **다음** 을 선택한 다음 **검토 + 할당** 을 선택합니다.
     1. 상태가 업데이트되려면 최대 24시간이 걸릴 수 있습니다. 상태가 업데이트되고 나면 액세스 및 권한 관리 그룹의 모든 항목이 요건을 충족하므로, 보안 점수도 업데이트됩니다.
     1. 페이지의 왼쪽 위 모서리의 Azure Pass 위에 있는 **클라우드용 Microsoft Defender** 를 선택하여 클라우드용 Microsoft Defender 개요 페이지로 돌아갑니다.
 1. 후속 작업을 위해 이 페이지를 열어 두세요.
 
+### <a name="task-3"></a>작업 3
 
-#### <a name="task-3--recall-that-microsoft-defender-for-cloud-is-offered-in-two-modes-without-enhanced-security-features-free-and-with-enhanced-security-features-which-are-available-through-the-microsoft-defender-for-cloud-plans-in-this-task-you-discover-how-to-enabledisable-the-various-microsoft-defender-for-cloud-plans"></a>작업 3:  클라우드용 Microsoft Defender는 향상된 보안 기능이 없는 모드(무료)와 클라우드용 Microsoft Defender 요금제를 통해 사용할 수 있는 향상된 보안 기능이 포함된 모드로 제공됩니다. 이 작업에서는 다양한 클라우드용 Microsoft Defender 요금제를 사용하거나 사용하지 않도록 설정하는 방법을 알아봅니다.
+클라우드용 Microsoft Defender는 향상된 보안 기능이 없는 모드(무료)와 클라우드용 Microsoft Defender 요금제를 통해 사용할 수 있는 향상된 보안 기능이 포함된 모드로 제공됩니다. 이 작업에서는 다양한 클라우드용 Microsoft Defender 요금제를 사용하거나 사용하지 않도록 설정하는 방법을 알아봅니다.
 
-1.  클라우드용 Microsoft Defender 개요 페이지의 왼쪽 탐색 패널에서 **환경 설정** 을 선택합니다.
+1. 클라우드용 Microsoft Defender 개요 페이지의 왼쪽 탐색 패널에서 **환경 설정** 을 선택합니다.
 1. 테넌트 루트 그룹 옆에 있는 보다 큼 **>** 기호를 선택하여 확장한 다음(다른 페이지로 이동하므로 테넌트 루트 그룹을 바로 클릭하면 안 됩니다) **Azure Pass - 스폰서쉽** 을 선택합니다.
-1.  Defender 요금제 페이지에서 모든 요금제를 활성화하거나 개별 Defender 요금제를 선택하는 방법을 확인합니다. 설정값을 그대로 유지하여 모든 요금제가 해제되게 합니다.
-1.  이제 브라우저 탭을 닫아 Azure Portal을 종료해도 됩니다.
+1. Defender 요금제 페이지에서 모든 요금제를 활성화하거나 개별 Defender 요금제를 선택하는 방법을 확인합니다. 설정값을 그대로 유지하여 모든 요금제가 해제되게 합니다.
+1. 이제 브라우저 탭을 닫아 Azure Portal을 종료해도 됩니다.
 
+### <a name="review"></a>검토
 
-#### <a name="review"></a>검토
 이 랩에서는 클라우드용 Microsoft Defender를 살펴보고 조직의 보안 태세 개선을 위해 Azure 보안 점수를 사용하는 방법을 알아보았습니다.
-

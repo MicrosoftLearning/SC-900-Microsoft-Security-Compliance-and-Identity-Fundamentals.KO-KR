@@ -2,16 +2,17 @@
 Demo:
   title: Azure Active Directory 조건부 액세스
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: b3fd1d1f73c7f807c7a72b258762579bdf0184ac
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 9c981817c195e981ea69dc6bba5f168848d6d084
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894385"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557365"
 ---
 # <a name="demo-azure-active-directory-conditional-access"></a>데모: Azure Active Directory 조건부 액세스
 
-### <a name="demo-scenario"></a>데모 시나리오
+## <a name="demo-scenario"></a>데모 시나리오
+
 이 데모에서는 조건부 액세스 정책에 사용할 수 있는 다양한 옵션을 살펴봅니다.
 
 1. 브라우저에 열려 있는 **Contoso – Microsoft Azure** 탭으로 이동합니다. 이전에 해당 탭을 닫았다면 브라우저 페이지를 열고 주소 표시줄에 portal.azure.com을 입력한 후에 Azure Active Directory를 선택합니다. Azure Portal에 관리자로 로그인되어 있는 상태여야 합니다. 관리자로 로그인되어 있지 않으면 다시 로그인합니다.

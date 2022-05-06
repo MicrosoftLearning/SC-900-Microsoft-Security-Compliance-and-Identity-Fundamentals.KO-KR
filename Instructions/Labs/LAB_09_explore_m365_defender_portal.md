@@ -2,28 +2,30 @@
 lab:
   title: Microsoft 365 Defender 포털 살펴보기
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614413"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557149"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>랩: Microsoft 365 Defender 포털 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
-이 랩에서는 방문 페이지에 표시되는 콘텐츠를 통해 Microsoft 365 Defender 포털을 살펴봅니다. 그리고 탐색 패널의 옵션도 살펴봅니다. 이러한 옵션을 사용하면 Microsoft XDR(Extended Detection and Response) 솔루션에 포함된 기능인 엔드포인트용 Microsoft Defender 및 Office 365용 Microsoft Defender(이메일 및 공동 작업)에 빠르게 액세스할 수 있습니다.  그리고 마지막으로, Microsoft 보안 점수를 참조하여 조직의 보안 태세를 개선하는 방법도 살펴봅니다.
 
+이 랩에서는 방문 페이지에 표시되는 콘텐츠를 통해 Microsoft 365 Defender 포털을 살펴봅니다. 그리고 탐색 패널의 옵션도 살펴봅니다. 이러한 옵션을 사용하면 Microsoft XDR(Extended Detection and Response) 솔루션에 포함된 기능인 엔드포인트용 Microsoft Defender 및 Office 365용 Microsoft Defender(이메일 및 공동 작업)에 빠르게 액세스할 수 있습니다.  그리고 마지막으로, Microsoft 보안 점수를 참조하여 조직의 보안 태세를 개선하는 방법도 살펴봅니다.
 
 **예상 소요 시간:** 10~15분
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>작업 1:  Microsoft 365 Defender 시작 페이지를 살펴봅니다.
+### <a name="task-1"></a>작업 1
+
+Microsoft 365 Defender 시작 페이지를 살펴봅니다.
 
 1. Microsoft Edge를 엽니다. 주소 표시줄에 **admin.microsoft.com** 을 입력합니다.
 
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
-   
+
     1. 랩 호스팅 공급자가 제공한 관리자 암호를 입력합니다. **로그인** 을 선택합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다. 그러면 Microsoft 365 관리 센터 페이지로 이동됩니다.
 
@@ -43,7 +45,9 @@ ms.locfileid: "142614413"
 
 1. 카드 제목을 선택하면 해당 토픽 관련 추가 정보가 표시됩니다. 이러한 정보는 다음 작업에서 살펴봅니다.  브라우저 창을 열어 두세요.
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>작업 2: 이 작업에서는 Microsoft 보안 점수를 참조하여 조직의 보안 태세를 개선하는 방법을 살펴봅니다.
+### <a name="task-2"></a>작업 2
+
+이 작업에서는 Microsoft 보안 점수를 참조하여 조직의 보안 태세를 개선하는 방법을 살펴봅니다.
 
 1. Microsoft 365 Defender 포털의 시작 페이지에서 카드 제목 표시줄의 **Microsoft 보안 점수** 를 선택합니다(텍스트가 파란색으로 바뀜).  왼쪽 탐색 패널에서 **보안 점수** 를 선택해도 됩니다.
 
@@ -63,5 +67,6 @@ ms.locfileid: "142614413"
 
 1. 브라우저 페이지를 닫습니다.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
+
 이 랩에서는 Microsoft 365 Defender 포털을 살펴보았습니다. 구체적으로는 방문 페이지에 표시되는 내용을 확인했으며 탐색 패널의 옵션을 살펴보았습니다. 이러한 옵션을 사용하면 Microsoft XDR(Extended Detection and Response) 솔루션에 포함된 기능인 엔드포인트용 Microsoft Defender 및 Office 365용 Microsoft Defender(이메일 및 공동 작업)에 빠르게 액세스할 수 있습니다.  그리고 마지막으로, Microsoft 보안 점수를 참조하여 조직의 보안 태세를 개선하는 방법도 살펴보았습니다.

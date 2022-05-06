@@ -2,23 +2,26 @@
 lab:
   title: '클라우드용 Microsoft Defender 앱 살펴보기 '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: aa360b3d9e604e384cc5b040ef747425af76e13b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894232"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557579"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>랩: 클라우드용 Microsoft Defender 앱 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
-이 랩에서는 클라우드용 Microsoft Defender 앱의 기능을 살펴봅니다.  구체적으로는 Cloud Discovery 대시보드에서 제공되는 정보를 살펴보고, 파악한 정보를 조사하고 정책을 통해 조직에 대한 영향을 제어하는 데 사용할 수 있는 기능에 대해서도 알아봅니다.  참고:  사용자 기본 구독 서비스인 클라우드용 Microsoft Defender 앱을 사용하려는 조직은 관련 라이선스를 보유하고 있어야 합니다. 
+
+이 랩에서는 클라우드용 Microsoft Defender 앱의 기능을 살펴봅니다.  구체적으로는 Cloud Discovery 대시보드에서 제공되는 정보를 살펴보고, 파악한 정보를 조사하고 정책을 통해 조직에 대한 영향을 제어하는 데 사용할 수 있는 기능에 대해서도 알아봅니다.  참고:  사용자 기본 구독 서비스인 클라우드용 Microsoft Defender 앱을 사용하려는 조직은 관련 라이선스를 보유하고 있어야 합니다.
 
 **예상 소요 시간:** 15~20분
 
-#### <a name="task-1-explore-cloud-discovery"></a>작업 1: Cloud Discovery를 살펴봅니다.
+### <a name="task-1"></a>작업 1
 
-1.  Microsoft Edge를 엽니다. 주소 표시줄에 **admin.microsoft.com** 을 입력합니다.
+Cloud Discovery를 살펴봅니다.
+
+1. Microsoft Edge를 엽니다. 주소 표시줄에 **admin.microsoft.com** 을 입력합니다.
 
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
@@ -50,7 +53,9 @@ ms.locfileid: "137894232"
 
 1. 다음 작업에서 사용할 것이므로 이 페이지를 열어 두세요.
 
-#### <a name="task-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>작업 2: 기록된 활동을 조사할 수 있는 방법을 살펴봅니다.
+### <a name="task-2"></a>작업 2
+
+기록된 활동을 조사할 수 있는 방법을 살펴봅니다.
 
 1. 왼쪽 탐색 패널의 조사 아래에서 **활동 로그** 를 선택합니다.  그러면 연결된 앱에서 수행한 모든 활동을 확인할 수 있습니다.   Office 365 커넥터가 이미 연결되어 있으므로 몇 가지 데이터가 표시됩니다. 앱 커넥터를 사용해 앱에 Cloud App Security를 연결하면 Cloud App Security에서 수행된 모든 활동이 검색됩니다. 소급 검색 기간은 앱에 따라 다르며 계속 새 활동으로 업데이트됩니다.  
 
@@ -66,14 +71,16 @@ ms.locfileid: "137894232"
 
 1. 다음 작업에서 사용할 것이므로 이 페이지를 열어 두세요.
 
+### <a name="task-3"></a>작업 3
 
-#### <a name="task-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>작업 3: 이 작업에서는 클라우드용 Microsoft Defender 앱의 정책 및 경고 페이지를 살펴봅니다.
+이 작업에서는 클라우드용 Microsoft Defender 앱의 정책 및 경고 페이지를 살펴봅니다.
 
-1. 왼쪽 탐색 패널에서 **컨트롤** 옆에 있는 아래쪽 화살표 키를 선택하고 **정책** 을 선택합니다.  나열된 정책에서 정책, 심각도 등에 의해 생성된 경고 수에 관한 정보를 확인할 수 있습니다. **위험한 로그인** 같은 아무 줄 항목을 선택하면 정책을 편집하는 옵션이 제공됩니다. 페이지 아래쪽에서 **취소** 를 선택합니다. 
+1. 왼쪽 탐색 패널에서 **컨트롤** 옆에 있는 아래쪽 화살표 키를 선택하고 **정책** 을 선택합니다.  나열된 정책에서 정책, 심각도 등에 의해 생성된 경고 수에 관한 정보를 확인할 수 있습니다. **위험한 로그인** 같은 아무 줄 항목을 선택하면 정책을 편집하는 옵션이 제공됩니다. 페이지 아래쪽에서 **취소** 를 선택합니다.
 
 1. 왼쪽 탐색 패널에서 **경고** 를 선택합니다.  나열되는 경고가 있으면 경고 목록에서 항목을 선택합니다. 제공된 정보를 검토합니다.  창 오른쪽 위에서 **경고 닫기** 를 선택하여 경고를 닫는 옵션을 확인합니다.  
 
 1. 브라우저 창을 닫습니다.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
+
 이 랩에서는 클라우드용 Microsoft Defender 앱의 기능을 살펴보았습니다.  구체적으로는 Cloud Discovery 대시보드에서 제공되는 정보를 살펴보고, 파악한 정보를 조사하고 정책을 통해 조직에 대한 영향을 제어하는 데 사용할 수 있는 기능에 대해서도 알아보았습니다.

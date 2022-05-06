@@ -2,16 +2,16 @@
 Demo:
   title: Azure Active Directory 셀프 서비스 암호 재설정
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894384"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557221"
 ---
 # <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>데모: Azure Active Directory SSPR(셀프 서비스 암호 재설정)
 
-### <a name="demo-scenario"></a>데모 시나리오
+## <a name="demo-scenario"></a>데모 시나리오
 
 이 데모에서는 셀프 서비스 암호 재설정을 사용하도록 설정할 수 있는 다양한 설정을 살펴봅니다.
 
@@ -40,7 +40,6 @@ ms.locfileid: "137894384"
 
 1. 다음 데모를 위해 이 브라우저 페이지를 열어 두세요.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
 
-이 데모에서는 셀프 서비스 암호 재설정과 관련된 설정을 살펴보았습니다. 
-
+이 데모에서는 셀프 서비스 암호 재설정과 관련된 설정을 살펴보았습니다.

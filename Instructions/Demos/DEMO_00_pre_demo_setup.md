@@ -1,21 +1,22 @@
 ---
 Pre-Demo Setup:
   title: 데모 설정
-ms.openlocfilehash: b44b5fe0c5f01e8cb2364dc426c2ec3a2b1e7029
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894186"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557257"
 ---
 # <a name="pre-demo-setup"></a>데모 전 설정
 
-### <a name="setup-part-1---redeem-azure-pass"></a>설정 1부 - Azure Pass 사용
+## <a name="setup-part-1---redeem-azure-pass"></a>설정 1부 - Azure Pass 사용
+
 이 설정 작업에서는 Microsoft 365 테넌트와 같은 자격 증명을 통해 Azure Pass를 사용합니다.  그러면 Microsoft 365와 Azure 간을 이동하면서 작업할 때 더욱 원활한 환경을 이용할 수 있습니다.
 
 1. 브라우저 창이 열려 있으면 모든 브라우저를 닫는 것이 좋습니다.
 
-1. Microsoft Edge 아이콘을 마우스 오른쪽 단추로 클릭하고 **새 InPrivate 창** 을 선택하여 새 InPrivate 브라우저 세션을 엽니다. 기타 
+1. Microsoft Edge 아이콘을 마우스 오른쪽 단추로 클릭하고 **새 InPrivate 창** 을 선택하여 새 InPrivate 브라우저 세션을 엽니다.
 
 1. 주소 표시줄에 **www.microsoftazurepass.com** 을 입력합니다.  
 
@@ -33,6 +34,7 @@ ms.locfileid: "137894186"
 1. 다음 데모에서 Azure Portal을 다시 사용할 것이므로 브라우저 탭에 Azure Portal 홈 페이지를 열어 두세요.
 
 ### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>설정 2부 - Microsoft 365 감사 로그를 사용하도록 설정
+
 이 설정 작업에서는 Microsoft 365의 감사 로그 기능을 사용하도록 설정합니다.  설명서에는 감사 로그가 기본적으로 설정된다고 나와 있지만, 대다수 랩 테넌트에서는 이 기능이 사용하도록 설정되어 있지 않으며 기능을 적용하려면 몇 시간이 걸릴 수도 있습니다.  Microsoft 365에서는 감사 로그를 사용하여 정책 및 분석 인사이트에서 확인된 활동과 사용자 인사이트를 파악하므로, 이 기능을 사용하도록 설정하면 유용합니다.
 
 1. Microsoft Edge를 엽니다. 주소 표시줄에 **admin.microsoft.com** 을 입력합니다.
@@ -59,5 +61,3 @@ ms.locfileid: "137894186"
 ### <a name="review"></a>검토
 
 이 설정에서는 Microsoft 365 테넌트와 같은 자격 증명을 통해 Azure Pass를 사용했습니다.  그리고 Microsoft 365의 감사 로그 기능을 사용하도록 설정했습니다.
-
-

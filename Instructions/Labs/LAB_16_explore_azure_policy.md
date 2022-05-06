@@ -2,28 +2,30 @@
 lab:
   title: Azure Policy 살펴보기
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614425"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557522"
 ---
 # <a name="lab-explore-azure-policy"></a>랩: Azure Policy 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
-Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 규모에 맞게 평가할 수 있습니다. Azure Policy는 해당 리소스의 속성을 비즈니스 규칙과 비교하여 Azure의 리소스를 평가합니다. 이 랩에서는 먼저 Azure Policy 방문 페이지를 살펴봅니다. Azure Policy 페이지를 처음으로 살펴본 후에는 정책을 만들고 해당 정책의 영향을 확인합니다.
 
+Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 규모에 맞게 평가할 수 있습니다. Azure Policy는 해당 리소스의 속성을 비즈니스 규칙과 비교하여 Azure의 리소스를 평가합니다. 이 랩에서는 먼저 Azure Policy 방문 페이지를 살펴봅니다. Azure Policy 페이지를 처음으로 살펴본 후에는 정책을 만들고 해당 정책의 영향을 확인합니다.
 
 **예상 소요 시간:** 20~25분
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>작업 1: Azure Policy 페이지를 간략하게 살펴봅니다.
+### <a name="task-1"></a>작업 1
+
+Azure Policy 페이지를 간략하게 살펴봅니다.
 
 1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.microsoft.com** 을 입력합니다.
 
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
-    
+
     1. 랩 호스팅 공급자가 제공한 관리자 암호를 입력합니다. **로그인** 을 선택합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다.
 
@@ -53,7 +55,9 @@ Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 �
 
 1. 다음 작업을 위해 이 브라우저 탭(정책 - Microsoft Azure)을 열어 두세요.
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>작업 2:  이 작업에서는 리소스 그룹에서 태그를 사용해야 하도록 지정하는 기본 정책 할당을 만듭니다.
+### <a name="task-2"></a>작업 2
+
+이 작업에서는 리소스 그룹에서 태그를 사용해야 하도록 지정하는 기본 정책 할당을 만듭니다.
 
 1. 정책 - Microsoft Azure 브라우저 탭을 엽니다.
 
@@ -69,9 +73,9 @@ Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 �
 
 1. 기본 할당 이름을 확인합니다.  이름은 그대로 두고 페이지 아래쪽에서 **다음** 을 선택합니다.
 
-1. 태그 이름 필드에 **환경** 을 입력하고 **다음** 을 선택합니다. 
+1. 태그 이름 필드에 **환경** 을 입력하고 **다음** 을 선택합니다.
 
-1. 기본 수정 설정을 그대로 두고 **다음** 을 선택합니다. 
+1. 기본 수정 설정을 그대로 두고 **다음** 을 선택합니다.
 
 1. 비준수 메시지에 **환경 태그가 필요함** 을 입력하고 **다음** 을 선택합니다. 참고: 정책 할당 전에 만들었으며 환경 태그가 지정되어 있지 않은 리소스 그룹에 비준수 이유로 이 메시지가 표시됩니다.  정책을 만든 후에 만드는 리소스 그룹의 경우에는 환경 태그가 없으면 리소스 그룹 만들기가 거부됩니다.
 
@@ -81,7 +85,9 @@ Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 �
 
 1. 그러면 Azure 서비스 홈 페이지가 표시됩니다.  다음 작업에서 사용할 것이므로 해당 페이지를 열어 두세요.
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>작업 3:  이 작업에서는 Azure Policy 할당의 영향을 확인합니다. 구체적으로는 Azure에서 태그가 없는 리소스 그룹을 만든 후 태그를 포함하도록 해당 리소스 그룹을 업데이트합니다.  참고: 이전 작업에서 만든 정책이 적용되려면 최대 30분이 걸릴 수 있습니다. 하지만 일반적으로는 정책이 더 빨리 적용됩니다.
+### <a name="task-3"></a>작업 3
+
+이 작업에서는 Azure Policy 할당의 영향을 확인합니다. 구체적으로는 Azure에서 태그가 없는 리소스 그룹을 만든 후 태그를 포함하도록 해당 리소스 그룹을 업데이트합니다.  참고: 이전 작업에서 만든 정책이 적용되려면 최대 30분이 걸릴 수 있습니다. 하지만 일반적으로는 정책이 더 빨리 적용됩니다.
 
 1. 브라우저 탭에서 홈 - Microsoft Azure를 엽니다.
 
@@ -99,7 +105,7 @@ Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 �
 
 1. 그러면 유효성 검사에 통과했다는 메시지가 표시됩니다(마법사에서 태그 이름 및 값은 필수 필드가 아님). **만들기** 를 선택합니다.
 
-1. "리소스 그룹을 만들지 못했습니다. 오류 세부 정보 보기"라는 오류 메시지가 화면 위쪽에 표시됩니다.  **오류 세부 정보 보기** 를 선택합니다. Azure 정책에 포함된 조건이 충족되지 않았으므로 비준수 사항으로 인해 리소스 그룹 만들기가 거부되었습니다. 
+1. "리소스 그룹을 만들지 못했습니다. 오류 세부 정보 보기"라는 오류 메시지가 화면 위쪽에 표시됩니다.  **오류 세부 정보 보기** 를 선택합니다. Azure 정책에 포함된 조건이 충족되지 않았으므로 비준수 사항으로 인해 리소스 그룹 만들기가 거부되었습니다.
 
     참고: 오류 메시지가 표시되지 않고 리소스 그룹이 만들어졌다면 정책이 아직 적용되지 않았기 때문입니다.  이전 작업에서 만든 정책의 정책 페이지로 이동합니다. 정책이 적용되면 해당 리소스가 규정을 준수하지 않음이 표시됩니다.  그리고 세부 정보 페이지에 비준수 메시지가 표시됩니다. 오류가 발생하면 다음 단계에서 배포를 수정하는 방법을 보여 줍니다.
 
@@ -115,12 +121,11 @@ Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 �
 
 1. 종료하기 전에 Azure Policy를 제거합니다.
     1. 페이지 왼쪽 위에서 홈을 선택하여 Azure 홈 페이지로 돌아옵니다.
-    
+
     1. Azure 서비스 아래에서 Azure Policy를 선택합니다.
     1. 페이지 가운데 부분에 Azure 정책/이니셔티브 할당 목록이 표시됩니다.  리소스 그룹에 태그 필요 정책 할당의 줄임표를 선택하고 할당 삭제를 선택합니다.
     1. 할당 삭제를 확인하라는 메시지가 표시됩니다.  예를 선택합니다.
 
-
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
 
 이 랩에서는 Azure Policy 방문 페이지를 살펴보았습니다. Azure Policy 페이지를 처음으로 살펴본 후에는 정책을 만드는 프로세스를 진행했으며, 해당 정책의 영향을 확인했습니다.

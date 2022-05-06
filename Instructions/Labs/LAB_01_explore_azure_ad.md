@@ -2,12 +2,12 @@
 lab:
   title: Azure Active Directory 살펴보기
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894256"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557293"
 ---
 # <a name="lab-explore-azure-active-directory"></a>랩: Azure Active Directory 살펴보기
 
@@ -15,17 +15,17 @@ ms.locfileid: "137894256"
 
 이 랩에서는 Azure Active Directory에 액세스합니다.  또한 사용자를 만들고, 라이선스 추가를 비롯한 여러 가지 설정을 구성합니다.  
 
-
-
 **예상 소요 시간:** 10~15분
 
-#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>작업 1:  여러분은 Microsoft 365 구독자로서 이미 Azure AD를 사용하고 있습니다.  이 작업에서는 Microsft 365 관리 포털과 Azure Portal을 통해 Azure AD에 액세스하는 과정을 진행합니다.
+### <a name="task-1"></a>작업 1
+
+여러분은 Microsoft 365 구독자로서 이미 Azure AD를 사용하고 있습니다.  이 작업에서는 Microsft 365 관리 포털과 Azure Portal을 통해 Azure AD에 액세스하는 과정을 진행합니다.
 
 1. Microsoft Edge를 엽니다.
 
 2. 주소 표시줄에 **admin.microsoft.com** 을 입력하여 Microsoft 365 관리 센터에 액세스합니다.
 
-3. 관리자 자격 증명으로 로그인합니다. 
+3. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
     1. 랩 호스팅 공급자가 제공한 관리자 암호를 입력합니다. **로그인** 을 선택합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다.
@@ -44,8 +44,9 @@ ms.locfileid: "137894256"
 
 10. 다음 작업을 위해 이 브라우저 페이지를 열어 두세요.
 
+### <a name="task-2"></a>작업 2
 
-#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>작업 2:  이 작업에서는 Azure Active Directory에서 새 사용자를 만드는 방법을 알아보고, 사용자 수준에서 관리할 수 있는 몇 가지 서비스를 살펴봅니다.
+이 작업에서는 Azure Active Directory에서 새 사용자를 만드는 방법을 알아보고, 사용자 수준에서 관리할 수 있는 몇 가지 서비스를 살펴봅니다.
 
 1. 브라우저에 열려 있는 Contoso – Microsoft Azure 탭으로 이동합니다. 이전에 해당 탭을 닫았다면 브라우저 페이지를 열고 주소 표시줄에 portal.azure.com을 입력한 후에 Azure Active Directory를 선택합니다.  Azure Portal에 관리자로 로그인되어 있는 상태여야 합니다. 관리자로 로그인되어 있지 않으면 다시 로그인합니다.
 
@@ -109,7 +110,9 @@ ms.locfileid: "137894256"
 
 20. 화면 오른쪽 위의 이메일 주소 옆에 있는 사용자 아이콘을 클릭하여 모든 브라우저 탭에서 로그아웃합니다. 그런 다음 브라우저 창을 모두 닫습니다.
 
-#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>작업 3:  이 작업에서는 Sara Perez로 처음 로그인합니다.
+### <a name="task-3"></a>작업 3
+
+이 작업에서는 Sara Perez로 처음 로그인합니다.
 
 1. Microsoft Edge를 엽니다.
 
@@ -127,9 +130,6 @@ ms.locfileid: "137894256"
 
 8. 화면 오른쪽 위의 이메일 주소 옆에 있는 사용자 아이콘을 클릭하여 모든 브라우저 탭에서 **로그아웃** 합니다. 그런 다음 브라우저 창을 모두 닫습니다.
 
+### <a name="review"></a>검토
 
-
-#### <a name="review"></a>검토
 이 랩에서는 Azure AD를 처음으로 살펴보는 과정을 시작했습니다. Microsoft 365 구독자는 Azure AD를 자동으로 사용하므로, Microsoft 365 관리 포털이나 Azure Portal을 통해 Azure AD 기능과 서비스에 액세스할 수 있음을 확인했습니다.  원하는 방식을 사용하면 되며, 최종적으로는 같은 페이지가 표시됩니다.  또한 새 사용자를 만드는 프로세스를 진행했으며 구성 가능한 여러 설정도 살펴보았습니다. 이러한 설정으로는 사용자를 할당할 수 있는 그룹, 역할 사용 가능성, 사용자 라이선스 할당 등이 있습니다.
-
-
