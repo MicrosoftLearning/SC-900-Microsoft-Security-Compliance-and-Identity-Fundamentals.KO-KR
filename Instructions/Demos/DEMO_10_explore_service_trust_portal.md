@@ -2,24 +2,26 @@
 Demo:
   title: Service Trust Portal
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 587f823b993a7ac3046af9494b90883f22a01c8a
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 79190b5422352e204adad1f0799789181d2d4408
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614401"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557493"
 ---
 # <a name="demo-service-trust-portal"></a>데모: Service Trust Portal
 
-### <a name="demo-scenario"></a>데모 시나리오
+## <a name="demo-scenario"></a>데모 시나리오
 
 이 데모에서는 Service Trust Portal에서 제공되는 기능과 콘텐츠를 살펴봅니다. 그리고 이러한 기능을 살펴보기 위해 보안 센터를 통해 개인 정보 관련 6가지 핵심 원칙을 파악하는 단계도 진행합니다.
 
-#### <a name="demo-part-1-in-this-part-you-will-walk-the-learner-through-the-different-types-of-content-available-on-the-service-trust-portal-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>데모 1부: 데모 1부에서는 Service Trust Portal에서 제공되는 다양한 유형의 콘텐츠, 보고서 액세스 방법, 라이브러리에 보고서를 저장하는 방법을 살펴봅니다. 
+### <a name="demo-part-1"></a>데모 1부
+
+데모 1부에서는 Service Trust Portal에서 제공되는 다양한 유형의 콘텐츠, 보고서 액세스 방법, 라이브러리에 보고서를 저장하는 방법을 살펴봅니다.
 
 1. Microsoft Edge를 엽니다.
 
-1. 주소 표시줄에 **https://aka.ms/STP** 를 입력합니다.  그러면 Service Trust Portal 방문 페이지가 표시됩니다. Service Trust Portal에는 클라우드 서비스와 해당 서비스 내 고객 데이터를 보호하는 Microsoft의 컨트롤 및 프로세스 구현에 대한 세부 정보가 포함되어 있습니다. 
+1. 주소 표시줄에 **aka.ms/STP** 를 입력합니다. 그러면 Service Trust Portal 방문 페이지가 표시됩니다. Service Trust Portal에는 클라우드 서비스와 해당 서비스 내 고객 데이터를 보호하는 Microsoft의 컨트롤 및 프로세스 구현에 대한 세부 정보가 포함되어 있습니다.
 
 1. Service Trust Portal의 일부 리소스에 액세스하려면 Microsoft Cloud Services 계정을 사용하여 인증된 사용자로 로그인해야 하며, 규정 준수 자료 관련 Microsoft 비밀 유지 계약을 검토하고 해당 내용에 동의해야 합니다. Service Trust Portal 방문 페이지의 오른쪽 위 모서리에 로그인 옵션이 표시됩니다.  관리자 자격 증명을 사용하여 **로그인** 하고, 메시지가 표시되면 **동의** 를 선택하여 준수 자료에 대한 Microsoft 비밀 유지 계약에 동의합니다.
 
@@ -43,7 +45,9 @@ ms.locfileid: "142614401"
 
 1. GRC 평가 보고서, 규정 준수 가이드 등의  다양한 범주에서 보고서를 선택할 수 있습니다.  이전 작업과 마찬가지로 표시되는 문서 목록을 필터링할 수 있으며, 문서를 다운로드하거나 라이브러리에 저장하도록 선택할 수 있습니다.
 
-#### <a name="demo-part-2-optional-in-this-part-of-the-demo-you-will-show-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>데모 2부(선택 사항): 데모의 2부에서는 보안 센터를 살펴보고 Microsoft의 개인 정보 관련 6가지 핵심 원칙에 대해 알아봅니다.
+### <a name="demo-part-2-optional"></a>데모 2부(선택 사항)
+
+데모의 2부에서는 보안 센터를 살펴보고 Microsoft의 개인 정보 관련 6가지 핵심 원칙에 대해 알아봅니다.
 
 1. Service Trust Portal 페이지 위쪽에서 **보안 센터** 를 선택하고 **홈** 을 선택합니다. 그러면 열리는 새 브라우저 탭에 보안 센터가 표시됩니다. 보안 센터에서는 Microsoft 클라우드의 보안, 규정 준수 및 개인 정보 관련 추가 정보를 확인할 수 있습니다.
 
@@ -57,6 +61,6 @@ ms.locfileid: "142614401"
 
 1. 브라우저 창을 닫아 Service Trust Portal 및 보안 센터를 종료합니다.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
 
 이 데모에서는 Service Trust Portal에서 제공되는 몇 가지 옵션을 살펴보았습니다. 또한 Microsoft 클라우드 서비스의 감사 보고서에 액세스하는 방법과, 내 라이브러리를 사용하여 나중에 검토할 수 있도록 문서를 저장하는 방법도 알아보았습니다.  그리고 보안 센터를 방문한 후 Microsoft의 개인 정보 관련 원칙에 액세스하여 해당 내용을 검토했습니다.

@@ -1,37 +1,39 @@
 ---
 lab:
-  title: 코어 eDiscovery 워크플로 살펴보기
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: eDiscovery (표준) 워크플로 살펴보기
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
+ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614377"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557605"
 ---
-# <a name="lab-explore-the-core-ediscovery-workflow"></a>랩: 코어 eDiscovery 워크플로 살펴보기
+# <a name="lab-explore-the-ediscovery-standard-workflow"></a>랩: eDiscovery (표준) 워크플로 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
-이 랩에서는 코어 eDiscovery를 설정하려면 수행해야 하는 단계를 살펴봅니다. 그런 후에 코어 eDiscovery 워크플로를 진행하면서 eDiscovery 보류 만들기, 검색 쿼리 만들기, 검색 결과 내보내기 작업을 수행합니다.  참고:  코어 eDiscovery 라이선스를 적용하려면 적절한 조직 구독과 사용자별 라이선스가 필요합니다. 코어 eDiscovery를 지원하는 라이선스를 모르는 경우에는 코어 eDiscovery 시작을 방문하세요.
 
+이 랩에서는 eDiscovery를 설정하려면 수행해야 하는 단계를 살펴봅니다. 그런 후에 eDiscovery (표준) 워크플로를 진행하면서 eDiscovery 보류 만들기, 검색 쿼리 만들기, 검색 결과 내보내기 작업을 수행합니다.  참고:  eDiscovery (표준) 라이선스를 적용하려면 적절한 조직 구독과 사용자별 라이선스가 필요합니다. eDiscovery (표준)을 지원하는 라이선스를 잘 모를 경우, [Microsoft Purview에서 eDiscovery (표준) 시작](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide)을 참조하세요.
 
 **예상 소요 시간:** 20~25분
 
-#### <a name="task-1--to-access-core-ediscovery-or-be-added-as-a-member-of-a-core-ediscovery-case-a-user-must-be-assigned-the-appropriate-permissions-in-this-task-you-as-the-global-admin-will-add-specific-users-as-members-of-the-ediscovery-manager-role-group"></a>작업 1:  코어 eDiscovery에 액세스하거나 코어 eDiscovery 사례의 멤버로 추가되려면 사용자에게 적절한 권한이 할당되어야 합니다. 이 작업에서는 전역 관리자로 로그인하여 eDiscovery 매니저 역할 그룹의 구성원으로 특정 사용자를 추가합니다.
+### <a name="task-1"></a>작업 1
+
+eDiscovery (표준)에 액세스하거나 eDiscovery 사례의 멤버로 추가되려면 사용자에게 적절한 권한이 할당되어야 합니다. 이 작업에서는 전역 관리자로 로그인하여 eDiscovery 매니저 역할 그룹의 구성원으로 특정 사용자를 추가합니다.
 
  Microsoft Edge를 엽니다. 주소 표시줄에 **admin.microsoft.com** 을 입력합니다.
 
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
-    
+
     1. 랩 호스팅 공급자가 제공한 관리자 암호를 입력합니다. **로그인** 을 선택합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다. 그러면 Microsoft 365 관리 센터 페이지로 이동됩니다.
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시** 를 선택합니다.
 
-1. 관리 센터 아래에서 규정 **준수** 를 선택합니다.  새 브라우저 페이지가 열리고 Microsoft 365 규정 준수 센터 시작 페이지가 표시됩니다.  
+1. 관리 센터 아래에서 규정 **준수** 를 선택합니다.  새 브라우저 페이지가 열리고 Microsoft Purview 규정 준수 포털 시작 페이지가 표시됩니다.  
 
-1. 왼쪽 탐색 창에서 **권한** 을 선택합니다. 
+1. 왼쪽 탐색 창에서 **권한** 을 선택합니다.
 
 1. 권한 및 역할 페이지의 규정 준수 센터에서 **역할** 을 선택합니다.
 
@@ -51,13 +53,15 @@ ms.locfileid: "142614377"
 
 1. 다음 작업에서 사용할 것이므로 이 브라우저 탭을 열어 두세요.
 
-#### <a name="task-2--in-this-task-you-as-an-ediscovery-administrator-mod-admin-is-an-ediscovery-administrator-will-create-a-case-to-start-using-core-ediscovery"></a>작업 2:  이 작업에서는 eDiscovery 관리자(MOD 관리자)로 로그인하여 코어 eDiscovery 사용을 시작하기 위한 케이스를 작성합니다.
+### <a name="task-2"></a>작업 2
+
+이 작업에서는 eDiscovery 관리자(MOD 관리자)로 로그인하여 eDiscovery (표준) 사용을 시작하기 위한 케이스를 작성합니다.
 
 1. 아직 규정 준수 센터 역할 페이지가 표시되어 있을 것입니다. 이전 작업에서 브라우저 탭을 닫았다면 새 브라우저 탭을 열고 **compliance.microsoft.com** 을 입력합니다.
 
-1. 왼쪽 탐색 패널의 솔루션 아래에서 **eDiscovery** 를 선택하고 **코어** 를 선택합니다.
+1. 왼쪽 탐색 패널의 솔루션 아래에서 **eDiscovery** 를 선택하고 **표준** 을 선택합니다.
 
-1. 코어 eDiscovery 페이지 위쪽에서 **+ 케이스 만들기** 를 선택합니다.
+1. eDiscovery (표준) 페이지 위쪽에서 **+ 케이스 만들기** 를 선택합니다.
 
 1. 새 케이스 창에 케이스 이름 **SC900 Test Case** 를 입력하고 페이지 아래쪽에서 **저장** 을 선택합니다.
 
@@ -67,11 +71,13 @@ ms.locfileid: "142614377"
 
 1. 후속 작업에서 사용할 것이므로 이 브라우저 탭을 열어 두세요.
 
-#### <a name="task-3--now-that-you-have-created-a-core-ediscovery-case-you-can-begin-to-work-with-the-case--in-this-task-you-will-create-an-ediscovery-hold-for-the-case-for-you-just-created--specifically-you-will-crate-a-hold-for-the-the-exchange-mailbox-belonging-to-adele-vance"></a>작업 3:  이제 코어 eDiscovery 케이스를 만들었으므로 해당 케이스 관련 작업을 시작할 수 있습니다.  이 작업에서는 방금 만든 케이스에 대해 eDiscovery 보류를 작성합니다.  구체적으로는 Adele Vance 소유의 Exchange 사서함을 대상으로 보류를 작성합니다.
+### <a name="task-3"></a>작업 3
 
-1. 브라우저에서 코어 eDiscovery 탭을 엽니다.
+이제 eDiscovery (표준) 케이스를 만들었으므로 해당 케이스 관련 작업을 시작할 수 있습니다.  이 작업에서는 방금 만든 케이스에 대해 eDiscovery 보류를 작성합니다.  구체적으로는 Adele Vance 소유의 Exchange 사서함을 대상으로 보류를 작성합니다.
 
-1. 코어 eDiscovery 페이지에서 이전 탭에서 만든 케이스인 **SC900 Test Case** 를 선택합니다. 
+1. 브라우저에서 eDiscovery (표준) 탭을 엽니다.
+
+1. eDiscovery (표준) 페이지에서 이전 탭에서 만든 케이스인 **SC900 Test Case** 를 선택합니다.
 
 1. 케이스의 홈 페이지에서 **보류** 탭을 선택한 다음 **+만들기** 를 선택합니다.
 
@@ -87,7 +93,9 @@ ms.locfileid: "142614377"
 
 1. 후속 작업에서 사용할 것이므로 이 브라우저 탭을 열어 두세요.
 
-#### <a name="task-4--with-a-hold-in-place-you-will-create-a-search-query--once-your-search-is-complete-you-will-go-export-and-download-the-results-for-future-investigation---note--searches-associated-with-a-core-ediscovery-case-are-not-listed-on-the-content-search-page-in-the-microsoft-365-compliance-center-these-searches-are-listed-only-on-the-searches-page-of-the-associated-core-ediscovery-case"></a>작업 4:  보류를 만들었으므로 이번에는 검색 쿼리를 만듭니다.  검색이 완료되면 추가 조사를 위해 결과를 다운로드하여 내보냅니다.   참고:  코어 eDiscovery 케이스와 연관된 검색은 Microsoft 365 규정 준수 센터의 콘텐츠 검색 페이지에 표시되지 않습니다. 이러한 검색은 관련 코어 eDiscovery 케이스의 검색 페이지에만 표시됩니다.
+### <a name="task-4"></a>작업 4
+
+보류를 만들었으므로 이번에는 검색 쿼리를 만듭니다.  검색이 완료되면 추가 조사를 위해 결과를 다운로드하여 내보냅니다.   참고:  eDiscovery (표준) 케이스와 연관된 검색은 Microsoft Purview 규정 준수 포털의 콘텐츠 검색 페이지에 표시되지 않습니다. 이러한 검색은 관련 eDiscovery (표준) 케이스의 검색 페이지에만 표시됩니다.
 
 1. 브라우저에서 SC900 Test 케이스 탭을 엽니다.
 
@@ -106,9 +114,9 @@ ms.locfileid: "142614377"
 1. 검색 창에서 방금 만든 검색인 **Test Hold - Sales Search** 를 선택합니다.  요약 탭이 선택된 창이 열립니다.  검색이 완료되면 검색이 완료되었음을 나타내는 상태가 표시됩니다.  그리고 검색 통계 탭이 표시됩니다(검색 통계 탭이 표시되지 않으면 검색이 아직 실행 중이며 완료되려면 몇 분 정도 걸리는 것일 수 있음).  **검색 통계** 탭을 선택하고 검색 콘텐츠 옆의 드롭다운을 선택합니다.  조건 보고서 및 주요 위치 관련 추가 정보도 확인할 수 있습니다.  
 
 1. 페이지 아래쪽에서 **작업** 을 선택합니다.  사용 가능한 옵션을 확인하고 **결과 내보내기** 를 선택합니다.
-    
+
     1. 결과 내보내기 창에서 기본값을 그대로 유지하고 페이지 아래쪽의 **내보내기** 를 선택합니다. 그러면 자동으로 "Test Hold - Sales Search" 창으로 돌아옵니다. 페이지 아래쪽의 **닫기** 를 선택합니다.
-    
+
     1. SC900-Test 케이스 페이지의 위쪽에서 **내보내기** 를 선택합니다.
     1. **Test Hold - Sales Search_Export** 를 선택합니다.
     1. 그러면 열리는 "Test Hold - Sales Search_Export" 창에 내보내기 키가 표시됩니다. **클립보드에 복사** 를 선택합니다.
@@ -117,9 +125,8 @@ ms.locfileid: "142614377"
     1. 설치가 완료되면 eDiscovery 내보내기 도구 창이 열립니다.  클립보드에 복사했던 내보내기 키를 첫 번째 필드에 붙여넣습니다(키보드에서 Ctrl+V를 누르거나, 마우스 오른쪽 단추를 클릭한 후 붙여넣기 선택).
     1. 두 번째 필드에서는 내보내기 파일을 저장할 위치를 선택하고 **시작** 을 선택합니다.  다운로드 프로세스가 완료되면 **닫기** 를 선택하여 이 브라우저 탭을 닫습니다.
     1. 그러면 "Test Hold - Sales Search_Export" 창이 다시 표시됩니다.  **닫기** 를 선택합니다.
-    1. 다운로드 위치로 이동하여 다운로드가 정상적으로 완료되었는지 확인합니다. 
+    1. 다운로드 위치로 이동하여 다운로드가 정상적으로 완료되었는지 확인합니다.
 
+### <a name="review"></a>검토
 
-#### <a name="review"></a>검토
-
-이 랩에서는 코어 eDiscovery 사용을 시작하려면 수행해야 하는 단계를 진행했습니다. 구체적으로는 eDiscovery용 역할 권한 설정과 eDiscovery 케이스 만들기를 수행했습니다.  케이스를 만든 후에는 코어 eDiscovery 워크플로를 진행하면서 eDiscovery 보류 만들기, 검색 쿼리 만들기, 추가 조사에 사용하기 위한 검색 결과 내보내기 작업을 수행했습니다.
+이 랩에서는 eDiscovery (표준) 사용을 시작하려면 수행해야 하는 단계를 진행했습니다. 구체적으로는 eDiscovery용 역할 권한 설정과 eDiscovery 케이스 만들기를 수행했습니다.  케이스를 만든 후에는 eDiscovery (표준) 워크플로를 진행하면서 eDiscovery 보류 만들기, 검색 쿼리 만들기, 추가 조사에 사용하기 위한 검색 결과 내보내기 작업을 수행했습니다.

@@ -1,28 +1,29 @@
 ---
 Demo:
-  title: Microsoft 365 규정 준수 센터 및 준수 관리자 살펴보기
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614209"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557245"
 ---
-# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>데모: Microsoft 365 규정 준수 센터 및 준수 관리자 살펴보기
+# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>데모: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
 
 ## <a name="demo-scenario"></a>데모 시나리오
-이 데모에서는 Microsoft 365 규정 준수 센터 홈 페이지를 살펴보고, 조직에서 준수 관리자의 기능을 통해 규정 준수 상태를 개선하는 방법을 알아봅니다.
 
-## <a name="instructions"></a>Instructions
+이 데모에서는 Microsoft Purview 규정 준수 포털 홈페이지를 살펴보고, 조직에서 준수 관리자의 기능을 통해 규정 준수 상태를 개선하는 방법을 보여줍니다.
 
-#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>데모 1부: Microsoft 365 규정 준수 센터 홈 페이지를 표시하고 카드 뷰와 탐색 패널을 사용자 지정하는 방법을 알아봅니다.
+### <a name="demo-part-1"></a>데모 1부
+
+Microsoft Purview 규정 준수 포털 홈페이지 및 카드 보기와 탐색 패널을 사용자 지정하는 방법을 보여줍니다.
 
 1. Microsoft Edge를 엽니다. 주소 표시줄에 **admin.microsoft.com** 을 입력합니다. 해당 페이지에 관리자로 이미 로그인된 상태여야 합니다.  로그인되어 있지 않다면 관리자 자격 증명을 사용하여 로그인합니다.
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시** 를 선택합니다.
 
-1. 관리 센터 아래에서 규정 **준수** 를 선택합니다.  새 브라우저 페이지가 열리고 Microsoft 365 규정 준수 센터 시작 페이지가 표시됩니다.  
+1. 관리 센터 아래에서 규정 **준수** 를 선택합니다.  새 브라우저 페이지가 열리고 Microsoft Purview 규정 준수 포털 시작 페이지가 표시됩니다.  
 
 1. 홈 페이지의 카드 섹션에서는 조직의 규정 준수 상태, 조직에서 사용할 수 있는 솔루션 등을 한눈에 확인할 수 있습니다.
 
@@ -34,7 +35,7 @@ ms.locfileid: "142614209"
 
 1. **+ 카드 추가** 를 선택하면 카드를 추가할 수 있습니다.  그러면 홈 페이지에 카드 추가 창이 열립니다.  이 창에 표시되는 솔루션 카탈로그 카드 위에 마우스 커서를 올린 후 홈 화면에서 카드를 배치할 위치로 해당 카드를 끕니다.
 
-1. Microsoft 365 규정 준수 센터 홈 페이지의 왼쪽 탐색 패널에서 솔루션 아래에 나열된 항목을 확인합니다.  카탈로그만 표시되어 있으면 왼쪽 탐색 패널에서 **...모두 표시** 를 선택합니다.  그러면 솔루션 섹션 아래에 추가 솔루션이 모두 표시됩니다.  
+1. Microsoft Purview 규정 준수 포털 홈페이지의 왼쪽 탐색 패널에서 솔루션 아래에 나열된 항목을 확인합니다.  카탈로그만 표시되어 있으면 왼쪽 탐색 패널에서 **...모두 표시** 를 선택합니다.  그러면 솔루션 섹션 아래에 추가 솔루션이 모두 표시됩니다.  
 
 1. 조직의 특정 솔루션 집합을 관리하는 준수 관리자는 탐색 패널에 해당 솔루션이 항상 표시되도록 설정할 수 있습니다.  기본 설정을 사용자 지정하려면 **탐색 사용자 지정** 을 선택합니다.  
 
@@ -42,9 +43,11 @@ ms.locfileid: "142614209"
 
 1. 브라우저 탭을 열어 둡니다.
 
-#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>데모 2부: 준수 관리자를 통해 조직의 규정 준수 상태를 알아봅니다.
+### <a name="demo-part-2"></a>데모 2부
 
-1. Microsoft 365 규정 준수 센터의 왼쪽 탐색 패널에서 **준수 관리자** 를 선택합니다.  준수 관리자 카드의 제목 표시줄에서 준수 관리자를 선택해도 됩니다.
+준수 관리자를 통해 조직의 규정 준수 상태를 알아봅니다.
+
+1. Microsoft Purview 규정 준수 포털의 왼쪽 탐색 패널에서 **준수 관리자** 를 선택합니다.  준수 관리자 카드의 제목 표시줄에서 준수 관리자를 선택해도 됩니다.
 
 1. 준수 관리자 페이지 위쪽에서 **개요** 가 선택되어 있는지(밑줄이 표시되어 있는지) 확인합니다. 아래쪽으로 스크롤하여 페이지에서 제공되는 모든 정보를 확인합니다.  이 페이지에는 획득한 포인트와 Microsoft 관리 포인트를 기준으로 산정된 준수 점수가 백분율 형태로 표시됩니다.   그리고 주요 개선 작업, 점수에 영향을 주는 솔루션, 범주나 평가를 기준으로 구분된 준수 점수도 확인할 수 있습니다.
 
@@ -66,7 +69,8 @@ ms.locfileid: "142614209"
 
 1. 포함된 템플릿 목록에서 **ISO/IEC27001:2013** 을 선택합니다. 페이지 오른쪽 위에서 **+ 평가 만들기** 를 선택합니다.  화면 왼쪽을 살펴봅니다. 두 단계만 수행하면 템플릿에서 평가를 만들 수 있습니다.  페이지 아래쪽에서 취소를 선택합니다.
 
-1. 왼쪽 탐색 패널에서 **홈** 을 선택하여 Microsoft 365 규정 준수 센터의 홈 페이지로 돌아옵니다.  후속 데모를 위해 이 브라우저 페이지를 열어 두세요.
+1. 왼쪽 탐색 패널에서 **홈** 을 선택하여 Microsoft Purview 규정 준수 포털 홈페이지로 돌아옵니다.  후속 데모를 위해 이 브라우저 페이지를 열어 두세요.
 
-#### <a name="review"></a>검토
-이 데모에서는 Microsoft 365 규정 준수 센터 홈 페이지를 살펴보고, 조직에서 준수 관리자의 기능을 통해 규정 준수 상태를 개선하는 방법을 알아보았습니다.
+### <a name="review"></a>검토
+
+이 데모에서는 Microsoft Purview 규정 준수 포털 홈페이지를 살펴보고, 조직에서 준수 관리자의 기능을 통해 규정 준수 상태를 개선하는 방법을 보여 주었습니다.

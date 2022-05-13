@@ -2,19 +2,22 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614185"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557137"
 ---
 # <a name="demo-azure-policy"></a>데모: Azure Policy
 
-### <a name="demo-scenario"></a>데모 시나리오
+## <a name="demo-scenario"></a>데모 시나리오
+
 이 데모에서는 Azure 정책을 설정하는 프로세스를 단계별로 진행하고 해당 정책 적용 시의 영향을 살펴봅니다.
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>데모 1부: 리소스 그룹에 태그를 지정해야 하는 정책을 만듭니다(템플릿에서 정책을 만드는 단계 진행).
+### <a name="demo-part-1"></a>데모 1부
+
+리소스 그룹에 태그를 지정해야 하는 정책을 만듭니다(템플릿에서 정책을 만드는 단계 진행).
 
 1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.microsoft.com** 을 입력합니다.  해당 페이지에 이미 로그인된 상태여야 합니다. 로그인되어 있지 않다면 관리자 자격 증명을 사용하여 로그인합니다.
 
@@ -46,7 +49,9 @@ ms.locfileid: "142614185"
 
 1. 그러면 Azure 서비스 홈 페이지가 표시됩니다.  다음 작업에서 사용할 것이므로 해당 페이지를 열어 두세요.
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>데모 2부:  태그 없이 리소스 그룹을 만들어 정책 적용의 영향을 확인한 후 태그를 지정하여 그룹을 수정합니다.
+### <a name="demo-part-2"></a>데모 2부
+
+태그 없이 리소스 그룹을 만들어 정책 적용의 영향을 확인한 후 태그를 지정하여 그룹을 수정합니다.
 
 1. 페이지 위쪽의 'Azure 서비스' 아래에서 **리소스 그룹** 을 선택합니다. 옵션 목록이 표시되지 않으면 검색 창에 리소스 그룹을 입력한 후 검색 결과에서 리소스 그룹을 선택합니다.
 
@@ -74,6 +79,6 @@ ms.locfileid: "142614185"
 
 1. 그러면 리소스 그룹이 목록에 표시됩니다.  리소스 그룹에 태그를 제공했으므로 Azure 정책의 일부분으로 포함된 조건이 충족되었기 때문입니다.  즉, 해당 리소스 그룹은 정책을 준수하는 상태입니다.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
 
 이 데모에서는 Azure 정책을 설정하는 프로세스와 해당 정책 적용 시의 영향을 살펴보았습니다.

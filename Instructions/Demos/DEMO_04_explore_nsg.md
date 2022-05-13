@@ -2,20 +2,21 @@
 Demo:
   title: Azure NSG(네트워크 보안 그룹)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019286"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557532"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>데모: Azure NSG(네트워크 보안 그룹)
 
-### <a name="demo-scenario"></a>데모 시나리오
+## <a name="demo-scenario"></a>데모 시나리오
+
 이 데모에서는 Azure의 NSG(네트워크 보안 그룹) 기능을 살펴봅니다.  먼저 데모 전 설정의 일환으로 NSG가 없는 VM(가상 머신)을 만듭니다. 그리고 인터페이스나 서브넷이 연결되지 않은 NSG도 만듭니다.  데모에서는 NSG용 기본 인바운드 및 아웃바운드 규칙을 살펴봅니다. 그런 다음 NSG에 VM 인터페이스를 할당하는 프로세스를 진행합니다.  VM에 대한 연결 구성을 완료한 후 기본 NSG 규칙 및 직접 만들 규칙을 사용하여 해당 연결을 테스트합니다.
   
+### <a name="pre-demo-setup-part-1"></a>데모 전 설정 1부:
 
-#### <a name="pre-demo-setup-part-1"></a>데모 전 설정 1부:
  VM을 만들려면 몇 분 정도 걸릴 수 있으므로, 강사는 강의 시간 **전에** 이 작업을 수행하는 것이 좋습니다. 이 설정에서는 Windows 10 가상 머신을 만듭니다.
 
 1. 브라우저에서 **홈 – Microsoft Azure** 탭을 엽니다.  이전에 해당 탭을 닫았다면 브라우저 페이지를 열고 주소 표시줄에 portal.azure.com을 입력하여 다시 로그인합니다.
@@ -62,7 +63,8 @@ ms.locfileid: "138019286"
 
 1. 그러면 Azure Portal의 SC900-WinVM 페이지가 다시 표시됩니다.  다음 작업을 위해 이 브라우저 탭을 열어 두세요.
 
-#### <a name="pre-demo-setup-part-2"></a>데모 전 설정 2부:
+### <a name="pre-demo-setup-part-2"></a>데모 전 설정 2부:
+
 네트워크 보안 그룹을 만듭니다. 해당 NSG에 VM의 네트워크 인터페이스를 할당하지는 마세요.  
 
 1. 브라우저에서 SC900-WinVM – Microsoft Azure 탭을 엽니다.
@@ -80,7 +82,8 @@ ms.locfileid: "138019286"
 
 1. 배포가 완료되면 **리소스로 이동** 을 선택하여 모든 항목이 올바르게 설정되었는지 확인합니다.  NSG에는 기본 인바운드 규칙과 기본 아웃바운드 규칙이 각각 3개씩 연결되어 있어야 하며 서브넷과 인터페이스는 연결되어 있지 않아야 합니다.  Azure Portal의 **홈** 페이지로 다시 이동합니다.  
 
-#### <a name="demo"></a>데모
+### <a name="demo"></a>데모
+
 NSG의 설정을 살펴봅니다.  여기서는 VM 인터페이스에 아직 할당되지 않은 기존 NSG(위의 설정 단계에서 만든 NSG)의 설정을 살펴봅니다. 그런 다음 NSG에 인터페이스를 연결하는 프로세스와 인바운드 및 아웃바운드 규칙을 만드는 프로세스를 살펴봅니다.
 
 1. 브라우저 탭에서 **홈 - Microsoft Azure** 를 엽니다.  이전에 해당 탭을 닫았다면 브라우저 페이지를 열고 주소 표시줄에 portal.azure.com을 입력하여 다시 로그인합니다.
@@ -143,13 +146,14 @@ NSG의 설정을 살펴봅니다.  여기서는 VM 인터페이스에 아직 할
 
 1. 이번에는 아웃바운드 NSG 규칙을 테스트합니다.
     1. VM에서 Edge 브라우저를 엽니다.
-    1. **https://www.bing.com** 을 입력합니다. 페이지가 표시되지 않아야 합니다. 참고: 인터넷에 연결할 수 있으며 아웃바운드 규칙의 모든 매개 변수가 올바르게 설정되었음을 확인했다면, 규칙이 적용되는 데 몇 분 정도 걸리기 때문일 수 있습니다. 잠시 기다린 다음 다시 시도하십시오.
+    1. **www.bing.com** 을 입력합니다. 페이지가 표시되지 않아야 합니다. 참고: 인터넷에 연결할 수 있으며 아웃바운드 규칙의 모든 매개 변수가 올바르게 설정되었음을 확인했다면, 규칙이 적용되는 데 몇 분 정도 걸리기 때문일 수 있습니다. 잠시 기다린 다음 다시 시도하십시오.
 
 1. IP 주소가 표시된 페이지 위쪽 가운데에서 **X** 를 선택하여 원격 데스크톱 연결을 닫습니다. 그러면 '원격 세션의 연결이 끊어집니다'라는 팝업 창이 표시됩니다. **확인** 을 선택합니다.
 
 1. 페이지 위쪽의 파란색 막대에서 **Microsoft Azure** 를 선택하여 Azure Portal의 홈 페이지로 돌아옵니다.
 
-#### <a name="tear-down"></a>리소스 정리
+### <a name="tear-down"></a>리소스 정리
+
 **중요**: 이 작업에서는 리소스 그룹 및 해당 그룹에 포함된 모든 리소스를 삭제합니다.   추가 비용이 발생하지 않도록 하려면 이 작업을 반드시 수행해야 합니다.
 
 1. 브라우저에서 SC900-WinVM – Microsoft Azure 탭을 엽니다.

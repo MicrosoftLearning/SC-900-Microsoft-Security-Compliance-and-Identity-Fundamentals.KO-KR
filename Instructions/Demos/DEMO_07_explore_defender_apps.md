@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud 앱 '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137894328"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557174"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>데모: Microsoft Defender for Cloud Apps
 
-### <a name="demo-scenario"></a>데모 시나리오
+## <a name="demo-scenario"></a>데모 시나리오
+
 이 데모에서는 클라우드용 Microsoft Defender 앱의 기능을 살펴봅니다.  구체적으로는 Cloud Discovery 대시보드에서 제공되는 정보를 살펴보고, 파악한 정보를 조사하고 정책을 통해 조직에 대한 영향을 제어하는 데 사용할 수 있는 기능에 대해서도 알아봅니다.  참고:  사용자 기본 구독 서비스인 클라우드용 Microsoft Defender 앱을 사용하려는 조직은 관련 라이선스를 보유하고 있어야 합니다.  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>데모 1부: Cloud Discovery를 살펴봅니다.
+### <a name="demo-part-1-explore-cloud-discovery"></a>데모 1부: Cloud Discovery를 살펴봅니다.
 
 1. Microsoft Edge를 엽니다. 주소 표시줄에 **admin.microsoft.com** 을 입력합니다.  해당 페이지에 관리자로 이미 로그인된 상태여야 합니다.  로그인되어 있지 않다면 관리자 자격 증명을 사용하여 로그인합니다.
 
@@ -54,7 +55,9 @@ ms.locfileid: "137894328"
 
 1. 다음 작업에서 사용할 것이므로 이 페이지를 열어 두세요.
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>데모 2부: 기록된 활동을 조사할 수 있는 방법을 살펴봅니다.
+### <a name="demo-part-2"></a>데모 2부
+
+기록된 활동을 조사할 수 있는 방법을 살펴봅니다.
 
 1. 왼쪽 탐색 패널의 **조사** 아래에서 **활동 로그** 를 선택합니다.  그러면 연결된 앱에서 수행한 모든 활동을 확인할 수 있습니다.   Office 365 커넥터가 이미 연결되어 있으므로 몇 가지 데이터가 표시됩니다. 앱 커넥터를 사용해 앱에 Cloud App Security를 연결하면 Cloud App Security에서 수행된 모든 활동이 검색됩니다. 소급 검색 기간은 앱에 따라 다르며 계속 새 활동으로 업데이트됩니다.  
 
@@ -66,8 +69,9 @@ ms.locfileid: "137894328"
 
 1. 다음 작업에서 사용할 것이므로 이 페이지를 열어 두세요.
 
+### <a name="demo-part-3"></a>데모 3부
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>데모 3부: 이 작업에서는 클라우드용 Microsoft Defender 앱의 정책 및 경고 페이지를 살펴봅니다.
+이 작업에서는 클라우드용 Microsoft Defender 앱의 정책 및 경고 페이지를 살펴봅니다.
 
 1. 왼쪽 탐색 패널의 컨트롤 아래에서 **정책** 을 선택합니다.  나열된 정책에서 정책, 심각도 등에 의해 생성된 경고 수에 관한 정보를 확인할 수 있습니다. 아무 줄 항목을 선택하면 정책에 대한 자세한 정보가 제공됩니다. 목록에서 **위험한 로그인** 등의 항목을 선택합니다.  
 
@@ -75,5 +79,6 @@ ms.locfileid: "137894328"
 
 1. 브라우저 창을 닫습니다.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
+
 이 데모에서는 클라우드용 Microsoft Defender 앱의 기능을 살펴보았습니다.  구체적으로는 Cloud Discovery 대시보드에서 제공되는 정보를 살펴보고, 파악한 정보를 조사하고 정책을 통해 조직에 대한 영향을 제어하는 데 사용할 수 있는 기능에 대해서도 알아보았습니다.

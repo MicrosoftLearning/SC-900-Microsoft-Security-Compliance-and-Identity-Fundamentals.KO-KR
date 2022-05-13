@@ -2,21 +2,24 @@
 lab:
   title: 'Privileged Identity Management를 통한 Azure AD의 ID 거버넌스 방식 살펴보기 '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489238"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557269"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>랩: Privileged Identity Management를 통한 Azure AD의 ID 거버넌스 방식 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
+
 이 랩에서는 PIM(Privileged Identity Management)의 몇 가지 기본적인 기능을 살펴봅니다. PIM을 사용하려면 Azure AD Premium P2가 필요합니다.  이 랩에서는 관리자로 로그인하여 PIM(Privileged Identity Management)을 통해 Diego Siciliani 사용자를 Azure AD 사용자 관리자 역할로 구성합니다.   사용자 관리자 권한이 할당되면 Diego는 사용자와 그룹 만들기, 라이선스 관리 등을 수행할 수 있게 됩니다.  이렇게 하려면 Diego가 관리자 및 사용자 역할에서 모두 사용 가능한 Azure AD Premium P2 라이선스를 구성해야 합니다.
 
 **예상 소요 시간:** 30~45분
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>작업 1: 이 작업에서는 관리자로 로그인하여 Diego Siciliani 사용자의 암호를 재설정합니다. 이 단계를 진행해야 후속 작업에서 해당 사용자로 처음 로그인할 수 있습니다.
+### <a name="task-1"></a>작업 1
+
+이 작업에서는 관리자로 로그인하여 Diego Siciliani 사용자의 암호를 재설정합니다. 이 단계를 진행해야 후속 작업에서 해당 사용자로 처음 로그인할 수 있습니다.
 
 1. Microsoft Edge를 엽니다.  주소 표시줄에 **portal.azure.com** 을 입력합니다.
 
@@ -43,8 +46,9 @@ ms.locfileid: "141489238"
 
 11. 후속 작업에서 사용할 것이므로 브라우저 페이지를 열어 두세요.
 
+### <a name="task-2"></a>작업 2
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>작업 2: 이 작업에서는 관리자로 로그인하여 Privileged Identity Management에서 Diego에게 Azure AD 역할을 할당합니다.
+이 작업에서는 관리자로 로그인하여 Privileged Identity Management에서 Diego에게 Azure AD 역할을 할당합니다.
 
 1. 열려 있는 브라우저 탭(레이블이 Contoso - Microsoft Azure인 탭)으로 이동합니다.   이전에 브라우저 탭을 닫았다면 Microsoft Edge를 열고 주소 표시줄에 portal.azure.com을 입력하여 관리자 자격 증명으로 로그인한 후에 Azure Active Directory를 선택합니다.  
 
@@ -62,7 +66,7 @@ ms.locfileid: "141489238"
 
 8. 범위 유형은 기본값인 디렉터리로 유지합니다.  
 
-9. 구성원 선택 아래에서 **선택한 멤버가 없음** 을 선택합니다. 그러면 구성원 선택 창이 열립니다. 
+9. 구성원 선택 아래에서 **선택한 멤버가 없음** 을 선택합니다. 그러면 구성원 선택 창이 열립니다.
 
 10. 검색 창에 **Diego** 를 입력합니다.  검색 결과에서 **Diego Siciliani** 를 선택하고 페이지 아래쪽의 **선택** 을 누릅니다.  
 
@@ -84,8 +88,9 @@ ms.locfileid: "141489238"
 
 19. 화면 오른쪽 위의 이메일 주소 옆에 있는 사용자 아이콘을 선택한 후 **로그아웃** 을 선택하여 로그아웃합니다. 그런 다음 브라우저 창을 모두 닫습니다.
 
+### <a name="task-3"></a>작업 3
 
-#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>작업 3: 이 작업에서는 Diego Siciliani로 Azure Portal에 로그인합니다. 그런 다음 Azure Active Directory의 Privileged Identity Management 기능에 액세스하여 할당된 역할인 사용자 관리자를 활성화합니다.  활성화 후에는 기존 사용자의 구성을 변경합니다. 참고: 이 작업을 진행하려면 즉시 액세스 가능하며 문자 메시지를 받을 수 있는 모바일 디바이스를 사용할 수 있어야 합니다.
+이 작업에서는 Diego Siciliani로 Azure Portal에 로그인합니다. 그런 다음 Azure Active Directory의 Privileged Identity Management 기능에 액세스하여 할당된 역할인 사용자 관리자를 활성화합니다.  활성화 후에는 기존 사용자의 구성을 변경합니다. 참고: 이 작업을 진행하려면 즉시 액세스 가능하며 문자 메시지를 받을 수 있는 모바일 디바이스를 사용할 수 있어야 합니다.
 
 1. Microsoft Edge를 엽니다.  브라우저의 주소 표시줄에 **portal.azure.com** 을 입력합니다.
 
@@ -107,24 +112,25 @@ ms.locfileid: "141489238"
 1. Microsoft Authenticator 창 왼쪽 아래의 **다른 방법을 설정하고 싶습니다.** 를 선택합니다.
 1. 다른 방법 선택 메시지가 표시됩니다.  Authenticator 앱 옆의 아래쪽 화살표 키를 선택합니다.   **전화**, **확인** 을 차례로 선택합니다.
 1. 사용할 전화 번호를 입력하라는 메시지가 표시됩니다. 전화 번호 국가 코드에 해당하는 국가가 정확한지 확인합니다.  전화 번호를 입력하고 **코드를 문자로 받기** 가 선택되어 있는지 확인한 후에 **다음** 을 선택합니다.
-1. 휴대폰에 수신된 6자리 코드를 입력하고 **다음** 을 선택합니다. 
+1. 휴대폰에 수신된 6자리 코드를 입력하고 **다음** 을 선택합니다.
 1. 휴대폰이 등록되었다는 알림이 표시됩니다. **다음**, **완료** 를 차례로 선택합니다.
 1. 로그인 상태를 유지할지 묻는 메시지가 표시됩니다.  **예** 를 선택합니다.
 1. 사용자 관리자 활성화 창이 나타납니다.  활성화 이유를 입력해야 합니다.  표시되는 상자에 원하는 이유(최대 500자)를 입력하고 **활성화** 를 선택합니다.
 1. 활성화가 진행되면 진행 상태(3단계 진행 상황)가 표시됩니다.
-1. 활성화가 완료되면 내 역할 | Azure AD 역할 페이지로 돌아갑니다. 이 페이지에는 방금 역할을 활성화했다는 알림이 표시됩니다.  **여기를 클릭하세요.** 를 선택하여 활성 역할을 확인합니다.  종료 시간이 원래 구성했던 시간과 다르면 페이지 위쪽의 새로 고침 키를 선택합니다(페이지를 새로 고치려면 몇 분 정도 걸릴 수 있음). 
+1. 활성화가 완료되면 내 역할 | Azure AD 역할 페이지로 돌아갑니다. 이 페이지에는 방금 역할을 활성화했다는 알림이 표시됩니다.  **여기를 클릭하세요.** 를 선택하여 활성 역할을 확인합니다.  종료 시간이 원래 구성했던 시간과 다르면 페이지 위쪽의 새로 고침 키를 선택합니다(페이지를 새로 고치려면 몇 분 정도 걸릴 수 있음).
 1. 화면 오른쪽 위에서 **X** 를 선택하여 창을 닫습니다.
 1. 화면 오른쪽 위 모서리에 있는 **X** 를 선택하여 Privileged Identity Management | 빠른 시작 창을 닫습니다.
 1. 화면 오른쪽 위에서 **X** 를 선택하여 ID 거버넌스 창을 닫습니다.
 1. 이제 Contoso Azure Active Directory 페이지가 다시 표시됩니다.  Azure AD 사용자 관리자 역할이 활성화되었으므로 사용자와 그룹 만들기, 라이선스 관리 등을 수행할 수 있습니다.   왼쪽 탐색 패널에서 **사용자** 를 선택합니다.
 1. 사용자 목록에서 **Bianca Pisani** 를 선택합니다.
 1. 왼쪽 탐색 패널에서 **라이선스** 를 선택합니다.
-1. Bianca에게는 라이선스가 할당되어 있지 않습니다.  페이지 위쪽에서 **+ 할당** 을 선택합니다. 
+1. Bianca에게는 라이선스가 할당되어 있지 않습니다.  페이지 위쪽에서 **+ 할당** 을 선택합니다.
 1. 라이선스 선택 목록에서 **Office 365 E3** 및 **Windows 10 Enterprise E3** 를 선택합니다.
 1. 페이지 아래쪽에서 **저장** 을 선택합니다.  라이선스가 할당되었음을 나타내는 간단한 알림이 페이지 오른쪽 위에 표시됩니다.
 1. 페이지 오른쪽 위에서 **X** 를 선택하여 업데이트된 라이선스 할당 페이지를 닫습니다.
 1. 화면 오른쪽 위의 이메일 주소 옆에 있는 사용자 아이콘을 선택한 후 **로그아웃** 을 선택하여 로그아웃합니다. 그런 다음 브라우저 창을 모두 닫습니다.
 1. 사용자 관리자 역할은 구성된 시간 동안만 유효합니다.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
+
 이 랩에서는 PIM을 살펴보고,  관리자로 로그인하여 지정된 시간 동안 사용 가능한 사용자 관리자 권한으로 Diego를 구성했습니다.  그런 후에는 Diego로 로그인하여 사용자 관리자 권한을 활성화하고 사용자 설정을 구성하는 프로세스를 진행했습니다.  PIM을 사용하려면 Azure AD Premium P2 라이선스가 필요합니다.

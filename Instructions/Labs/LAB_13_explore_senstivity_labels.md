@@ -1,42 +1,43 @@
 ---
 lab:
-  title: Microsoft 365의 민감도 레이블 살펴보기
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: ab8d44cf92697deb200bf968a1865d328025984b
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Microsoft Purview의 민감도 레이블 살펴보기
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614449"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557593"
 ---
-# <a name="lab-explore-sensitivity-labels-in-microsoft-365"></a>랩: Microsoft 365의 민감도 레이블 살펴보기
+# <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>랩: Microsoft Purview의 민감도 레이블 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
-이 랩에서는 민감도 레이블 기능에 대해 알아봅니다.  이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.   그런 후 레이블을 적용하는 방법과 해당 레이블이 사용자에게 주는 영향을 파악합니다.
 
+이 랩에서는 민감도 레이블 기능에 대해 알아봅니다.  이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.   그런 후 레이블을 적용하는 방법과 해당 레이블이 사용자에게 주는 영향을 파악합니다.
 
 **예상 소요 시간:** 20~25분
 
-#### <a name="task-1-in-this-task-you-will-gain-an-understanding-of-what-sensitivity-labels-can-do-by-going-through-the-settings-for-an-existing-sensitivity-label-that-have-been-created-and-the-corresponding-policy-to-publish-the-label"></a>작업 1: 이 작업에서는 민감도 레이블을 활용할 수 있는 방법을 파악합니다. 이를 위해 이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.
+### <a name="task-1"></a>작업 1
+
+이 작업에서는 민감도 레이블을 활용할 수 있는 방법을 파악합니다. 이를 위해 이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.
 
 1. Microsoft Edge를 엽니다. 주소 표시줄에 **admin.microsoft.com** 을 입력합니다.
 
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
-    
+
     1. 랩 호스팅 공급자가 제공한 관리자 암호를 입력합니다. **로그인** 을 선택합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다. 그러면 Microsoft 365 관리 센터 페이지로 이동됩니다.
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시** 를 선택합니다.
 
-1. 관리 센터 아래에서 규정 **준수** 를 선택합니다.  새 브라우저 페이지가 열리고 Microsoft 365 규정 준수 센터 시작 페이지가 표시됩니다.  
+1. 관리 센터 아래에서 규정 **준수** 를 선택합니다.  새 브라우저 페이지가 열리고 Microsoft Purview 규정 준수 포털 시작 페이지가 표시됩니다.  
 
 1. 왼쪽 탐색 패널의 솔루션 아래에서 **정보 보호** 를 선택합니다.
 
 1. 페이지 위쪽에서 **레이블** 탭을 선택합니다.
 
-1. "조직에서 암호화된 민감도 레이블이 적용되어 OneDrive 및 SharePoint에 저장된 Office 온라인 파일의 콘텐츠를 처리하는 기능을 설정하지 않았습니다..."라고 표시되는 노란색 정보 상자가 나타납니다.  해당 상자에서 지금 사용을 선택합니다.  설정이 시스템 전체에 전파되려면 다소 시간이 걸릴 수 있습니다.
-
+1. "조직에서 암호화된 민감도 레이블이 적용되어 OneDrive 및 SharePoint에 저장된 Office 온라인 파일의 콘텐츠를 처리하는 기능을 설정하지 않았습니다..."라고 표시되는 노란색 정보 상자가 나타납니다.  해당 상자에서 **지금 사용** 을 선택합니다.  설정이 시스템 전체에 전파되려면 다소 시간이 걸릴 수 있습니다.** **
 
 1. 페이지 가운데 부분에는 이미 작성된 레이블이 표시됩니다.  **기밀 - 재무** 를 선택합니다.  그러면 열리는 창에서 이 레이블 관련 정보가 제공됩니다.  이 레이블은 암호화 및 콘텐츠 표시를 모두 지원하도록 설정되어 있습니다.  페이지 위쪽에서 레이블 편집을 선택하여 기본적인 구성 설정을 몇 가지 확인합니다.
 
@@ -52,9 +53,9 @@ ms.locfileid: "142614449"
 
 1. 그러면 파일 및 이메일에 대한 자동 레이블 지정 창이 표시됩니다.  페이지 위쪽의 자동 레이블 지정 설명과 그 아래의 정보 상자 내용을 확인합니다.  그리고 이 레이블은 특정 조건에서 자동으로 지정되도록 설정되어 있다는 점도 확인합니다. 아무 설정도 변경하지 마세요.  페이지 아래쪽의 **다음** 을 선택합니다.
 
-1. 다음 창에서는 이 레이블이 적용된 팀, 그룹, 사이트의 보호 설정을 정의합니다. 보호 설정은 아직 사용하도록 설정되어 있지 않습니다. 페이지 아래쪽의 **다음** 을 선택합니다. 
+1. 다음 창에서는 이 레이블이 적용된 팀, 그룹, 사이트의 보호 설정을 정의합니다. 보호 설정은 아직 사용하도록 설정되어 있지 않습니다. 페이지 아래쪽의 **다음** 을 선택합니다.
 
-1. 다음 창은 사용자가 선택하는 중요한 정보 유형이 들어 있는 Azure 데이터베이스 열(예: SQL, Synapse 등)에 이 레이블을 자동 적용하는 미리 보기 기능입니다.  이 기능은 사용하도록 설정되어 있지 않습니다. 페이지 아래쪽에서 **취소** 를 선택하여 레이블 구성 마법사를 종료하고 정보 보호 페이지로 돌아옵니다. 
+1. 다음 창은 사용자가 선택하는 중요한 정보 유형이 들어 있는 Azure 데이터베이스 열(예: SQL, Synapse 등)에 이 레이블을 자동 적용하는 미리 보기 기능입니다.  이 기능은 사용하도록 설정되어 있지 않습니다. 페이지 아래쪽에서 **취소** 를 선택하여 레이블 구성 마법사를 종료하고 정보 보호 페이지로 돌아옵니다.
 
 1. 정보 보호 페이지 위쪽에서 **레이블 정책** 을 선택합니다.  레이블 정책을 통해 민감도 레이블을 게시할 수 있습니다.  
 
@@ -75,31 +76,31 @@ ms.locfileid: "142614449"
 
 1. 정보 보호 페이지에서 자동 레이블 지정을 선택합니다.  지금은 자동 레이블 정책이 구성되어 있지 않습니다.  아무 설정도 변경하지 마세요.  여기에 정책이 표시되지 않는 이유를 확인하려면, 파일과 이메일에 대해 레이블 구성이 자동 레이블 지정으로 설정되어 있다는 점을 기억하면서 레이블 구성 설정 과정에서 진행한 단계로 돌아가 파일 및 이메일 자동 레이블 지정과 관련된 설명 및 정보 상자를 검토합니다.  힌트:  민감도 랩의 자동 레이블 지정 탭에는  "SharePoint 및 OneDrive에 이미 저장된 파일 또는 Exchange에서 이미 처리된 이메일에 이 레이블을 자동으로 적용하려면 자동 레이블 지정 정책을 만들어야 합니다."라는 메시지가 표시됩니다.
 
-1. 왼쪽 탐색 패널에서 홈을 선택하여 Microsoft 365 규정 준수 센터로 돌아옵니다.
+1. 왼쪽 탐색 패널에서 홈을 선택하여 Microsoft Purview 규정 준수 포털로 돌아옵니다.
 
 1. 다음 작업에서 사용할 것이므로 이 페이지를 열어 두세요.
 
+### <a name="task-2"></a>작업 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>작업 2:  이 작업에서는 사용자(여기서는 관리자) 측면에서 레이블을 적용하는 프로세스를 진행하고, 레이블에서 생성되는 콘텐츠 표시를 확인합니다.
+이 작업에서는 사용자(여기서는 관리자) 측면에서 레이블을 적용하는 프로세스를 진행하고, 레이블에서 생성되는 콘텐츠 표시를 확인합니다.
 
-1. 먼저 랩 VM(가상 머신)에 Office 설정했는지 확인합니다.  이렇게 하려면 **Microsoft 365 관리 센터** 탭을 선택하여 브라우저를 엽니다.  탭을 이미 닫았다면 새 브라우저 탭을 열고 **admin.microsoft.com** 을 입력합니다.
-    1. 왼쪽 탐색 패널에서 **청구** 를 선택하여 모든 옵션을 확인한 다음 **제품** 을 선택합니다.
-    1. 제품 페이지에서 **Microsoft 365 E5 평가판** 을 선택합니다.
-    1. Microsoft 365 E5 평가판 페이지에서 **소프트웨어 다운로드 및 설치** 를 선택하고 페이지의 지침을 따릅니다.
+1. Microsoft 365 규정 준수 센터 홈페이지에서 Contoso Electronics 옆에 있는 **앱 시작 관리자 아이콘** 을 선택합니다. **Word 아이콘을 마우스 오른쪽 단추로 클릭** 하고 **새 탭에서 열기** 를 선택합니다.  
 
-1. 랩 VM의 왼쪽 아래 모서리에 있는 Windows 아이콘을 선택한 다음, **Word** 를 선택하고 **빈 문서** 를 선택합니다.  이렇게 하면 데스크톱 버전의 Word를 사용하여 새 Word 문서가 열립니다.
+1. **+ 새로 만들기** 를 선택하고 페이지에 텍스트를 입력합니다.  페이지 위쪽의 파란색 막대에서 '문서XX - 저장됨' 옆의 드롭다운을 선택하고 파일 이름 상자에 **Test-label** 을 입력합니다.
 
-1. 상단 메뉴 모음에서 **민감도** 를 선택합니다. 드롭다운에서 **기밀 - 재무** 를 선택합니다.
+1. 위쪽 메뉴 모음에서 **민감도** 를 선택합니다. 이 옵션이 바로 표시되지 않으면 페이지를 새로 고칩니다. 드롭다운에서 **기밀 - 재무** 를 선택합니다.
 
-1. 이 문서에는 워터마크가 포함되어 있습니다.  워터마크는 작은 연한 회색 텍스트로 페이지에 세로로 표시됩니다. 
+1. 위쪽 메뉴 모음에서 **보기** 를 선택한 다음 **읽기용 보기** 를 선택합니다.
 
-1. Word 파일을 저장합니다.
+1. 이 문서에는 워터마크가 포함되어 있습니다.  
 
 1. 브라우저에서 열려 있는 Microsoft Word 탭을 닫아 Word를 종료합니다.
 
-#### <a name="task-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view--in-this-task-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>작업 3(선택 사항): 데모의 앞부분에서는 콘텐츠 표시뿐 아니라 암호화를 위한 레이블 보호 설정도 지정했습니다. 이 레이블에 대해 구성된 권한이 따라 재무 그룹의 멤버는 이 레이블이 적용된 문서를 공동 작성할 수 있으며, Contoso 테넌트의 사용자는 문서를 볼 수 있습니다.  이 작업에서는 WWLxZZZZ.OnMicrosoft.com 도메인에 포함되어 있지 않으며 사용자에게 액세스 권한이 있는 이메일 주소(개인 이메일 주소)로 해당 문서를 전송합니다. 그런 다음 해당 이메일의 첨부 파일을 열면 어떤 결과가 발생하는지를 확인합니다.  
+### <a name="task-3-optional"></a>작업 3(선택 사항)
 
-1. Microsoft 365 규정 준수 센터 홈페이지에서 Contoso Electronics 옆에 있는 **앱 시작 관리자 아이콘** 을 선택합니다. **Outlook 아이콘을 마우스 오른쪽 단추로 클릭** 하고 **새 탭에서 열기** 를 선택합니다.
+데모의 앞부분에서는 콘텐츠 표시뿐 아니라 암호화를 위한 레이블 보호 설정도 지정했습니다. 이 레이블에 대해 구성된 권한이 따라 재무 그룹의 멤버는 이 레이블이 적용된 문서를 공동 작성할 수 있으며, Contoso 테넌트의 사용자는 문서를 볼 수 있습니다.  이 작업에서는 WWLxZZZZ.OnMicrosoft.com 도메인에 포함되어 있지 않으며 사용자에게 액세스 권한이 있는 이메일 주소(개인 이메일 주소)로 해당 문서를 전송합니다. 그런 다음 해당 이메일의 첨부 파일을 열면 어떤 결과가 발생하는지를 확인합니다.
+
+1. Microsoft Purview 규정 준수 포털 홈페이지에서 Contoso Electronics 옆에 있는 **앱 시작 관리자 아이콘** 을 선택합니다. **Outlook 아이콘을 마우스 오른쪽 단추로 클릭** 하고 **새 탭에서 열기** 를 선택합니다.
 
 1. 화면 왼쪽 위에서 **새 메시지** 를 선택합니다.  본인에게 액세스 권한이 있으며 WWLxZZZZ.OnMicrosoft.com 도메인에 속해 있지 않은 이메일 주소를 입력하고 제목 줄에 **테스트** 를 입력합니다.
 
@@ -113,6 +114,6 @@ ms.locfileid: "142614449"
 
 1. 열려 있는 브라우저 탭을 닫습니다.
 
+### <a name="review"></a>검토
 
-#### <a name="review"></a>검토
 이 랩에서는 민감도 레이블 기능에 대해 알아봅니다.  이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.   그런 후 레이블을 적용하는 방법과 해당 레이블이 사용자에게 주는 영향을 파악합니다.

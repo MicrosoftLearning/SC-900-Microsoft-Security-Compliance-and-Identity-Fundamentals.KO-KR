@@ -2,19 +2,20 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 15788d59891cea9ae5c3117e9c79c7bc60bc2806
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614437"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557329"
 ---
-# <a name="demo-microsoft-sentinel"></a>데모: Microsoft Sentinel 
+# <a name="demo-microsoft-sentinel"></a>데모: Microsoft Sentinel
 
-### <a name="demo-scenario"></a>데모 시나리오
+## <a name="demo-scenario"></a>데모 시나리오
+
 이 데모에서는 Microsoft Sentinel 인스턴스를 만드는 프로세스를 진행합니다.  그리고 Microsoft Sentinel을 지원하기 위해 배포할 리소스에 액세스할 수 있도록 관련 권한도 설정합니다.  이 기본 설정이 완료되면 Microsoft Sentinel을 데이터 원본에 연결하고 데이터를 모니터링하고 시각화하는 데 필요한 통합 문서를 만드는 단계를 진행합니다.  마지막으로, 의심스러운 항목, 자동화 기능 등에 대한 알림을 받기 위한 기본 제공 분석을 포함하여 사용 가능한 다른 옵션 중 일부를 표시합니다.
 
-#### <a name="pre-demo-setup--create-an-microsoft-sentinel-instance"></a>데모 전 설정:  Microsoft Sentinel 인스턴스 만들기
+### <a name="pre-demo-setup--create-an-microsoft-sentinel-instance"></a>데모 전 설정:  Microsoft Sentinel 인스턴스 만들기
 
 1. 브라우저 탭에서 **홈 - Microsoft Azure** 를 엽니다.  이전에 해당 탭을 닫았다면 브라우저 페이지를 열고 주소 표시줄에 portal.azure.com을 입력하여 다시 로그인합니다.
 
@@ -41,11 +42,13 @@ ms.locfileid: "142614437"
 
 1. 다음 작업에서 사용할 것이므로 이 페이지를 열어 두세요.
 
-#### <a name="demo-part-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>데모 2부:  Microsoft Sentinel 인스턴스를 만든 후에는 Microsoft Sentinel을 지원하기 위해 배포할 리소스에 필요한 액세스 권한을 설정해야 합니다.  
+### <a name="demo-part-2"></a>데모 2부
+
+Microsoft Sentinel 인스턴스를 만든 후에는 Microsoft Sentinel을 지원하기 위해 배포할 리소스에 필요한 액세스 권한을 설정해야 합니다.  
 
 1. 검색 상자(페이지 위쪽의 'Microsoft Azure' 옆에 있는 파란 막대)에 **리소스 그룹** 을 입력하고 검색 결과에서 **리소스 그룹** 을 선택합니다. 리소스 그룹 수준에서 역할을 할당하면 Microsoft Sentinel을 지원하기 위해 배포하는 모든 리소스에 이 역할이 적용됩니다.
 
-1. 리소스 그룹 페이지에서 Microsoft Sentinel을 사용하여 만든 리소스 그룹인 **SC900-Sentinel-RG** 를 선택합니다. 
+1. 리소스 그룹 페이지에서 Microsoft Sentinel을 사용하여 만든 리소스 그룹인 **SC900-Sentinel-RG** 를 선택합니다.
 
 1. SC900-Sentinel-RG 페이지의 왼쪽 탐색 패널에서 **액세스 제어(IAM)** 를 선택합니다.
 
@@ -53,14 +56,16 @@ ms.locfileid: "142614437"
 
     1. 액세스 제어 페이지에서 **+추가** 를 선택하고 **역할 할당 추가** 를 선택합니다.
 
-    1. 역할 할당 추가 창이 열립니다.  검색 상자에 **Microsoft Sentinel** 을 입력하여 Microsoft Sentinel과 연결된 역할 4개를 확인합니다. 
+    1. 역할 할당 추가 창이 열립니다.  검색 상자에 **Microsoft Sentinel** 을 입력하여 Microsoft Sentinel과 연결된 역할 4개를 확인합니다.
     1. 나열된 역할 중 하나에서 **보기** 를 선택하여 해당 역할의 세부 정보를 봅니다.  모범 사례에 따라 역할에 필요한 최소 권한을 할당해야 합니다.  
 
     1. 창 오른쪽 위에서 **X** 를 선택하여 창을 닫습니다.
 
 1. 액세스 제어 페이지에서 창 오른쪽 위의 **X** 를 선택하여 창을 닫습니다.
 
-#### <a name="demo-part-3--in-this-part-of-the-demo-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>데모 3부:  데모의 3부에서는 데이터 수집을 시작하기 위해 데이터 원본에 Microsoft Sentinel을 연결하는 프로세스를 진행합니다.
+### <a name="demo-part-3"></a>데모 3부
+
+데모의 3부에서는 데이터 수집을 시작하기 위해 데이터 원본에 Microsoft Sentinel을 연결하는 프로세스를 진행합니다.
 
 1. 검색 상자(페이지 위쪽의 Microsoft Azure 옆에 있는 파란 막대)에 **Microsoft Sentinel** 을 입력하고 검색 결과에서 **Microsoft Sentinel** 을 선택합니다.
 
@@ -82,7 +87,9 @@ ms.locfileid: "142614437"
 
 1. 다음 작업에서 사용할 것이므로 이 페이지를 열어 두세요.
 
-#### <a name="demo-part-4--in-this-part-of-the-demo-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>데모 4부:  데모의 이 부분에서는 데이터를 시각화하고 모니터링하기 위해 Office 365 통합 문서를 설정하는 과정을 안내합니다.
+### <a name="demo-part-4"></a>데모 4부
+
+데모의 이 부분에서는 데이터를 시각화하고 모니터링하기 위해 Office 365 통합 문서를 설정하는 과정을 안내합니다.
 
 1. 왼쪽 탐색 패널에서 **통합 문서** 를 선택합니다.
 
@@ -94,7 +101,9 @@ ms.locfileid: "142614437"
 
 1. 통합 문서 페이지 왼쪽 위의 '통합 문서' 위에서 **Microsoft Sentinel** 을 선택합니다. 그러면 개요 페이지로 돌아갑니다.
 
-#### <a name="demo-part-5--in-this-part-of-the-demo-you-will-show-some-of-the-options-available-in-sentinel"></a>데모 5부:  데모의 이 부분에서는 Sentinel에서 사용할 수 있는 옵션 중 일부를 설명합니다.
+### <a name="demo-part-5"></a>데모 5부
+
+데모의 이 부분에서는 Sentinel에서 사용할 수 있는 옵션 중 일부를 설명합니다.
 
 1. 왼쪽 탐색 패널에서 **헌팅** 을 선택합니다.  선택(밑줄)된 **쿼리** 탭의 목록에서 쿼리를 선택합니다.  쿼리가 선택되면 쿼리에 대한 코드와 쿼리를 실행하고 결과를 보는 옵션을 포함하여 해당 쿼리에 대해 제공된 정보를 확인합니다.  아무것도 선택하지 마세요.
 
@@ -112,7 +121,9 @@ ms.locfileid: "142614437"
 
 1. 창의 왼쪽 위 모서리에서 파란색 막대 바로 아래에 있는 **홈** 을 선택하여 Azure Portal 홈페이지로 돌아갑니다.
 
-#### <a name="task-6-post-course-delivery-tear-down-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-demo-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>작업 6: 과정 제공 후 리소스 정리. Microsoft Sentinel의 대금은 Microsoft Sentinel에서 분석용으로 수집되는 데이터의 양을 기준으로 청구됩니다. 이 데모에서 수집되는 데이터의 양은 미미한 수준이지만, Microsoft Sentinel의 기능을 모두 살펴본 후에는 Microsoft Sentinel 리소스 그룹을 삭제하는 것이 좋습니다.
+### <a name="task-6"></a>작업 6
+
+과정 제공 후 리소스 정리. Microsoft Sentinel의 대금은 Microsoft Sentinel에서 분석용으로 수집되는 데이터의 양을 기준으로 청구됩니다. 이 데모에서 수집되는 데이터의 양은 미미한 수준이지만, Microsoft Sentinel의 기능을 모두 살펴본 후에는 Microsoft Sentinel 리소스 그룹을 삭제하는 것이 좋습니다.
 
 1. Microsoft Sentinel 페이지 왼쪽 위 모서리의 Microsoft Sentinel 위에 있는 **모든 서비스** 를 선택합니다.
 
@@ -122,8 +133,8 @@ ms.locfileid: "142614437"
 
 4. 페이지 위쪽 가운데의 **리소스 그룹 삭제** 를 선택합니다.  경고를 검토합니다.  리소스 그룹 이름 **SC900-ResourceGroup** 을 입력하고 페이지 아래쪽에서 **삭제** 를 선택합니다.  리소스 그룹을 삭제하려면 몇 분 정도 걸립니다.
 
-5. 리소스 그룹이 삭제되었음을 확인한 후 브라우저 페이지를 닫습니다. 
+5. 리소스 그룹이 삭제되었음을 확인한 후 브라우저 페이지를 닫습니다.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
 
 이 데모에서는 Microsoft Sentinel을 데이터 원본에 연결하는 단계를 안내하고 통합 문서를 설정하고 Microsoft Sentinel에서 사용할 수 있는 여러 옵션을 살펴봤습니다.
