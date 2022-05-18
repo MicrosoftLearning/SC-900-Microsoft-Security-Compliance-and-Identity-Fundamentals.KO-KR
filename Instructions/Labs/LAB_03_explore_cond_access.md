@@ -2,21 +2,24 @@
 lab:
   title: Azure AD에서 조건부 액세스를 사용하는 액세스 관리 살펴보기
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489262"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557280"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>랩: 조건부 액세스를 통한 Azure AD의 액세스 관리 방식 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
+
 이 랩에서는 관리자와 사용자 측면에서 조건부 액세스 MFA를 살펴봅니다.  우선 관리자로 로그인하여 사용자가 클라우드 기반 Microsoft Azure Management 애플리케이션에 액세스할 때 다단계 인증을 진행해야 하도록 지정하는 규칙을 만듭니다.  그런 후에 사용자로 로그인하여 조건부 액세스 정책의 영향을 확인하고, MFA에 등록하는 프로세스를 진행합니다.
 
 **예상 소요 시간:** 10~15분
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>작업 1: 이 작업에서는 관리자로 로그인하여 Debra Berger 사용자의 암호를 재설정합니다.  이 단계를 진행해야 후속 작업에서 해당 사용자로 처음 로그인할 수 있습니다.
+### <a name="task-1"></a>작업 1
+
+이 작업에서는 관리자로 로그인하여 Debra Berger 사용자의 암호를 재설정합니다.  이 단계를 진행해야 후속 작업에서 해당 사용자로 처음 로그인할 수 있습니다.
 
 1. Microsoft Edge를 엽니다.  주소 표시줄에 **portal.azure.com** 을 입력합니다.
 
@@ -41,8 +44,9 @@ ms.locfileid: "141489262"
 
 10. 이 창을 계속 열어 두세요.
 
+### <a name="task-2"></a>작업 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>작업 2:  이 작업에서는 Azure AD에서 조건부 액세스 정책을 만드는 프로세스를 진행합니다.
+이 작업에서는 Azure AD에서 조건부 액세스 정책을 만드는 프로세스를 진행합니다.
 
 1. 레이블이 Contoso - Microsoft Azure인 브라우저 탭을 엽니다.   이전에 브라우저 탭을 닫았다면 Microsoft Edge를 열고 주소 표시줄에 portal.azure.com을 입력하여 관리자 자격 증명으로 로그인한 후에 Azure Active Directory를 선택합니다.  
 
@@ -60,7 +64,7 @@ ms.locfileid: "141489262"
 
 8. **사용자 및 그룹 선택** 옵션을 선택하고 **사용자 및 그룹** 을 선택합니다.  사용자 및 그룹 선택 창이 열립니다.  
 
-9. 검색 창에 **Debra** 를 입력합니다.  검색 창 아래에서 **Debra Berger** 를 선택하고 페이지 아래쪽의 **선택** 단추를 누릅니다.  일반적으로는 그룹의 사용자에게 정책을 할당해야 합니다.  이 랩에서는 편의상 특정 사용자에게 정책을 할당하겠습니다. 
+9. 검색 창에 **Debra** 를 입력합니다.  검색 창 아래에서 **Debra Berger** 를 선택하고 페이지 아래쪽의 **선택** 단추를 누릅니다.  일반적으로는 그룹의 사용자에게 정책을 할당해야 합니다.  이 랩에서는 편의상 특정 사용자에게 정책을 할당하겠습니다.
 
 10. 클라우드 앱 또는 작업에서 **선택한 클라우드 앱 또는 작업 없음** 을 선택합니다.
 
@@ -80,9 +84,11 @@ ms.locfileid: "141489262"
 
 18. Azure에서 로그아웃하고 브라우저 창을 닫습니다.
 
-#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>작업 3: 이 작업에서는 Debra Berger 사용자로 로그인하여 조건부 액세스 정책의 영향을 확인합니다. 먼저 조건부 액세스 정책에 포함되어 있지 않은 애플리케이션에 로그인합니다.  그런 다음 조건부 액세스 정책에 포함되어 있는 애플리케이션을 대상으로 로그인 프로세스를 반복합니다.  이 정책은 사용자가 Microsoft Azure Management 애플리케이션에 액세스할 때 MFA를 진행해야 하도록 지정합니다.  MFA를 사용하려는 사용자는 먼저 MFA에서 사용할 인증 방법을 등록해야 합니다. 예를 들어 모바일 디바이스나 인증자 애플리케이션으로 코드를 전송하는 등의 방법을 선택해야 합니다.
+### <a name="task-3"></a>작업 3
 
-1. Microsoft Edge를 엽니다.  브라우저의 주소 표시줄에 **https://login.microsoftonline.com/** 을 입력합니다.
+이 작업에서는 Debra Berger 사용자로 로그인하여 조건부 액세스 정책의 영향을 확인합니다. 먼저 조건부 액세스 정책에 포함되어 있지 않은 애플리케이션에 로그인합니다.  그런 다음 조건부 액세스 정책에 포함되어 있는 애플리케이션을 대상으로 로그인 프로세스를 반복합니다.  이 정책은 사용자가 Microsoft Azure Management 애플리케이션에 액세스할 때 MFA를 진행해야 하도록 지정합니다.  MFA를 사용하려는 사용자는 먼저 MFA에서 사용할 인증 방법을 등록해야 합니다. 예를 들어 모바일 디바이스나 인증자 애플리케이션으로 코드를 전송하는 등의 방법을 선택해야 합니다.
+
+1. Microsoft Edge를 엽니다.  브라우저의 주소 표시줄에 **login.microsoftonline.com/** 을 입력합니다.
 
 1. Debra Burger로 로그인합니다.
     1. 로그인 창에 **DebraB@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
@@ -92,7 +98,7 @@ ms.locfileid: "141489262"
 
 1. Microsoft 365 계정에 로그인했습니다.  이 애플리케이션은 정책 적용 대상이 아니므로 MFA를 진행할 필요가 없었습니다.
 
-1. 이제 MFA 기준에 부합하는 애플리케이션 로그인을 시도해 보겠습니다.  Microsoft Edge를 열고 주소 표시줄에 https://portal.azure.com 을 입력합니다.
+1. 이제 MFA 기준에 부합하는 애플리케이션 로그인을 시도해 보겠습니다.  Microsoft Edge를 열고 주소 표시줄에 **portal.azure.com** 을 입력합니다.
 
 1. 추가 정보가 필요하다는 창이 표시됩니다.  **다음** 을 선택합니다.  그러면 MFA 등록 프로세스가 시작됩니다. 조건부 액세스 정책에 지정되어 있는 클라우드 앱에 액세스하는 것이 처음이기 때문입니다.  등록 프로세스는 한 번만 진행하면 됩니다.   관리자가 사용할 인증 방법을 구성하여 사용자가 등록 프로세스를 진행하도록 할 수도 있습니다.
 
@@ -110,5 +116,6 @@ ms.locfileid: "141489262"
 
 1. 화면 오른쪽 위의 이메일 주소 옆에 있는 사용자 아이콘을 선택한 후 로그아웃을 선택하여 로그아웃합니다. 그런 다음 브라우저 창을 모두 닫습니다.
 
-#### <a name="review"></a>검토
+### <a name="review"></a>검토
+
 이 랩에서는 Microsoft Azure Management 클라우드 애플리케이션에 액세스하는 사용자가 MFA를 진행해야 하도록 지정하는 조건부 액세스 정책 설정 프로세스를 수행했습니다.  그런 후에 사용자로 로그인하여 MFA 등록 프로세스를 진행했으며, Azure Portal에 액세스할 때 MFA를 사용하도록 지정하는 조건부 액세스 정책의 영향을 확인했습니다.
