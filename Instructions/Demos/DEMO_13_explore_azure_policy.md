@@ -2,12 +2,12 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557137"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542678"
 ---
 # <a name="demo-azure-policy"></a>데모: Azure Policy
 
@@ -19,7 +19,7 @@ ms.locfileid: "144557137"
 
 리소스 그룹에 태그를 지정해야 하는 정책을 만듭니다(템플릿에서 정책을 만드는 단계 진행).
 
-1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.microsoft.com** 을 입력합니다.  해당 페이지에 이미 로그인된 상태여야 합니다. 로그인되어 있지 않다면 관리자 자격 증명을 사용하여 로그인합니다.
+1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.azure.com** 을 입력합니다.  해당 페이지에 이미 로그인된 상태여야 합니다. 로그인되어 있지 않다면 관리자 자격 증명을 사용하여 로그인합니다.
 
 1. 검색 상자(페이지 위쪽의 'Microsoft Azure' 옆에 있는 파란 막대)에 **policy** 를 입력하고 검색 결과에서 **Policy** 를 선택합니다.
 

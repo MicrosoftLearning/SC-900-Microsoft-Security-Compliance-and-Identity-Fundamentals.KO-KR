@@ -2,12 +2,12 @@
 lab:
   title: Azure Policy 살펴보기
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557522"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542594"
 ---
 # <a name="lab-explore-azure-policy"></a>랩: Azure Policy 살펴보기
 
@@ -21,7 +21,7 @@ Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 �
 
 Azure Policy 페이지를 간략하게 살펴봅니다.
 
-1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.microsoft.com** 을 입력합니다.
+1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.azure.com** 을 입력합니다.
 
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.

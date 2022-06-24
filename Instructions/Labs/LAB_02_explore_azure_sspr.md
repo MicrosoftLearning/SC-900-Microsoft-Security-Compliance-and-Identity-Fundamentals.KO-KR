@@ -2,12 +2,12 @@
 lab:
   title: 셀프 서비스 암호 재설정을 사용하는 Azure AD 인증 방식 살펴보기
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: f1bd0a494cc5486e13a03cf1e8829d38a28451ab
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557473"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542654"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>랩: 셀프 서비스 암호 재설정을 사용하는 Azure AD 인증 방식 살펴보기
 
@@ -97,7 +97,7 @@ ms.locfileid: "144557473"
 2. 주소 표시줄에 **login.microsoftonline.com** 을 입력합니다.
 
 3. Adele Vance로 로그인합니다.
-    1. 로그인 창에 **AdedleV@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
+    1. 로그인 창에 **AdeleV@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
     1. 이전 작업에서 적어 둔 암호를 입력합니다. **로그인** 을 선택합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다.
 
