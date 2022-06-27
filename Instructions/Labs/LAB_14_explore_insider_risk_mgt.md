@@ -2,12 +2,12 @@
 lab:
   title: Microsoft Purview의 내부 위험 관리 기능 살펴보기
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557545"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542642"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>랩: Microsoft Purview의 내부 위험 관리 기능 살펴보기
 
@@ -35,7 +35,7 @@ ms.locfileid: "144557545"
 
 1. Microsoft Purview 규정 준수 포털의 왼쪽 탐색 창에서 **권한** 을 선택합니다.
 
-1. 권한 및 역할 페이지의 규정 준수 센터에서 **역할** 을 선택합니다.
+1. 권한 및 역할 페이지에서 “규정 준수 센터에서 솔루션 관련 작업을 수행하는 데 사용되는 역할 보기 및 관리”가 표시됩니다. **역할** 을 선택합니다.
 
 1. 검색 필드에 **내부 위험** 을 입력하고 검색 아이콘(돋보기)을 선택합니다.  표시되는 수많은 역할을 확인합니다.  각 역할의 액세스 수준은 서로 다릅니다.  **내부 위험 관리** 를 선택합니다.
 
