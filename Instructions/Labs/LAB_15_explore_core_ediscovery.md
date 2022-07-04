@@ -2,12 +2,12 @@
 lab:
   title: eDiscovery (표준) 워크플로 살펴보기
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542630"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649972"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>랩: eDiscovery (표준) 워크플로 살펴보기
 
@@ -126,6 +126,8 @@ eDiscovery (표준)에 액세스하거나 eDiscovery 사례의 멤버로 추가�
     1. 두 번째 필드에서는 내보내기 파일을 저장할 위치를 선택하고 **시작** 을 선택합니다.  다운로드 프로세스가 완료되면 **닫기** 를 선택하여 이 브라우저 탭을 닫습니다.
     1. 그러면 "Test Hold - Sales Search_Export" 창이 다시 표시됩니다.  **닫기** 를 선택합니다.
     1. 다운로드 위치로 이동하여 다운로드가 정상적으로 완료되었는지 확인합니다.
+
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

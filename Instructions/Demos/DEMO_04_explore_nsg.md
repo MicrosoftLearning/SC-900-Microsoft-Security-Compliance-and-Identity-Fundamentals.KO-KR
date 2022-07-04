@@ -2,12 +2,12 @@
 Demo:
   title: Azure NSG(네트워크 보안 그룹)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557532"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741858"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>데모: Azure NSG(네트워크 보안 그룹)
 
@@ -152,9 +152,9 @@ NSG의 설정을 살펴봅니다.  여기서는 VM 인터페이스에 아직 할
 
 1. 페이지 위쪽의 파란색 막대에서 **Microsoft Azure** 를 선택하여 Azure Portal의 홈 페이지로 돌아옵니다.
 
-### <a name="tear-down"></a>리소스 정리
+### <a name="post-course-delivery-tear-down"></a>과정 제공 후 리소스 정리
 
-**중요**: 이 작업에서는 리소스 그룹 및 해당 그룹에 포함된 모든 리소스를 삭제합니다.   추가 비용이 발생하지 않도록 하려면 이 작업을 반드시 수행해야 합니다.
+VM은 요금이 부과되는 리소스로 이 데모에서 VM을 실행하는 비용은 미미하지만, 과정이 완료되면 VM 및 관련 리소스가 포함된 리소스 그룹을 삭제하는 것이 좋습니다.
 
 1. 브라우저에서 SC900-WinVM – Microsoft Azure 탭을 엽니다.
 

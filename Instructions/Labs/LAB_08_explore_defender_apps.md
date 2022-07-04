@@ -2,12 +2,12 @@
 lab:
   title: '클라우드용 Microsoft Defender 앱 살펴보기 '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c6b9e816596c74199123b21a9fcb07a5d33a725c
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557579"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650068"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>랩: 클라우드용 Microsoft Defender 앱 살펴보기
 
@@ -79,7 +79,7 @@ Cloud Discovery를 살펴봅니다.
 
 1. 왼쪽 탐색 패널에서 **경고** 를 선택합니다.  나열되는 경고가 있으면 경고 목록에서 항목을 선택합니다. 제공된 정보를 검토합니다.  창 오른쪽 위에서 **경고 닫기** 를 선택하여 경고를 닫는 옵션을 확인합니다.  
 
-1. 브라우저 창을 닫습니다.
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

@@ -2,12 +2,12 @@
 lab:
   title: Azure NSG(네트워크 보안 그룹) 살펴보기
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557509"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650092"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>랩: Azure NSG(네트워크 보안 그룹) 살펴보기
 
@@ -151,9 +151,9 @@ NSG의 기본 아웃바운드 규칙은 아웃바운드 인터넷 트래픽을 �
 1. IP 주소가 표시된 페이지 위쪽 가운데에서 **X** 를 선택하여 원격 데스크톱 연결을 닫습니다.  그러면 '원격 세션의 연결이 끊어집니다'라는 팝업 창이 표시됩니다. **확인** 을 선택합니다.
 1. 이 작업에서는 NSG에서 아웃바운드 인터넷 트래픽을 차단하는 아웃바운드 규칙을 구성했습니다.
 
-### <a name="task-5"></a>작업 5
+### <a name="tear-down"></a>리소스 정리
 
-**중요**: 이 작업에서는 리소스 그룹 및 해당 그룹에 포함된 모든 리소스를 삭제합니다.   추가 비용이 발생하지 않도록 하려면 이 작업을 반드시 수행해야 합니다.
+VM은 요금이 부과되는 리소스로 이 데모에서 VM을 실행하는 데 드는 비용은 미미하지만, 과정이 완료되면 VM 및 관련 리소스가 포함된 리소스 그룹을 삭제하는 것이 좋습니다.
 
 1. 브라우저에서 SC900-WinVM – Microsoft Azure 탭을 엽니다.
 
@@ -163,6 +163,7 @@ NSG의 기본 아웃바운드 규칙은 아웃바운드 인터넷 트래픽을 �
 1. LabsSC900 페이지 위쪽 가운데의 **리소스 그룹 삭제** 를 선택합니다.
 1. 그러면 열리는 창에서 리소스 그룹 이름 **LabsSC900** 를 입력하여 리소스 그룹 및 모든 해당 리소스의 삭제를 확인하고 페이지 아래쪽에서 **삭제** 를 선택합니다.
 1. 모든 리소스와 리소스 그룹을 삭제하는 데는 몇 분 정도 걸릴 수 있습니다.
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

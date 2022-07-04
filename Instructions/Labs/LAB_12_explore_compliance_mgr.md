@@ -2,12 +2,12 @@
 lab:
   title: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
   module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 4f0c9c57619e1dc8c44ce86b97e4ac9a5488e189
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557495"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741834"
 ---
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>랩: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
 
@@ -69,7 +69,7 @@ Microsoft Purview 규정 준수 포털 홈페이지를 살펴보고 카드 보�
 
 1. 포함된 템플릿 목록에서 **ISO/IEC27001:2013** 을 선택합니다. 페이지 오른쪽 위에서 **+ 평가 만들기** 를 선택합니다.  화면 왼쪽을 살펴봅니다. 두 단계만 수행하면 템플릿에서 평가를 만들 수 있습니다.  페이지 아래쪽에서 취소를 선택합니다.
 
-1. 열려 있는 브라우저 탭을 닫습니다.
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

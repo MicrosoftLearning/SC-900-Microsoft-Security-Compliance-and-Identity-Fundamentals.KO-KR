@@ -2,22 +2,31 @@
 Demo:
   title: Azure Active Directory 사용자 설정
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557184"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741894"
 ---
 # <a name="demo-azure-active-directory-user-settings"></a>데모: Azure Active Directory 사용자 설정
 
 ## <a name="demo-scenario"></a>데모 시나리오
 
-이 데모에서는 Azure Active Directory에 액세스하여 기존 사용자의 다양한 설정을 살펴봅니다.
+이 데모에서는 Azure Active Directory에 액세스하여 기존 사용자의 다양한 설정을 살펴봅니다.  발표자 참고 사항:  이 데모에서는 Microsoft 365 테넌트를 통해 Azure AD에 액세스합니다. 학습자를 표시하는 다른 옵션은 Azure Portal을 통해 Azure AD에 액세스하는 것입니다. Microsoft 365 포털을 통하여 Microsoft 365에 Azure AD에 대한 액세스 권한이 포함되어 있음을 보여 주는 것이 목적입니다.
 
-1. 브라우저에 열려 있는 **홈 – Microsoft Azure** 탭으로 이동합니다.  이전에 해당 탭을 닫았다면 Microsoft Edge를 열고 주소 표시줄에 portal.azure.com을 입력하여 Microsoft 365 테넌트와 같은 관리자 자격 증명으로 로그인합니다.
+1. Microsoft Edge를 엽니다.
 
-1. Azure Portal의 방문 페이지에 Azure 서비스가 표시됩니다. **Azure Active Directory** 를 선택합니다. Azure Active Directory가 바로 표시되지 않으면 'Microsoft Azure' 옆의 검색 상자에 Azure Active Directory를 입력합니다.  'Microsoft Azure' 왼쪽에 있는 포털 메뉴 표시 아이콘(페이지 위쪽 파란색 막대의 가로 줄 3개. 햄버거 아이콘이라고도 함)을 통해 서비스에 액세스하는 방법을 시연할 수도 있습니다.
+1. 주소 표시줄에 **admin.microsoft.com** 을 입력하여 Microsoft 365 관리 센터에 액세스합니다.
+
+1. 관리자 자격 증명으로 로그인합니다.
+    1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
+    1. 랩 호스팅 공급자가 제공한 관리자 암호를 입력합니다. **로그인** 을 선택합니다.
+    1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다.
+
+1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시** 를 선택합니다.
+
+1. 관리 센터에서 **Azure Active Directory** 를 선택합니다(아래쪽으로 스크롤해야 할 수 있음).  새 브라우저 페이지가 열리고 Azure Active Directory 관리 센터의 내 대시보드 페이지가 표시됩니다. 대시보드 주 창에는 조직의 ID 타일(Contoso, 테넌트, Azure AD 버전), 사용자와 그룹용 타일 등의 여러 타일이 표시됩니다.
 
 1. 왼쪽 탐색 창에서 **사용자** 를 선택합니다. 테넌트에는 사용자가 이미 구성되어 있습니다.
 

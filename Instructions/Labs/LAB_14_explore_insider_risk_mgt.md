@@ -2,12 +2,12 @@
 lab:
   title: Microsoft Purview의 내부 위험 관리 기능 살펴보기
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542642"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741882"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>랩: Microsoft Purview의 내부 위험 관리 기능 살펴보기
 
@@ -115,6 +115,8 @@ ms.locfileid: "146542642"
 1. 그러면 내부 위험 관리 페이지의 정책 탭이 다시 표시됩니다.  그리고 방금 만든 정책이 표시됩니다.  
 
 1. 방금 만든 정책에 따라 현재 위험 점수가 할당되어 있는 사용자가 "범위 내의 사용자" 필드에 표시됩니다.  정책이 트리거되면 사용자에게 위험 점수가 할당됩니다. 따라서 현재는 점수의 값이 0으로 표시됩니다.  관리자는 선택한 정책에서 검색하는 활동에 따라 특정 사용자를 대상으로 위험 점수 할당을 시작하도록 정책을 구성할 수 있습니다. 이렇게 하면 트리거 이벤트가 먼저 검색되어야 점수가 할당되는 요구 사항이 무시됩니다.  이렇게 하려면 정책 이름 옆의 빈 원을 선택하여 정책을 선택한 후 정책 테이블 위에 표시되어 있는 **사용자의 활동 채점 시작** 을 선택합니다.  각 필드에 내용을 입력하고 **활동 채점 시작** 을 선택합니다.  '사용자' 탭에 사용자가 표시될 때까지는 최대 24시간이 걸릴 수 있습니다. 이 시간이 지나면 해당 탭에서 사용자를 선택하여 검색된 활동을 검토할 수 있습니다.  창 하단에서 **닫기** 를 선택합니다.
+
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

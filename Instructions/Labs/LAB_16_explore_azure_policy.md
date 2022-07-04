@@ -2,12 +2,12 @@
 lab:
   title: Azure Policy 살펴보기
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542594"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741918"
 ---
 # <a name="lab-explore-azure-policy"></a>랩: Azure Policy 살펴보기
 
@@ -125,6 +125,8 @@ Azure Policy 페이지를 간략하게 살펴봅니다.
     1. Azure 서비스 아래에서 Azure Policy를 선택합니다.
     1. 페이지 가운데 부분에 Azure 정책/이니셔티브 할당 목록이 표시됩니다.  리소스 그룹에 태그 필요 정책 할당의 줄임표를 선택하고 할당 삭제를 선택합니다.
     1. 할당 삭제를 확인하라는 메시지가 표시됩니다.  예를 선택합니다.
+
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

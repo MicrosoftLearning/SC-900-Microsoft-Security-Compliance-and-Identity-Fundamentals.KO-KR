@@ -2,12 +2,12 @@
 lab:
   title: Microsoft 365 Defender 포털 살펴보기
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5accd8bc5c37450e40dfb73b5f2cf0bb8cb24525
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557149"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649984"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>랩: Microsoft 365 Defender 포털 살펴보기
 
@@ -65,7 +65,7 @@ Microsoft 365 Defender 시작 페이지를 살펴봅니다.
 
 1. 페이지 위쪽에서 **메트릭 및 추세** 를 선택합니다.  제공되는 정보를 살펴봅니다.  페이지 오른쪽 위에서 **달력 아이콘** 을 선택합니다.  보기의 범위를 사용자 지정 날짜 범위로 좁힐 수 있습니다.  **필터 아이콘** 을 선택하면 ID, 디바이스 및/또는 앱별로 보기를 필터링할 수 있습니다.  창을 닫고 왼쪽 탐색 패널에서 **홈** 을 선택하여 Microsoft 365 Defender 홈 페이지로 돌아옵니다.
 
-1. 브라우저 페이지를 닫습니다.
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

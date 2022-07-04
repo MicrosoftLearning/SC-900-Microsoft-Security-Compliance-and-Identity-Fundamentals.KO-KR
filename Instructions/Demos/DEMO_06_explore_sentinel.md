@@ -2,12 +2,12 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 4840bb3463325745987f55c4ed7d7462491e9fce
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 74c3f339580c0eed60eedfe1f19871fa115951fe
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542666"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649996"
 ---
 # <a name="demo-microsoft-sentinel"></a>데모: Microsoft Sentinel
 
@@ -121,9 +121,9 @@ Microsoft Sentinel 인스턴스를 만든 후에는 Microsoft Sentinel을 지원
 
 1. 창의 왼쪽 위 모서리에서 파란색 막대 바로 아래에 있는 **홈** 을 선택하여 Azure Portal 홈페이지로 돌아갑니다.
 
-### <a name="task-6"></a>작업 6
+### <a name="post-course-delivery-tear-down"></a>과정 제공 후 리소스 정리
 
-과정 제공 후 리소스 정리. Microsoft Sentinel의 대금은 Microsoft Sentinel에서 분석용으로 수집되는 데이터의 양을 기준으로 청구됩니다. 이 데모에서 수집되는 데이터의 양은 미미한 수준이지만, Microsoft Sentinel의 기능을 모두 살펴본 후에는 Microsoft Sentinel 리소스 그룹을 삭제하는 것이 좋습니다.
+Microsoft Sentinel의 대금은 Microsoft Sentinel에서 분석용으로 수집되는 데이터의 양을 기준으로 청구됩니다. 이 데모에서 수집되는 데이터의 양은 미미한 수준이지만, 과정 제공을 완료한 후에는 Microsoft Sentinel 리소스 그룹을 삭제하는 것이 좋습니다.
 
 1. Microsoft Sentinel 페이지 왼쪽 위 모서리의 Microsoft Sentinel 위에 있는 **모든 서비스** 를 선택합니다.
 

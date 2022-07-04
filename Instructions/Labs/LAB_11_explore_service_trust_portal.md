@@ -2,12 +2,12 @@
 lab:
   title: Service Trust Portal 살펴보기
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381231"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649948"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>랩: Service Trust Portal 살펴보기
 
@@ -55,7 +55,7 @@ ms.locfileid: "146381231"
 
 1. Microsoft의 약정에 대한 정보가 표시됩니다.  여기에서 **Microsoft 개인 정보 보호에 대해 자세히 알아보기** 를 선택합니다.  페이지를 스크롤하면서 다양한 링크를 탐색하며 Microsoft의 개인 정보 보호에 대해 자세히 알아보세요.
 
-1. 브라우저 창을 닫아 Service Trust Portal 및 보안 센터를 종료합니다.
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

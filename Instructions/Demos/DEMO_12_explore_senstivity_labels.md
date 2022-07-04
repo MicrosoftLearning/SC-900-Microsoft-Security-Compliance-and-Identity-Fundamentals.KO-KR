@@ -2,18 +2,18 @@
 Demo:
   title: Microsoft Purview의 민감도 레이블
   module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 9dbcb385f5f4545942ecd38fe5fc0ad17e2934a3
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557197"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649960"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>데모: Microsoft Purview의 민감도 레이블
 
 ## <a name="demo-scenario"></a>데모 시나리오
 
-이 데모에서는 민감도 레이블 기능에 대해 알아봅니다.  이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.   그런 후 레이블을 적용하는 방법과 해당 레이블이 사용자에게 주는 영향을 파악합니다.
+이 데모에서는 민감도 레이블 기능에 대해 알아봅니다.  이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.   그런 후 레이블을 적용하는 방법과 해당 레이블이 사용자에게 주는 영향을 파악합니다.  **참고**: Microsoft 365 테넌트에서 Word Online을 처음 사용하는 경우 민감도 옵션이 리본에 표시되는 데 15분이 걸릴 수 있습니다.  발표자는 수업 전에 데모 2부를 실행하여 옵션이 표시되기까지 충분한 시간을 확보해야 합니다.
 
 ### <a name="demo-part-1"></a>데모 1부
 
