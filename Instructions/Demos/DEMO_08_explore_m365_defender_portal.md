@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft 365 Defender 포털
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 400cf70f7d8d305ad85c1697115e1861a0569a9c
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557316"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892407"
 ---
+<a name="---"></a><!---
+---
+데모: 제목: ‘Microsoft 365 Defender 포털’ 모듈: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 4: Microsoft 365의 위협 방지 기능 설명, 단원 7: Microsoft 365 Defender 포털 설명’
+---
+--->
+
 # <a name="demo-the-microsoft-365-defender-portal"></a>데모: Microsoft 365 Defender 포털
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 보안 솔루션의 기능 설명
+- 모듈: Microsoft 365의 위협 방지 기능 설명
+- 단원: Microsoft 365 Defender 포털 설명
 
 ## <a name="demo-scenario"></a>데모 시나리오
 

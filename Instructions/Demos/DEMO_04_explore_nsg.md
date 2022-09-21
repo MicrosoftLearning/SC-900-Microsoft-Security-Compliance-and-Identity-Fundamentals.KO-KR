@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure NSG(네트워크 보안 그룹)
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 34a08ed5a6edd845087e4ed4b5d94d4f06bc8f89
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: ce07082f318bbb7b96e3eac0d8f549795bdf488d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695308"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892438"
 ---
+<a name="---"></a><!---
+---
+데모: 제목: ‘Azure NSG(네트워크 보안 그룹)’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 보안 솔루션의 기능을 설명, 모듈 1: Azure의 기본 보안 기능을 설명, 단원 6: Azure 네트워크 보안 그룹 설명’
+---
+--->
+
 # <a name="demo-azure-network-security-groups-nsgs"></a>데모: Azure NSG(네트워크 보안 그룹)
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 보안 솔루션의 기능 설명
+- 모듈: Azure의 기본적인 보안 기능 설명
+- 단원: Azure 네트워크 보안 그룹 설명
 
 ## <a name="demo-scenario"></a>데모 시나리오
 

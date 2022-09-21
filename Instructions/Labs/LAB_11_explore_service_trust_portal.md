@@ -1,15 +1,22 @@
 ---
-lab:
-  title: Service Trust Portal 살펴보기
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649948"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892692"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Service Trust Portal 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수 기능 설명, 모듈 1: Microsoft의 규정 준수 관리 기능을 설명, 단원 2: Service Trust Portal 살펴보기’
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>랩: Service Trust Portal 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+학습 경로: Microsoft 규정 준수 모듈의 기능 설명: Microsoft 단위의 규정 준수 관리 기능 설명: Service Trust Portal 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
 

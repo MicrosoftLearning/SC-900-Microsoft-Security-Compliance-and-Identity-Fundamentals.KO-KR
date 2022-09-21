@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Active Directory 셀프 서비스 암호 재설정
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557221"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892140"
 ---
-# <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>데모: Azure Active Directory SSPR(셀프 서비스 암호 재설정)
+<a name="---"></a><!---
+---
+데모: 제목: ‘Azure AD SSPR(셀프 서비스 암호 재설정)’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능 설명, 모듈 2: Azure AD 인증 기능에 대해 설명, 단원 4: Azure AD 셀프 서비스 암호 재설정 설명’
+---
+--->
+
+# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>데모: Azure AD SSPR(셀프 서비스 암호 재설정)
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명합니다.
+- 모듈: Azure AD의 인증 기능 설명
+- 단원: Azure AD의 셀프 서비스 암호 재설정 설명
 
 ## <a name="demo-scenario"></a>데모 시나리오
 

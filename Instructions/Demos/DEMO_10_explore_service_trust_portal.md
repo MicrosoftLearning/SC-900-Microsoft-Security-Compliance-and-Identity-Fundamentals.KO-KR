@@ -1,15 +1,22 @@
 ---
-Demo:
-  title: Service Trust Portal
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 1921bf877f96a8c4a3fae0b3966977bbc38588a5
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381243"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892452"
 ---
+<a name="---"></a><!---
+---
+데모: 제목: ‘Service Trust Portal’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수 기능 설명, 모듈 1: Microsoft의 규정 준수 관리 기능을 설명, 단원 2: Service Trust Portal 살펴보기’
+---
+--->
+
 # <a name="demo-service-trust-portal"></a>데모: Service Trust Portal
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+학습 경로: Microsoft 규정 준수 모듈의 기능 설명: Microsoft 단위의 규정 준수 관리 기능 설명: Service Trust Portal 살펴보기
 
 ## <a name="demo-scenario"></a>데모 시나리오
 

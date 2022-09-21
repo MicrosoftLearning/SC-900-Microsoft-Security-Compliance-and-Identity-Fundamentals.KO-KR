@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4f0c9c57619e1dc8c44ce86b97e4ac9a5488e189
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741834"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892380"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Microsoft Purview 규정 준수 포털 및 준수 관리자 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수 기능 설명, 모듈 2: Microsoft Purview의 규정 준수 관리 기능에 대해 설명, 단원 2: Microsoft Purview 규정 준수 포털 설명’
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>랩: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 규정 준수의 기능 설명
+- 모듈: Microsoft Purview의 규정 준수 관리 기능 설명
+- 단원: Microsoft Purview 규정 준수 포털 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 

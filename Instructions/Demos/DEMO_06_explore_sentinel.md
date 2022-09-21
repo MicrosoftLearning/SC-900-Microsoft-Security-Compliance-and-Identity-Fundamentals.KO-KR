@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 74c3f339580c0eed60eedfe1f19871fa115951fe
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649996"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892392"
 ---
+<a name="---"></a><!---
+---
+데모: 제목: ‘Microsoft Sentinel’ 학습 경로/모듈/제목: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 3: Microsoft Sentinel의 보안 기능에 대해 설명, 단원 3: Microsoft Sentinel이 통합 위협 관리를 제공하는 방법 설명’
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>데모: Microsoft Sentinel
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 보안 솔루션의 기능 설명
+- 모듈: Microsoft Sentinel의 보안 기능을 설명합니다.
+- 단원: Microsoft Sentinel에서 통합된 위협 관리를 제공하는 방법 설명
 
 ## <a name="demo-scenario"></a>데모 시나리오
 

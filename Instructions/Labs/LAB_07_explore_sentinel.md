@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft Sentinel 살펴보기
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: dfa993671d905ed8bad138376c8cd71b1aa23d85
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741870"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892645"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Microsoft Sentinel 탐색하기’ 학습 경로/모듈/제목: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 3: Microsoft Sentinel의 보안 기능에 대해 설명, 단원 3: Microsoft Sentinel이 통합 위협 관리를 제공하는 방법 설명’
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>랩: Microsoft Sentinel 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 보안 솔루션의 기능 설명
+- 모듈: Microsoft Sentinel의 보안 기능을 설명합니다.
+- 단원: Microsoft Sentinel에서 통합된 위협 관리를 제공하는 방법 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 

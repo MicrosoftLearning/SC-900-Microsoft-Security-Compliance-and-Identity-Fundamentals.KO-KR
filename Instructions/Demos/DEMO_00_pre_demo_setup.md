@@ -1,15 +1,20 @@
 ---
-Pre-Demo Setup:
-  title: 데모 설정
-ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458327"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892476"
 ---
+<a name="---"></a><!---
+---
+데모 전 설정: 제목: ‘데모 설정’
+---
+--->
+
 ## <a name="pre-demo-setup"></a>데모 전 설정
-이 설정은 두 개의 별도 작업으로 구성됩니다.  첫 번째 작업이 적용되며 랩 환경에 Azure Pass 사용이 포함된 경우에만 권장됩니다. 두 번째 작업은 Microsoft 감사 로그를 사용하도록 설정하는 데 중점을 두며, 환경이 Azure Pass를 사용하는지 여부에 관계없이 적용하는 것이 좋습니다.
+
+이 설정은 두 개의 별도 작업으로 구성됩니다.  첫 번째 작업이 적용되며 데모 환경에 Azure Pass 사용이 포함된 경우에만 권장됩니다. 두 번째 작업은 Microsoft 감사 로그를 사용하도록 설정하는 데 중점을 두며, 환경이 Azure Pass를 사용하는지 여부에 관계없이 적용하는 것이 좋습니다.
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>설정 1부 - Azure Pass 사용
 

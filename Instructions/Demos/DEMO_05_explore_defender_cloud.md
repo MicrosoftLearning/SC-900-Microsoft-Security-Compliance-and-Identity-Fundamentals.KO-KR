@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: 클라우드용 Microsoft Defender'
-  module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: ff5145e967445c12dacd90ea50002fe0c3042efb
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: ecea12b9b90c6dc3917d0ee93edcdba0436ccd0d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741906"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892464"
 ---
+<a name="---"></a><!---
+---
+데모: 제목: ‘클라우드용 Microsoft Defender’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 2: Azure의 보안 관리 기능에 대해 설명, 단원 3: 클라우드용 Microsoft Defender 설명’
+---
+--->
+
 # <a name="demo-microsoft-defender-for-cloud"></a>데모: 클라우드용 Microsoft Defender
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 보안 솔루션의 기능 설명
+- 모듈: Azure 보안 관리 기능에 대해 설명합니다.
+- 단원: 클라우드용 Microsoft Defender 설명
 
 ## <a name="demo-scenario"></a>데모 시나리오
 

@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542678"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892212"
 ---
+<a name="---"></a><!---
+---
+데모: 제목: ‘Azure Policy’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 6: Azure의 리소스 거버넌스 기능에 대해 설명, 단원 2: Azure Policy 설명’
+---
+--->
+
 # <a name="demo-azure-policy"></a>데모: Azure Policy
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 규정 준수의 기능 설명
+- 모듈: Azure의 리소스 거버넌스 기능 설명
+- 단원: Azure Policy 설명
 
 ## <a name="demo-scenario"></a>데모 시나리오
 

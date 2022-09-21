@@ -1,15 +1,24 @@
 ---
-lab:
-  title: '클라우드용 Microsoft Defender 앱 살펴보기 '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c6b9e816596c74199123b21a9fcb07a5d33a725c
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650068"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892632"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘클라우드용 Microsoft Defender 앱 탐색하기’ 모듈: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 4: Microsoft 365의 위협 방지 기능 설명, 단원 5: 클라우드용 Microsoft Defender 앱 설명’
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>랩: 클라우드용 Microsoft Defender 앱 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 보안 솔루션의 기능 설명
+- 모듈: Microsoft 365의 위협 방지 기능 설명
+- 단원: 클라우드용 Microsoft Defender 앱 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 

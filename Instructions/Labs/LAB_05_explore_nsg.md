@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Azure NSG(네트워크 보안 그룹) 살펴보기
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 47f71fdf1587a240803bb508a902ce098253793d
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: d2377516343cb85c279c1a2d6347c59f573d73c7
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695296"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892200"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Azure NSG(네트워크 보안 그룹) 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 보안 솔루션의 기능을 설명, 모듈 1: Azure의 기본 보안 기능 설명, 단원 6: Azure 네트워크 보안 그룹 설명’
+---
+--->
+
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>랩: Azure NSG(네트워크 보안 그룹) 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 보안 솔루션의 기능 설명
+- 모듈: Azure의 기본적인 보안 기능 설명
+- 단원: Azure 네트워크 보안 그룹 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 

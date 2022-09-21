@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Purview의 민감도 레이블
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 9dbcb385f5f4545942ecd38fe5fc0ad17e2934a3
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 7f6827f55ddc30dac37ab7da750a9331477650f1
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649960"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892432"
 ---
+<a name="---"></a><!---
+---
+데모: 제목: ‘Microsoft Purview의 민감도 레이블’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 3: Microsoft Purview의 정보 보호 및 데이터 수명 주기 관리에 대해 설명, 단원 4: 민감도 레이블 설명’
+---
+--->
+
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>데모: Microsoft Purview의 민감도 레이블
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 규정 준수의 기능 설명
+- 모듈: Microsoft Purview에서 정보 보호 및 데이터 수명 주기 관리 설명
+- 단원: 민감도 레이블 설명
 
 ## <a name="demo-scenario"></a>데모 시나리오
 
