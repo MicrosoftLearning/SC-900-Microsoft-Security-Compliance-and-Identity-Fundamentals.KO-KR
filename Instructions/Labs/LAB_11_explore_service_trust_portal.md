@@ -1,19 +1,26 @@
 ---
-lab:
-  title: Service Trust Portal 살펴보기
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557209"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892692"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Service Trust Portal 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수 기능 설명, 모듈 1: Microsoft의 규정 준수 관리 기능을 설명, 단원 2: Service Trust Portal 살펴보기’
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>랩: Service Trust Portal 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+학습 경로: Microsoft 규정 준수 모듈의 기능 설명: Microsoft 단위의 규정 준수 관리 기능 설명: Service Trust Portal 살펴보기
 
 ## <a name="lab-scenario"></a>랩 시나리오
 
-이 랩에서는 Service Trust Portal에서 제공되는 기능과 콘텐츠를 살펴봅니다. 또한 보안 센터를 살펴보고 개인 정보 관련 6가지 핵심 원칙에 대해 알아봅니다.
+이 랩에서는 Service Trust Portal에서 제공되는 기능과 콘텐츠를 살펴봅니다. 보안 센터를 방문하여 Microsoft의 개인 정보 보호에 대한 정보도 확인합니다.
 
 **예상 소요 시간:** 10~15분
 
@@ -49,20 +56,14 @@ ms.locfileid: "144557209"
 
 ### <a name="task-2"></a>작업 2
 
-이 작업에서는 보안 센터를 살펴보고 Microsoft의 개인 정보 관련 6가지 핵심 원칙에 대해 알아봅니다.
+이 작업에서는 보안 센터를 방문하여 Microsoft의 개인 정보를 탐색합니다.
 
-1. Service Trust Portal 페이지 위쪽에서 **보안 센터** 를 선택하고 **홈** 을 선택합니다. 그러면 열리는 새 브라우저 탭에 보안 센터가 표시됩니다. 보안 센터에서는 Microsoft 클라우드의 보안, 규정 준수 및 개인 정보 관련 추가 정보를 확인할 수 있습니다.
+1. Service Trust Portal 페이지 위쪽에서 **보안 센터** 를 선택하고 **홈** 을 선택합니다. 그러면 새 브라우저 탭이 열리면서 보안 센터로 이동합니다. 여기에서 개인 정보 보호 등에 관해 자세히 볼 수 있습니다.  
 
-1. 페이지 위쪽에서 **개인 정보** 를 선택하고 **리소스** 를 선택합니다.
+1. Microsoft의 약정에 대한 정보가 표시됩니다.  여기에서 **Microsoft 개인 정보 보호에 대해 자세히 알아보기** 를 선택합니다.  페이지를 스크롤하면서 다양한 링크를 탐색하며 Microsoft의 개인 정보 보호에 대해 자세히 알아보세요.
 
-1. **추가 개인 정보 리소스** 를 선택합니다.
-
-1. **Microsoft의 개인 정보 보호 방식** 을 선택합니다.
-
-1. 개인 정보 관련 6가지 핵심 원칙을 검토합니다.
-
-1. 브라우저 창을 닫아 Service Trust Portal 및 보안 센터를 종료합니다.
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 
-이 랩에서는 Service Trust Portal에서 제공되는 몇 가지 옵션을 살펴보았습니다. 또한 보고서에 액세스하는 방법과, 내 라이브러리를 사용하여 나중에 검토할 수 있도록 문서를 저장하는 방법도 알아보았습니다.  그리고 보안 센터를 방문한 후 Microsoft의 개인 정보 관련 원칙에 액세스하여 해당 내용을 검토했습니다.
+이 랩에서는 Service Trust Portal에서 제공되는 몇 가지 옵션을 살펴보았습니다. 또한 보고서에 액세스하는 방법과, 내 라이브러리를 사용하여 나중에 검토할 수 있도록 문서를 저장하는 방법도 알아보았습니다.  그리고 보안 센터를 방문하여 Microsoft의 개인 정보 보호에 관한 정보에 액세스하여 내용을 검토했습니다.

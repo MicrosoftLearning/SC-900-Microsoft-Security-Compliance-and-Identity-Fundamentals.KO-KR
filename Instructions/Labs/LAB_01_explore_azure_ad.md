@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Azure Active Directory 살펴보기
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e70692d55a6d1ef5d89fde484234bf937cef981d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557293"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892248"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Azure Active Directory 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능 설명, 모듈 1: Azure AD 기본 서비스 및 ID 유형을 설명, 단원 4: Azure AD ID 유형 설명’
+---
+--->
+
 # <a name="lab-explore-azure-active-directory"></a>랩: Azure Active Directory 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명합니다.
+- 모듈: Azure AD의 기본 서비스 및 ID 유형 설명
+- 단원: Azure AD ID 유형 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 

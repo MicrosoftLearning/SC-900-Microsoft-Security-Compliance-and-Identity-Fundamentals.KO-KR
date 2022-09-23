@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Azure AD에서 조건부 액세스를 사용하는 액세스 관리 살펴보기
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557280"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892164"
 ---
+<a name="---"></a><!---
+---
+랩: 학습 경로: ‘Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능 설명’ 모듈: ‘Azure AD의 액세스 관리 기능 설명’ 단원: ‘Azure AD 조건부 액세스 설명’
+---
+--->
+
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>랩: 조건부 액세스를 통한 Azure AD의 액세스 관리 방식 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명합니다.
+- 모듈: Azure AD의 액세스 관리 기능 설명
+- 단원: Azure AD의 조건부 액세스 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 
@@ -28,7 +37,7 @@ ms.locfileid: "144557280"
     1. 랩 호스팅 공급자가 제공한 관리자 암호를 입력합니다. **로그인** 을 선택합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다.
 
-3. **Azure Active Directory** 를 선택합니다.  
+3. 화면의 왼쪽 위 모서리의 Microsoft Azure 옆에 있는 포털 표시 메뉴 아이콘(햄버거 아이콘이라고도 하는 세 개의 가로줄)을 선택한 다음, 왼쪽 탐색 패널에서 즐겨찾기에서 Azure Active Directory를 선택합니다. 즐겨찾기 아래에 나열되지 않은 경우 검색 상자에 Azure Active Directory를 입력한 다음, 결과 목록에서 **Azure Active Directory** 를 선택합니다.
 
 4. 왼쪽 탐색 패널에서 **사용자** 를 선택합니다.
 

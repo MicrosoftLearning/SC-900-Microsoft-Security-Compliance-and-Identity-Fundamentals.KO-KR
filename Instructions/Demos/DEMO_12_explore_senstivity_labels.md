@@ -1,19 +1,28 @@
 ---
-Demo:
-  title: Microsoft Purview의 민감도 레이블
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7f6827f55ddc30dac37ab7da750a9331477650f1
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557197"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892432"
 ---
+<a name="---"></a><!---
+---
+데모: 제목: ‘Microsoft Purview의 민감도 레이블’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 3: Microsoft Purview의 정보 보호 및 데이터 수명 주기 관리에 대해 설명, 단원 4: 민감도 레이블 설명’
+---
+--->
+
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>데모: Microsoft Purview의 민감도 레이블
+
+이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 규정 준수의 기능 설명
+- 모듈: Microsoft Purview에서 정보 보호 및 데이터 수명 주기 관리 설명
+- 단원: 민감도 레이블 설명
 
 ## <a name="demo-scenario"></a>데모 시나리오
 
-이 데모에서는 민감도 레이블 기능에 대해 알아봅니다.  이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.   그런 후 레이블을 적용하는 방법과 해당 레이블이 사용자에게 주는 영향을 파악합니다.
+이 데모에서는 민감도 레이블 기능에 대해 알아봅니다.  이미 작성되어 있는 기존 민감도 레이블의 설정, 그리고 레이블 게시를 위한 해당 정책을 살펴봅니다.   그런 후 레이블을 적용하는 방법과 해당 레이블이 사용자에게 주는 영향을 파악합니다.  **참고**: Microsoft 365 테넌트에서 Word Online을 처음 사용하는 경우 민감도 옵션이 리본에 표시되는 데 15분이 걸릴 수 있습니다.  발표자는 수업 전에 데모 2부를 실행하여 옵션이 표시되기까지 충분한 시간을 확보해야 합니다.
 
 ### <a name="demo-part-1"></a>데모 1부
 

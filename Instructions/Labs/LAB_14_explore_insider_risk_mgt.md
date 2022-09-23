@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft Purview의 내부 위험 관리 기능 살펴보기
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557545"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892704"
 ---
+<a name="---"></a><!--->
+---
+랩: 제목: ‘Microsoft Purview에서 내부자 위험 관리 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 4: Microsoft Purview의 내부 위험 기능에 대해 설명, 단원 2: 내부자 위험 관리 설명’
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>랩: Microsoft Purview의 내부 위험 관리 기능 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 규정 준수의 기능 설명
+- 모듈: Microsoft Purview의 내부 위험 기능 설명
+- 단원: 내부 위험 관리 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 
@@ -35,7 +44,7 @@ ms.locfileid: "144557545"
 
 1. Microsoft Purview 규정 준수 포털의 왼쪽 탐색 창에서 **권한** 을 선택합니다.
 
-1. 권한 및 역할 페이지의 규정 준수 센터에서 **역할** 을 선택합니다.
+1. 권한 및 역할 페이지에서 “규정 준수 센터에서 솔루션 관련 작업을 수행하는 데 사용되는 역할 보기 및 관리”가 표시됩니다. **역할** 을 선택합니다.
 
 1. 검색 필드에 **내부 위험** 을 입력하고 검색 아이콘(돋보기)을 선택합니다.  표시되는 수많은 역할을 확인합니다.  각 역할의 액세스 수준은 서로 다릅니다.  **내부 위험 관리** 를 선택합니다.
 
@@ -115,6 +124,8 @@ ms.locfileid: "144557545"
 1. 그러면 내부 위험 관리 페이지의 정책 탭이 다시 표시됩니다.  그리고 방금 만든 정책이 표시됩니다.  
 
 1. 방금 만든 정책에 따라 현재 위험 점수가 할당되어 있는 사용자가 "범위 내의 사용자" 필드에 표시됩니다.  정책이 트리거되면 사용자에게 위험 점수가 할당됩니다. 따라서 현재는 점수의 값이 0으로 표시됩니다.  관리자는 선택한 정책에서 검색하는 활동에 따라 특정 사용자를 대상으로 위험 점수 할당을 시작하도록 정책을 구성할 수 있습니다. 이렇게 하면 트리거 이벤트가 먼저 검색되어야 점수가 할당되는 요구 사항이 무시됩니다.  이렇게 하려면 정책 이름 옆의 빈 원을 선택하여 정책을 선택한 후 정책 테이블 위에 표시되어 있는 **사용자의 활동 채점 시작** 을 선택합니다.  각 필드에 내용을 입력하고 **활동 채점 시작** 을 선택합니다.  '사용자' 탭에 사용자가 표시될 때까지는 최대 24시간이 걸릴 수 있습니다. 이 시간이 지나면 해당 탭에서 사용자를 선택하여 검색된 활동을 검토할 수 있습니다.  창 하단에서 **닫기** 를 선택합니다.
+
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

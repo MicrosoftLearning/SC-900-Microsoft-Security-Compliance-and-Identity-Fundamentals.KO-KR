@@ -1,15 +1,24 @@
 ---
-lab:
-  title: eDiscovery (표준) 워크플로 살펴보기
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557605"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892667"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘eDiscovery(표준) 워크플로 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능을 설명, 모듈 5: Microsoft Purview의 eDiscovery 및 감사 기능에 대해 설명, 단원 2: Microsoft 365의 eDiscovery 솔루션 설명’
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>랩: eDiscovery (표준) 워크플로 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 규정 준수의 기능 설명
+- 모듈: Microsoft Purview의 eDiscovery 및 감사 기능 설명
+- 단원: Microsoft 365의 eDiscovery 솔루션 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 
@@ -126,6 +135,8 @@ eDiscovery (표준)에 액세스하거나 eDiscovery 사례의 멤버로 추가�
     1. 두 번째 필드에서는 내보내기 파일을 저장할 위치를 선택하고 **시작** 을 선택합니다.  다운로드 프로세스가 완료되면 **닫기** 를 선택하여 이 브라우저 탭을 닫습니다.
     1. 그러면 "Test Hold - Sales Search_Export" 창이 다시 표시됩니다.  **닫기** 를 선택합니다.
     1. 다운로드 위치로 이동하여 다운로드가 정상적으로 완료되었는지 확인합니다.
+
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

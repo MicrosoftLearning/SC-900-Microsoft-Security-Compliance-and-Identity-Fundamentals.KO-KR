@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Azure Policy 살펴보기
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557522"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892152"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Azure Policy 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 6: Azure의 리소스 거버넌스 기능에 대해 설명, 단원 2: Azure Policy 설명’
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>랩: Azure Policy 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 규정 준수의 기능 설명
+- 모듈: Azure의 리소스 거버넌스 기능 설명
+- 단원: Azure Policy 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 
@@ -21,7 +30,7 @@ Azure Policy를 사용하면 조직의 표준을 적용하고 규정 준수를 �
 
 Azure Policy 페이지를 간략하게 살펴봅니다.
 
-1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.microsoft.com** 을 입력합니다.
+1. Microsoft Edge를 엽니다. 주소 표시줄에 **portal.azure.com** 을 입력합니다.
 
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
@@ -125,6 +134,8 @@ Azure Policy 페이지를 간략하게 살펴봅니다.
     1. Azure 서비스 아래에서 Azure Policy를 선택합니다.
     1. 페이지 가운데 부분에 Azure 정책/이니셔티브 할당 목록이 표시됩니다.  리소스 그룹에 태그 필요 정책 할당의 줄임표를 선택하고 할당 삭제를 선택합니다.
     1. 할당 삭제를 확인하라는 메시지가 표시됩니다.  예를 선택합니다.
+
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

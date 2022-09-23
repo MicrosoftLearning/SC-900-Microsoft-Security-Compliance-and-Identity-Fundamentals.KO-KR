@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 'Privileged Identity Management를 통한 Azure AD의 ID 거버넌스 방식 살펴보기 '
-  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e3ea450ebe43fa107a828166c32cfcac8d26e580
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557269"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892224"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Privileged Identity Management를 사용하여 Azure AD의 ID 거버넌스 살펴보기 ’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명, 모듈 4: Azure AD ID 보호 및 거버넌스 기능에 대해 설명, 단원 4: Privileged Identity Management 기능 설명’
+---
+--->
+
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>랩: Privileged Identity Management를 통한 Azure AD의 ID 거버넌스 방식 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명합니다.
+- 모듈: Azure AD의 ID 보호 및 거버넌스 기능 설명
+- 단원: Privileged Identity Management의 기능 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 

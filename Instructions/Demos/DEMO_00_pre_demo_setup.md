@@ -1,18 +1,24 @@
 ---
-Pre-Demo Setup:
-  title: 데모 설정
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557257"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892476"
 ---
-# <a name="pre-demo-setup"></a>데모 전 설정
+<a name="---"></a><!---
+---
+데모 전 설정: 제목: ‘데모 설정’
+---
+--->
 
-## <a name="setup-part-1---redeem-azure-pass"></a>설정 1부 - Azure Pass 사용
+## <a name="pre-demo-setup"></a>데모 전 설정
 
-이 설정 작업에서는 Microsoft 365 테넌트와 같은 자격 증명을 통해 Azure Pass를 사용합니다.  그러면 Microsoft 365와 Azure 간을 이동하면서 작업할 때 더욱 원활한 환경을 이용할 수 있습니다.
+이 설정은 두 개의 별도 작업으로 구성됩니다.  첫 번째 작업이 적용되며 데모 환경에 Azure Pass 사용이 포함된 경우에만 권장됩니다. 두 번째 작업은 Microsoft 감사 로그를 사용하도록 설정하는 데 중점을 두며, 환경이 Azure Pass를 사용하는지 여부에 관계없이 적용하는 것이 좋습니다.
+
+### <a name="setup-part-1---redeem-azure-pass"></a>설정 1부 - Azure Pass 사용
+
+이 작업은 적용되며 사용 중인 데모 환경에 Azure Pass가 포함된 경우에만 권장됩니다. 이 작업에서는 Microsoft 365 테넌트와 같은 자격 증명을 통해 Azure Pass를 사용합니다.  그러면 Microsoft 365와 Azure 간을 이동하면서 작업할 때 더욱 원활한 환경을 이용할 수 있습니다.
 
 1. 브라우저 창이 열려 있으면 모든 브라우저를 닫는 것이 좋습니다.
 

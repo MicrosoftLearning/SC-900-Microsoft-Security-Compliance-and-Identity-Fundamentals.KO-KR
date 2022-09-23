@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 셀프 서비스 암호 재설정을 사용하는 Azure AD 인증 방식 살펴보기
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557473"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892176"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘셀프 서비스 암호 재설정을 사용하여 Azure AD 인증 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능을 설명, 모듈 2: Azure AD의 인증 기능에 대해 설명, 단원 4: Azure AD 셀프 서비스 암호 재설정에 대해 설명’
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>랩: 셀프 서비스 암호 재설정을 사용하는 Azure AD 인증 방식 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명합니다.
+- 모듈: Azure AD의 인증 기능 설명
+- 단원: Azure AD의 셀프 서비스 암호 재설정 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 
@@ -97,7 +106,7 @@ ms.locfileid: "144557473"
 2. 주소 표시줄에 **login.microsoftonline.com** 을 입력합니다.
 
 3. Adele Vance로 로그인합니다.
-    1. 로그인 창에 **AdedleV@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
+    1. 로그인 창에 **AdeleV@WWLxZZZZZZ.onmicrosoft.com** 을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음** 을 선택합니다.
     1. 이전 작업에서 적어 둔 암호를 입력합니다. **로그인** 을 선택합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예** 를 선택합니다.
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft Purview의 민감도 레이블 살펴보기
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557593"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892655"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Microsoft Purview에서 민감도 레이블 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 3: Microsoft Purview의 정보 보호 및 데이터 수명 주기 관리에 대해 설명, 단원 4: 민감도 레이블 설명’
+---
+--->
+
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>랩: Microsoft Purview의 민감도 레이블 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 규정 준수의 기능 설명
+- 모듈: Microsoft Purview에서 정보 보호 및 데이터 수명 주기 관리 설명
+- 단원: 민감도 레이블 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 
@@ -88,7 +97,7 @@ ms.locfileid: "144557593"
 
 1. **+ 새로 만들기** 를 선택하고 페이지에 텍스트를 입력합니다.  페이지 위쪽의 파란색 막대에서 '문서XX - 저장됨' 옆의 드롭다운을 선택하고 파일 이름 상자에 **Test-label** 을 입력합니다.
 
-1. 위쪽 메뉴 모음에서 **민감도** 를 선택합니다. 이 옵션이 바로 표시되지 않으면 페이지를 새로 고칩니다. 드롭다운에서 **기밀 - 재무** 를 선택합니다.
+1. 위쪽 메뉴 모음에서 **민감도** 를 선택합니다. 이 옵션이 바로 표시되지 않으면 페이지를 새로 고칩니다. 드롭다운에서 **기밀 - 재무** 를 선택합니다.  참고:  민감도 옵션을 표시하는 데 최대 15분이 걸릴 수 있습니다.
 
 1. 위쪽 메뉴 모음에서 **보기** 를 선택한 다음 **읽기용 보기** 를 선택합니다.
 
@@ -112,7 +121,7 @@ ms.locfileid: "144557593"
 
 1. 랩 VM에서 웹 브라우저를 사용하여, 문서를 보낸 이메일 계정에 로그인합니다.  이메일이 정크 폴더로 이동되었을 수도 있습니다.  첨부한 Word 파일을 열려고 하면 문서를 열 권한이 없다는 알림이 표시됩니다.
 
-1. 열려 있는 브라우저 탭을 닫습니다.
+1. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 

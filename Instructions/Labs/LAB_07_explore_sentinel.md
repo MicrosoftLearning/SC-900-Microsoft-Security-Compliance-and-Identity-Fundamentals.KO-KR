@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Microsoft Sentinel 살펴보기
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557161"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892645"
 ---
+<a name="---"></a><!---
+---
+랩: 제목: ‘Microsoft Sentinel 탐색하기’ 학습 경로/모듈/제목: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 3: Microsoft Sentinel의 보안 기능에 대해 설명, 단원 3: Microsoft Sentinel이 통합 위협 관리를 제공하는 방법 설명’
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>랩: Microsoft Sentinel 살펴보기
+
+이 랩은 다음 Learn 콘텐츠에 매핑됩니다.
+
+- 학습 경로: Microsoft 보안 솔루션의 기능 설명
+- 모듈: Microsoft Sentinel의 보안 기능을 설명합니다.
+- 단원: Microsoft Sentinel에서 통합된 위협 관리를 제공하는 방법 설명
 
 ## <a name="lab-scenario"></a>랩 시나리오
 
@@ -137,7 +146,7 @@ Microsoft Sentinel의 대금은 Microsoft Sentinel에서 분석용으로 수집�
 
 4. 페이지 위쪽 가운데의 **리소스 그룹 삭제** 를 선택합니다.  경고를 검토합니다.  리소스 그룹 이름 **SC900-ResourceGroup** 을 입력하고 페이지 아래쪽에서 **삭제** 를 선택합니다.  리소스 그룹을 삭제하려면 몇 분 정도 걸립니다.
 
-5. 리소스 그룹이 삭제되었음을 확인한 후 브라우저 페이지를 닫습니다.
+5. 열려 있는 브라우저 탭을 모두 닫습니다.
 
 ### <a name="review"></a>검토
 
