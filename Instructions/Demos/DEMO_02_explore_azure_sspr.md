@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892140"
----
 <a name="---"></a><!---
 ---
 데모: 제목: ‘Azure AD SSPR(셀프 서비스 암호 재설정)’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능 설명, 모듈 2: Azure AD 인증 기능에 대해 설명, 단원 4: Azure AD 셀프 서비스 암호 재설정 설명’
