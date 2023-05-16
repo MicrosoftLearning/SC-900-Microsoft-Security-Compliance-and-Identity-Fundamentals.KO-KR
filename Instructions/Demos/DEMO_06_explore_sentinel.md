@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-데모: 제목: ‘Microsoft Sentinel’ 학습 경로/모듈/제목: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 3: Microsoft Sentinel의 보안 기능에 대해 설명, 단원 3: Microsoft Sentinel이 통합 위협 관리를 제공하는 방법 설명’
+demo:
+  title: 'Microsoft Sentinel'
+  module: '모듈 3: Microsoft Sentinel의 보안 기능에 대해 설명'
 ---
---->
+
 
 # <a name="demo-microsoft-sentinel"></a>데모: Microsoft Sentinel
 

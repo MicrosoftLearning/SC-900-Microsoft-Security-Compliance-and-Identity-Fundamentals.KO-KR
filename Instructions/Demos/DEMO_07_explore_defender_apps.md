@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-데모: 제목: ‘클라우드용 Microsoft Defender 앱 ’ 모듈: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 4: Microsoft 365의 위협 방지 기능 설명, 단원 5: 클라우드용 Microsoft Defender 앱 설명’
+demo:
+  title: '클라우드용 Microsoft Defender 앱'
+  module: '모듈 4: Microsoft 365의 위협 방지 기능 설명'
 ---
---->
+
 
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>데모: Microsoft Defender for Cloud Apps
 

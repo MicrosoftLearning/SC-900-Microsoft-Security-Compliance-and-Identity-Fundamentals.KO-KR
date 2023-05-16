@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-랩: 학습 경로: ‘Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능 설명’ 모듈: ‘Azure AD의 액세스 관리 기능 설명’ 단원: ‘Azure AD 조건부 액세스 설명’
+lab:
+  title: 'Azure AD의 액세스 관리 기능 설명'
+  module: 'Azure AD의 액세스 관리 기능 설명'
 ---
---->
+
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>랩: Azure AD에서 조건부 액세스를 사용하는 액세스 관리 살펴보기
 

@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-랩: 제목: ‘Service Trust Portal 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수 기능 설명, 모듈 1: Microsoft의 규정 준수 관리 기능을 설명, 단원 2: Service Trust Portal 살펴보기’
+lab:
+  title: 'Service Trust Portal 탐색하기'
+  module: '모듈 1: Microsoft의 규정 준수 관리 기능을 설명'
 ---
---->
+
 
 # <a name="lab-explore-the-service-trust-portal"></a>랩: Service Trust Portal 살펴보기
 

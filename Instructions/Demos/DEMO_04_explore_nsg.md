@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-데모: 제목: ‘Azure NSG(네트워크 보안 그룹)’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 보안 솔루션의 기능을 설명, 모듈 1: Azure의 기본 보안 기능을 설명, 단원 6: Azure 네트워크 보안 그룹 설명’
+demo:
+  title: 'Azure NSG(네트워크 보안 그룹)'
+  module: '모듈 1: Azure의 기본 보안 기능을 설명'
 ---
---->
+
 
 # <a name="demo-azure-network-security-groups-nsgs"></a>데모: Azure NSG(네트워크 보안 그룹)
 

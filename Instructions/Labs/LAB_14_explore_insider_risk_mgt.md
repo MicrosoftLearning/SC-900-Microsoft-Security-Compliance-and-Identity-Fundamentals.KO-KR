@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-랩: 제목: ‘Microsoft Purview에서 내부자 위험 관리 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 4: Microsoft Purview의 내부 위험 기능에 대해 설명, 단원 2: 내부자 위험 관리 설명’
+lab:
+  title: 'Microsoft Purview에서 내부자 위험 관리 탐색하기'
+  module: '모듈 4: Microsoft Purview의 내부 위험 기능에 대해 설명'
 ---
---->
+
 
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>랩: Microsoft Purview의 내부 위험 관리 기능 살펴보기
 

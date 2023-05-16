@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-데모: 제목: ‘Microsoft Purview 규정 준수 포털 및 준수 관리자 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 2: Microsoft Purview의 규정 준수 관리 기능에 대해 설명, 단원 2: Microsoft Purview 규정 준수 포털 설명’
+demo:
+  title: 'Microsoft Purview 규정 준수 포털 및 준수 관리자 탐색하기'
+  module: '모듈 2: Microsoft Purview의 규정 준수 관리 기능에 대해 설명'
 ---
---->
+
 
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>데모: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
 

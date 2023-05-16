@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-랩: 제목: ‘Azure Policy 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 6: Azure의 리소스 거버넌스 기능에 대해 설명, 단원 2: Azure Policy 설명’
+lab:
+  title: 'Azure Policy 탐색하기'
+  module: '모듈 6: Azure의 리소스 거버넌스 기능에 대해 설명'
 ---
---->
+
 
 # <a name="lab-explore-azure-policy"></a>랩: Azure Policy 살펴보기
 

@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-랩: 제목: ‘Privileged Identity Management를 사용하여 Azure AD의 ID 거버넌스 살펴보기 ’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명, 모듈 4: Azure AD ID 보호 및 거버넌스 기능에 대해 설명, 단원 4: Privileged Identity Management 기능 설명’
+lab:
+  title: 'Privileged Identity Management를 사용하여 Azure AD의 ID 거버넌스 살펴보기'
+  module: '모듈 4: Azure AD ID 보호 및 거버넌스 기능에 대해 설명'
 ---
---->
+
 
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>랩: Privileged Identity Management를 통한 Azure AD의 ID 거버넌스 방식 살펴보기
 

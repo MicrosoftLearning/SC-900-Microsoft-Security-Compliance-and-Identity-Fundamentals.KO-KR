@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-데모: 제목: ‘Microsoft Purview의 민감도 레이블’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 3: Microsoft Purview의 정보 보호 및 데이터 수명 주기 관리에 대해 설명, 단원 4: 민감도 레이블 설명’
+demo:
+  title: 'Microsoft Purview의 민감도 레이블'
+  module: '모듈 3: Microsoft Purview의 정보 보호 및 데이터 수명 주기 관리에 대해 설명'
 ---
---->
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>데모: Microsoft Purview의 민감도 레이블
 

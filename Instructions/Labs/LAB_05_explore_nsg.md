@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-랩: 제목: ‘Azure NSG(네트워크 보안 그룹) 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 보안 솔루션의 기능을 설명, 모듈 1: Azure의 기본 보안 기능 설명, 단원 6: Azure 네트워크 보안 그룹 설명’
+lab:
+  title: 'Azure NSG(네트워크 보안 그룹) 탐색하기'
+  module: '모듈 1: Azure의 기본 보안 기능 설명'
 ---
---->
+
 
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>랩: Azure NSG(네트워크 보안 그룹) 살펴보기
 
