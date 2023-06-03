@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure AD 사용자 설정 탐색하기'
-  module: '모듈 1: Azure AD 기본 서비스 및 ID 유형을 설명'
+데모: 제목: ‘Azure AD 사용자 설정 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능을 설명, 모듈 1: Azure AD 기본 서비스 및 ID 유형을 설명, 단원 4: Azure AD ID 유형 설명’
 ---
-
+--->
 
 # <a name="demo-azure-ad-user-settings"></a>데모: Azure AD 사용자 설정
 

@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'eDiscovery(표준) 워크플로 탐색하기'
-  module: '모듈 5: Microsoft Purview의 eDiscovery 및 감사 기능에 대해 설명'
+랩: 제목: ‘eDiscovery(표준) 워크플로 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능을 설명, 모듈 5: Microsoft Purview의 eDiscovery 및 감사 기능에 대해 설명, 단원 2: Microsoft 365의 eDiscovery 솔루션 설명’
 ---
-
+--->
 
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>랩: eDiscovery (표준) 워크플로 살펴보기
 

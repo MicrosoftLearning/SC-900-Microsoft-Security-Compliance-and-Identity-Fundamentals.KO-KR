@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: '클라우드용 Microsoft Defender'
-  module: '모듈 2: Azure의 보안 관리 기능에 대해 설명'
+데모: 제목: ‘클라우드용 Microsoft Defender’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 2: Azure의 보안 관리 기능에 대해 설명, 단원 3: 클라우드용 Microsoft Defender 설명’
 ---
-
+--->
 
 # <a name="demo-microsoft-defender-for-cloud"></a>데모: 클라우드용 Microsoft Defender
 

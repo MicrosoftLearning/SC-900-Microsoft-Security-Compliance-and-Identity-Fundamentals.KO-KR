@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure AD 조건부 액세스'
-  module: '모듈 3: Azure AD 액세스 관리 기능에 대해 설명'
+데모: 제목: ‘Azure AD 조건부 액세스’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명, 모듈 3: Azure AD 액세스 관리 기능에 대해 설명, 단원 2: Azure AD의 조건부 액세스에 대해 설명’
 ---
-
+--->
 
 # <a name="demo-azure-ad-conditional-access"></a>데모: Azure AD 조건부 액세스
 

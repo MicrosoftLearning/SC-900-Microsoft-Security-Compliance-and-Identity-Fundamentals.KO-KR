@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '셀프 서비스 암호 재설정을 사용하여 Azure AD 인증 탐색하기'
-  module: '모듈 2: Azure AD의 인증 기능에 대해 설명'
+랩: 제목: ‘셀프 서비스 암호 재설정을 사용하여 Azure AD 인증 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능을 설명, 모듈 2: Azure AD의 인증 기능에 대해 설명, 단원 4: Azure AD 셀프 서비스 암호 재설정에 대해 설명’
 ---
-
+--->
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>랩: 셀프 서비스 암호 재설정을 사용하는 Azure AD 인증 방식 살펴보기
 

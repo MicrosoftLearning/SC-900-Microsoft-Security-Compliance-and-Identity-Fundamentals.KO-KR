@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Microsoft Sentinel 탐색하기'
-  module: '모듈 3: Microsoft Sentinel의 보안 기능에 대해 설명'
+랩: 제목: ‘Microsoft Sentinel 탐색하기’ 학습 경로/모듈/제목: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 3: Microsoft Sentinel의 보안 기능에 대해 설명, 단원 3: Microsoft Sentinel이 통합 위협 관리를 제공하는 방법 설명’
 ---
-
+--->
 
 # <a name="lab-explore-microsoft-sentinel"></a>랩: Microsoft Sentinel 살펴보기
 

@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '설정'
-  module: '설정'
+랩: 제목: ‘설정’
 ---
+--->
 
 # <a name="lab-setup"></a>랩: 설정
 

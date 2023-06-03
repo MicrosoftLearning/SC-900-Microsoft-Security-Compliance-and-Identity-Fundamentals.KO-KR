@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure AD SSPR(셀프 서비스 암호 재설정)'
-  module: '모듈 2: Azure AD 인증 기능에 대해 설명'
+데모: 제목: ‘Azure AD SSPR(셀프 서비스 암호 재설정)’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능 설명, 모듈 2: Azure AD 인증 기능에 대해 설명, 단원 4: Azure AD 셀프 서비스 암호 재설정 설명’
 ---
-
+--->
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>데모: Azure AD SSPR(셀프 서비스 암호 재설정)
 

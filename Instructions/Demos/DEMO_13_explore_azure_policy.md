@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure Policy'
-  module: '모듈 6: Azure의 리소스 거버넌스 기능에 대해 설명'
+데모: 제목: ‘Azure Policy’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 6: Azure의 리소스 거버넌스 기능에 대해 설명, 단원 2: Azure Policy 설명’
 ---
-
+--->
 
 # <a name="demo-azure-policy"></a>데모: Azure Policy
 

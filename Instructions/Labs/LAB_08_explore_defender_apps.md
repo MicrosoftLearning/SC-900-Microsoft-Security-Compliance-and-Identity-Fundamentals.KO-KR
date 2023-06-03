@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '클라우드용 Microsoft Defender 앱 탐색하기'
-  module: '모듈 4: Microsoft 365의 위협 방지 기능 설명'
+랩: 제목: ‘클라우드용 Microsoft Defender 앱 탐색하기’ 모듈: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 4: Microsoft 365의 위협 방지 기능 설명, 단원 5: 클라우드용 Microsoft Defender 앱 설명’
 ---
+--->
 
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>랩: 클라우드용 Microsoft Defender 앱 살펴보기
 

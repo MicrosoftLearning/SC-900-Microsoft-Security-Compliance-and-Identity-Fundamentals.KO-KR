@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Microsoft 365 Defender 포털 살펴보기'
-  module: '모듈 4: Microsoft 365의 위협 방지 기능 설명'
+랩: 제목: ‘Microsoft 365 Defender 포털 살펴보기’ 모듈: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 4: Microsoft 365의 위협 방지 기능 설명, 단원 7: Microsoft 365 Defender 포털 설명’
 ---
-
+--->
 
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>랩: Microsoft 365 Defender 포털 살펴보기
 

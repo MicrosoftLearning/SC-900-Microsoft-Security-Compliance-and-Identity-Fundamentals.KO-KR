@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Azure Active Directory 탐색하기'
-  module: '모듈 1: Azure AD 기본 서비스 및 ID 유형을 설명'
+랩: 제목: ‘Azure Active Directory 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능 설명, 모듈 1: Azure AD 기본 서비스 및 ID 유형을 설명, 단원 4: Azure AD ID 유형 설명’
 ---
-
+--->
 
 # <a name="lab-explore-azure-active-directory"></a>랩: Azure Active Directory 살펴보기
 

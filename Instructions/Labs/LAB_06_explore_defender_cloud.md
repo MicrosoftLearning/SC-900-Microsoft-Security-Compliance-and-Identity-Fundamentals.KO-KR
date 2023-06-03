@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '클라우드용 Microsoft Defender 탐색하기'
-  module: '모듈 2: Azure의 보안 관리 기능 설명'
+랩: 제목: ‘클라우드용 Microsoft Defender 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 2: Azure의 보안 관리 기능 설명, 단원 3: 클라우드용 Microsoft Defender 설명’
 ---
-
+--->
 
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>랩: 클라우드용 Microsoft Defender 살펴보기
 

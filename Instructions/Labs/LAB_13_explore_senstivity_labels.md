@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: 'Microsoft Purview에서 민감도 레이블 탐색하기'
-  module: '모듈 3: Microsoft Purview의 정보 보호 및 데이터 수명 주기 관리에 대해 설명'
+랩: 제목: ‘Microsoft Purview에서 민감도 레이블 탐색하기’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 3: Microsoft Purview의 정보 보호 및 데이터 수명 주기 관리에 대해 설명, 단원 4: 민감도 레이블 설명’
 ---
-
+--->
 
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>랩: Microsoft Purview의 민감도 레이블 살펴보기
 
