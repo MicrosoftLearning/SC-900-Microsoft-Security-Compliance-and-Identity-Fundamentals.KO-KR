@@ -1,22 +1,22 @@
-<a name="---"></a><!---
+<!---
 ---
-데모: 제목: ‘Service Trust Portal’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft 규정 준수 기능 설명, 모듈 1: Microsoft의 규정 준수 관리 기능을 설명, 단원 2: Service Trust Portal 살펴보기’
+데모: 제목: '서비스 신뢰 포털' 학습 경로/모듈/단위: '학습 경로: Microsoft 규정 준수의 기능 설명; 모듈 1: Microsoft의 Service Trust 포털 및 개인 정보 기능 설명 단원 2: 서비스 신뢰 포털 살펴보기'
 ---
 --->
 
-# <a name="demo-service-trust-portal"></a>데모: Service Trust Portal
+# 데모: Service Trust Portal
 
 이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
 
 - 학습 경로: Microsoft 규정 준수의 기능 설명
-- 모듈: Microsoft의 규정 준수 관리 기능 설명하기
+- 모듈: Microsoft의 Service Trust 포털 및 개인 정보 기능 설명
 - 단원: Service Trust Portal 살펴보기
 
-## <a name="demo-scenario"></a>데모 시나리오
+## 데모 시나리오
 
 이 데모에서는 Service Trust Portal에서 사용할 수 있는 기능과 콘텐츠를 살펴봅니다. 보안 센터에서 Microsoft의 개인 정보 보호에 관한 정보를 확인하는 내용도 포함됩니다.
 
-### <a name="demo-part-1"></a>데모 1부
+### 데모 1부
 
 데모 1부에서는 Service Trust Portal에서 사용할 수 있는 다양한 유형의 콘텐츠, 보고서 액세스 방법, 라이브러리에 보고서를 저장하는 방법을 살펴봅니다.
 
@@ -40,11 +40,11 @@
 
 1. Service Trust Portal 홈페이지를 반환하려면 페이지 맨 위에 있는 **Service Trust Portal** 링크를 선택합니다.
 
-1. Service Trust Portal 홈페이지에서 **조직의 리소스** 범주까지 아래로 스크롤합니다. **조직의 리소스**를 선택합니다.  여기에 나와 있는 문서는 조직의 구독 및 사용 권한을 기반으로 합니다.
+1. Service Trust Portal 홈페이지에서 아래로 스크롤하여 **조직의 리소스** 범주로 이동합니다. **조직의 리소스**를 선택합니다.  여기에 나와 있는 문서는 조직의 구독 및 사용 권한을 기반으로 합니다.
 
 1. Service Trust Portal 홈페이지를 반환하려면 페이지 맨 위에 있는 **Service Trust Portal** 링크를 선택합니다.
 
-### <a name="demo-part-2-optional"></a>데모 2부(선택 사항)
+### 데모 2부(선택 사항)
 
 데모의 이 부분에서는 보안 센터를 표시하고 Microsoft의 개인 정보를 설명하는 내용을 살펴봅니다.
 
@@ -54,8 +54,8 @@
 
 1. Microsoft 보안 센터의 새 브라우저 페이지가 열리고, 여기에서 개인 정보 보호 등에 관해 자세히 볼 수 있습니다. 이 페이지의 내용을 살펴보고 다른 링크를 탐색합니다.
 
-1. 열려 있는 브라우저 탭을 모두 닫습니다.
+1. 서비스 신뢰 포털 및 보안 센터에 대한 열린 브라우저 탭을 닫습니다.
 
-### <a name="review"></a>검토
+### 검토
 
 이 데모에서는 Service Trust Portal에서 제공되는 몇 가지 옵션을 살펴보았습니다. 또한 내 라이브러리를 사용하여 나중에 검토할 수 있도록 문서를 저장하는 방법도 알아보았습니다.  그리고 보안 센터를 방문하여 Microsoft의 개인 정보 보호에 관한 정보에 액세스하여 내용을 검토했습니다.

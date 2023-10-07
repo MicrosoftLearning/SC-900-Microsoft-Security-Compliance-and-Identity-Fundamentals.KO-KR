@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-데모: 제목: ‘Azure AD SSPR(셀프 서비스 암호 재설정)’ 학습 경로/모듈/단원: ‘학습 경로: Microsoft Entra 일부인 Azure AD(Azure Active Directory)의 기능 설명, 모듈 2: Azure AD 인증 기능에 대해 설명, 단원 4: Azure AD 셀프 서비스 암호 재설정 설명’
+데모: 제목: 'Microsoft Entra SSPR(셀프 서비스 암호 재설정)' 학습 경로/모듈/단위: '학습 경로: Microsoft Entra 기능 설명; 모듈 2: Microsoft Entra ID의 인증 기능을 설명합니다. 단원 4: 셀프 서비스 암호 재설정 설명'
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>데모: Azure AD SSPR(셀프 서비스 암호 재설정)
+# 데모: Microsoft Entra SSPR(셀프 서비스 암호 재설정)
 
 이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
 
-- 학습 경로: Microsoft Entra의 일부인 Azure AD(Azure Active Directory)의 기능을 설명합니다.
-- 모듈: Azure AD의 인증 기능 설명
-- 단원: Azure AD의 셀프 서비스 암호 재설정 설명
+- 학습 경로: Microsoft Entra 기능 설명
+- 모듈: Microsoft Entra ID의 인증 기능 설명
+- 단위: 셀프 서비스 암호 재설정 설명
 
-## <a name="demo-scenario"></a>데모 시나리오
+## 데모 시나리오
 
 이 데모에서는 셀프 서비스 암호 재설정을 사용하도록 설정할 수 있는 다양한 설정을 살펴봅니다.
 
-1. 브라우저에 열려 있는 Contoso – Microsoft Azure 탭으로 이동합니다. 이전에 해당 탭을 닫았다면 브라우저 페이지를 열고 주소 표시줄에 portal.azure.com을 입력한 후에 Azure Active Directory를 선택합니다. Azure Portal에 관리자로 로그인되어 있는 상태여야 합니다. 관리자로 로그인되어 있지 않으면 다시 로그인합니다.
+1. "홈 Microsoft Entra 관리 센터"라는 제목의 열린 브라우저 탭으로 돌아갑니다.  이전에 브라우저 탭을 닫은 경우 Microsoft Edge를 열고 Microsoft 365 관리자 자격 증명으로 **[entra.microsoft.com](https://entra.microsoft.com)** 로그인합니다.
 
-1. 왼쪽 탐색 창에서 암호 재설정을 선택합니다.
+1. 왼쪽 탐색 창에서 **보호를** 확장한 다음 **암호 재설정을** 선택합니다.
 
 1. 속성 창이 강조 표시됩니다.  속성 창에서 SSPR을 사용하도록 설정할 수 있는 대상(없음, 선택 또는 모두)을 확인합니다.
     1. "셀프 서비스 암호 재설정이 사용하도록 설정됨" 옆의 정보 아이콘 위에 커서를 올립니다. 그런 후 "선택됨"을 선택하면 제한된 사용자 그룹만 암호 재설정을 사용하도록 설정할 수 있음을 설명하고, "없음" 또는 "모두" 옵션을 선택하는 경우의 결과도 설명합니다.
@@ -41,6 +41,6 @@
 
 1. 다음 데모를 위해 이 브라우저 페이지를 열어 두세요.
 
-### <a name="review"></a>검토
+### 검토
 
 이 데모에서는 셀프 서비스 암호 재설정과 관련된 설정을 살펴보았습니다.
