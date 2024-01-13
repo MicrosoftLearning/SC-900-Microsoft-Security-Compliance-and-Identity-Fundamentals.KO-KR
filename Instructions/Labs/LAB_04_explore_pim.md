@@ -1,4 +1,4 @@
-<!---
+&lt;!---
 ---
 랩: Privileged Identity Management 살펴보기 ' 학습 경로/모듈/단원: '학습 경로: Microsoft Entra의 기능 설명, 모듈 4: Microsoft Entra의 ID 보호 및 거버넌스 기능 설명, 단원 4: Privileged Identity Management의 기능 설명'
 ---
