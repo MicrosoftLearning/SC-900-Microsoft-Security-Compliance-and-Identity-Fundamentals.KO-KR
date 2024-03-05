@@ -1,8 +1,8 @@
-&lt;!---
 ---
-랩: 제목: 'eDiscovery(표준) 워크플로 살펴보기' 학습 경로/모듈/단원: '학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 5: Microsoft Purview의 eDiscovery 및 감사 기능 설명, 단원 2: Microsoft 365의 eDiscovery 솔루션 설명'
+lab:
+  title: eDiscovery(표준) 워크플로 살펴보기
+  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
 ---
---->
 
 # 랩: eDiscovery(표준) 워크플로 살펴보기
 
