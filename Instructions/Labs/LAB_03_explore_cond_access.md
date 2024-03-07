@@ -1,4 +1,4 @@
-&lt;!---
+<!---
 ---
 랩: 학습 경로: 'Microsoft Entra의 기능 설명' 모듈: 'Microsoft Entra ID의 액세스 관리 기능 설명' 단원: '조건부 액세스 설명'
 ---
