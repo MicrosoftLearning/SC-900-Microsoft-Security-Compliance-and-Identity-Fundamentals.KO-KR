@@ -1,4 +1,10 @@
-&lt;!---
+---
+lab:
+  title: Microsoft Entra 셀프 서비스 암호 재설정
+  module: Describe the authentication capabilities of Microsoft Entra ID
+---
+
+<!---
 ---
 랩: 제목: '셀프 서비스 암호 재설정을 지원하는 Azure AD 인증 살펴보기' 학습 경로/모듈/단원: '학습 경로: Microsoft Entra에 포함된 Azure Active Directory(Azure AD)의 기능 설명, 모듈 2: Azure AD의 인증 기능 설명, 단원 4: 셀프 서비스 암호 설명'
 ---

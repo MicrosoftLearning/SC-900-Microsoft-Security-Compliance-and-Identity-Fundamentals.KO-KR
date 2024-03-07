@@ -1,10 +1,10 @@
-&lt;!---
 ---
-랩: 제목: 'Microsoft Entra ID 사용자 설정 살펴보기' 학습 경로/모듈/단원: '학습 경로: Microsoft Entra의 기능 설명, 모듈 1: Microsoft Entra ID의 기능 및 ID 유형 설명, 단원 3: Microsoft Entra ID 유형 설명'
+lab:
+  title: Microsoft Entra ID 사용자 설정 살펴보기
+  module: Describe the function and identity types of Microsoft Entra ID
 ---
---->
 
-# 랩: Microsoft Entra ID 살펴보기
+# 랩: Microsoft Entra ID 사용자 설정 살펴보기
 
 이 랩에 해당하는 Learn 학습 내용은 다음과 같습니다.
 
