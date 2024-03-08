@@ -1,8 +1,8 @@
-&lt;!---
 ---
-랩: 제목: '설정'
+lab:
+  title: 랩 설정
+  module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
---->
 
 # 랩: 설정
 

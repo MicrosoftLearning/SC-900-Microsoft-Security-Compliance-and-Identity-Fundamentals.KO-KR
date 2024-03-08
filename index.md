@@ -6,7 +6,7 @@ layout: home
 
 # 콘텐츠 디렉터리
 
-다음은 각 랩 연습 및 데모의 하이퍼링크입니다.
+아래에는 각 랩 연습의 하이퍼링크 목록이 나와 있습니다.
 
 ## 랩
 
@@ -16,10 +16,15 @@ layout: home
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## 데모
+<!---
+
+
+## Demos
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| 모듈 | 데모 |
+| Module | Demo |
 | --- | --- | 
 {% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
+
+--->

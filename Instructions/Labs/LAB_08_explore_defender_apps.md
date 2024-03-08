@@ -1,8 +1,8 @@
-<!---
 ---
-랩: 제목: 'Microsoft Defender for Cloud Apps 살펴보기' 모듈: '학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 4: Microsoft 365의 위협 방지 기능 설명, 단원 5: Microsoft Defender for Cloud Apps 설명'
+lab:
+  title: Microsoft Defender for Cloud Apps
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # 랩: Microsoft Defender for Cloud Apps 살펴보기
 
