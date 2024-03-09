@@ -1,8 +1,8 @@
-&lt;!---
 ---
-랩: 제목: 'Service Trust Portal 살펴보기' 학습 경로/모듈/단원: '학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 1: Microsoft의 규정 준수 관리 기능 설명, 단원 2: Service Trust Portal 살펴보기'
+lab:
+  title: Service Trust Portal 살펴보기
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # 랩: Service Trust Portal 살펴보기
 
