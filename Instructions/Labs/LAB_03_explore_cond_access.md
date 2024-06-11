@@ -43,7 +43,7 @@ lab:
 
 ### 작업 2
 
-이 작업에서는 Azure AD에서 조건부 액세스 정책을 만드는 프로세스를 진행합니다.
+이 작업에서는 Microsoft Entra ID에서 조건부 액세스 정책을 만드는 프로세스를 진행합니다.
 
 1. 브라우저 탭을 열고 Microsoft Entra 관리 센터 홈 페이지로 이동합니다.   이전에 브라우저 탭을 닫았다면 Microsoft Edge를 열고 주소 표시줄에 **https://entra.microsoft.com**을 입력한 후 ALH에서 제공한 Microsoft 365 관리자 자격 증명으로 로그인합니다.
 
