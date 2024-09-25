@@ -1,6 +1,6 @@
-&lt;!---
+<!---
 ---
-랩: 제목: 'eDiscovery(표준) 워크플로 살펴보기' 학습 경로/모듈/단원: '학습 경로: Microsoft 규정 준수의 기능 설명, 모듈 5: Microsoft Purview의 eDiscovery 및 감사 기능 설명, 단원 2: Microsoft 365의 eDiscovery 솔루션 설명'
+랩: 제목: 'eDiscovery 워크플로 살펴보기' 학습 경로/모듈/단원: '학습 경로: Microsoft Priva 및 Microsoft Purview의 기능 설명, 모듈 3: Microsoft Purview의 데이터 규정 준수 솔루션 설명, 단원 2: eDiscovery 설명'
 ---
 --->
 
@@ -8,38 +8,34 @@
 
 이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
 
-- 학습 경로: Microsoft 규정 준수의 기능 설명
-- 모듈: Microsoft Purview의 eDiscovery 및 감사 기능 설명
-- 단원: Microsoft Purview의 eDiscovery 솔루션 설명
+- 학습 경로: Microsoft Priva 및 Microsoft Purview의 기능 설명
+- 모듈: Microsoft Purview의 데이터 규정 준수 솔루션 설명
+- 단원:  eDiscovery 설명
 
 ## 데모 시나리오
 
-이 데모에서는 역할 권한 설정, eDiscovery 케이스 만들기, eDiscovery 보류 만들기, 검색 쿼리 만들기 등 eDiscovery를 설정하려면 수행해야 하는 단계를 연습합니다.  참고: eDiscovery(표준) 라이선스를 적용하려면 적절한 조직 구독과 사용자별 라이선스가 필요합니다. eDiscovery(표준)을 지원하는 라이선스를 잘 모를 경우, [Microsoft Purview에서 eDiscovery(표준) 시작](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide)을 참조하세요.
+이 데모에서는 역할 권한 설정, eDiscovery 케이스 만들기, eDiscovery 보류 만들기, 검색 쿼리 만들기 등 eDiscovery를 설정하려면 수행해야 하는 단계를 연습합니다.  참고: Microsoft Purview 포털에서는 사용자 인터페이스에 대한 업데이트가 점진적으로 롤아웃됩니다. 일부 랩/데모 테넌트에 아직 최신 UI가 표시되지 않을 수 있으므로 모든 랩 단계는 클래식 eDiscovery UI를 사용하여 표시됩니다.
 
 ### 데모 1부
 
 eDiscovery(표준)에 액세스하거나 eDiscovery 사례의 멤버로 추가되려면 사용자에게 적절한 권한이 할당되어야 합니다. 데모의 1부에서는 전역 관리자로 로그인하여 eDiscovery 매니저 역할 그룹의 구성원으로 특정 사용자를 추가하는 프로세스를 진행합니다.
 
-1. 브라우저 탭을 열고 Microsoft Purview 홈 페이지로 이동합니다.  이전에 해당 탭을 닫았다면 브라우저 탭을 열고 **https://admin.microsoft.com**을 입력합니다. ALH(권한 있는 랩 호스터)에서 제공한 Microsoft 365 테넌트의 관리자 자격 증명으로 로그인합니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시**, **규정 준수**를 차례로 선택합니다.  새 브라우저 페이지가 열리고 Microsoft Purview 규정 준수 포털 시작 페이지가 표시됩니다.  
-
-1. 왼쪽 탐색 창에서 아래쪽 화살표를 선택하여 **역할 및 범위**를 확장하고 **권한**을 선택합니다.
-
-1. Microsoft Purview 솔루션에서 **역할**을 선택합니다.
-
-1. 검색 창에 **eDiscovery**를 입력하고 검색 아이콘(돋보기)을 선택합니다.  **eDiscovery 매니저**를 선택합니다.  역할 그룹의 역할을 확인합니다.
-
-1. **편집**을 선택합니다.  2개 하위 그룹인 eDiscovery 매니저 및 eDiscovery 관리자를 확인합니다.  
-    1. "eDiscovery 매니저 관리" 페이지에서 eDiscovery 매니저 역할에 사용자를 추가할 수 있습니다. 이 데모에서는 eDiscovery 관리자 하위 그룹에 구성원을 추가할 것이므로 **다음**을 선택합니다.
-    1. "eDiscovery 관리자 관리" 페이지에서 **사용자 선택**을 선택합니다. **MOD 관리자**와 **Megan Bowen**을 검색하여 선택하고 페이지 아래쪽에서 **선택**을 선택합니다. 그런 후에 **다음**, **저장**을 차례로 선택합니다.
-    1. "역할 그룹을 업데이트했습니다." 페이지에서 **완료**를 선택합니다.
+1. **Microsoft Purview** 브라우저 탭을 엽니다. 이전에 해당 탭을 닫았다면 브라우저 탭을 열고 주소 표시줄에 **https://purview.microsoft.com**을 입력합니다. 새 Microsoft Purview 포털에 액세스하려면 **데이터 흐름 공개 및 개인정보처리방침 약관에 동의합니다**라고 표시된 부분 옆의 상자를 선택한 다음 **시작**을 선택합니다.  
+1. 왼쪽 탐색 패널에서 **설정**을 선택합니다.
+1. 열리는 탐색 패널에서 **역할 및 범위**를 선택하여 옵션을 펼치고 **역할 그룹**을 선택합니다.
+1. 화면 오른쪽의 검색 상자에서 **eDiscovery**라는 단어를 검색합니다.  **eDiscovery 매니저**를 선택합니다.
+    1. **편집**을 선택합니다.
+    1. **사용자 선택**을 선택합니다.
+    1. MOD 관리자를 검색하고 **MOD 관리자** 옆에 있는 상자를 선택한 다음 페이지 아래쪽의 **선택** 버튼을 선택합니다.
+    1. **다음**을 선택하고 **저장**을 선택한 다음 마지막으로 **완료**를 선택합니다.
 
 1. 이 브라우저 탭을 열어 둡니다.
 
 ### 데모 2부
 
-데모의 2부에서는 eDiscovery 관리자(MOD 관리자)로 로그인하여 eDiscovery(표준) 사용을 시작하기 위한 케이스를 작성합니다.
+이 부분에서는 eDiscovery(표준) 사용을 시작하기 위해 사례를 만듭니다.
 
-1. 아직 규정 준수 센터 역할 페이지가 표시되어 있을 것입니다. 왼쪽 탐색 패널의 솔루션 아래에서 **eDiscovery**를 선택하고 **표준**을 선택합니다.
+1. 왼쪽 탐색 패널에서 **솔루션**을 선택하고 **eDiscovery**를 선택한 다음 **표준 사례**를 선택합니다.
 
 1. eDiscovery(표준) 페이지 위쪽에서 **+ 케이스 만들기**를 선택합니다.
 
