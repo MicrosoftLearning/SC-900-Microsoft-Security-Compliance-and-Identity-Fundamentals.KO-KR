@@ -16,7 +16,7 @@ lab:
 
 이 랩에서는 Microsoft Defender for Cloud Apps의 기능을 살펴봅니다.  Cloud Discovery 대시보드, 클라우드 앱 카탈로그, 결과를 조사하는 데 사용할 수 있는 기능, 정책을 통해 조직에 미치는 영향을 제어하는 방법에 대한 정보를 알아보았습니다. 참고: 조직은 사용자 기반 구독 서비스인 Microsoft Defender for Cloud Apps를 사용할 수 있는 라이선스가 있어야 합니다.
 
-**예상 시간:** 15~20분
+**예상 시간:** 30분
 
 ### 작업 1 - Cloud Discovery 살펴보기
 
