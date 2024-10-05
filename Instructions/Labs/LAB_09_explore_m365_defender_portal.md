@@ -16,7 +16,7 @@ lab:
 
 이 랩에서는 방문 페이지에 표시되는 콘텐츠를 통해 Microsoft 365 Defender 포털을 살펴봅니다. 또한 Microsoft의 XDR(확장 검색 및 응답) 솔루션의 일부인 기능에 빠르게 액세스할 수 있는 탐색 창의 옵션인 엔드포인트용 Microsoft Defender 및 Office 365용 Microsoft Defender(메일 및 협업)를 살펴봅니다.  마지막으로 Microsoft Secure Score가 조직의 보안 태세를 개선하는 방법도 살펴봅니다.
 
-**예상 시간:** 10~15분
+**예상 시간:** 30분
 
 ### 작업 1
 
