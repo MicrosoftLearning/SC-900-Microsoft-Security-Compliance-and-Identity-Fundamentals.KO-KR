@@ -1,16 +1,16 @@
 ---
 lab:
-  title: eDiscovery(표준) 워크플로 살펴보기
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: eDiscovery 살펴보기
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# 랩: eDiscovery(표준) 워크플로 살펴보기
+# 랩: eDiscovery 살펴보기
 
 이 랩에 해당하는 Learn 학습 내용은 다음과 같습니다.
 
-- 학습 경로: Microsoft 규정 준수의 기능 설명
-- 모듈: Microsoft Purview의 eDiscovery 및 감사 기능 설명
-- 단원: Microsoft Purview의 eDiscovery 솔루션 설명
+- 학습 경로: Microsoft Priva 및 Microsoft Purview의 기능 설명
+- 모듈: Microsoft Purview의 데이터 규정 준수 솔루션 설명
+- 단원:  eDiscovery 설명
 
 ## 랩 시나리오
 
@@ -22,7 +22,9 @@ lab:
 
 eDiscovery(표준)에 액세스하거나 eDiscovery 사례의 멤버로 추가되려면 사용자에게 적절한 권한이 할당되어야 합니다. 이 작업에서는 전역 관리자로 로그인하여 eDiscovery 매니저 역할 그룹의 구성원으로 특정 사용자를 추가합니다.
 
-1. 브라우저 탭을 열고 Microsoft Purview 홈 페이지로 이동합니다.  이전에 해당 탭을 닫았다면 브라우저 탭을 열고 **https://admin.microsoft.com**을 입력합니다. ALH(권한 있는 랩 호스터)에서 제공한 Microsoft 365 테넌트의 관리자 자격 증명으로 로그인합니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시**, **규정 준수**를 차례로 선택합니다.  새 브라우저 페이지가 열리고 Microsoft Purview 포털 시작 페이지가 표시됩니다.  
+1. 브라우저 탭을 열고 Microsoft Purview 홈 페이지로 이동합니다.  이전에 해당 탭을 닫았다면 브라우저 탭을 열고 **https://admin.microsoft.com**을 입력합니다. ALH(권한 있는 랩 호스터)에서 제공한 Microsoft 365 테넌트의 관리자 자격 증명으로 로그인합니다. 이전에 관리자로 로그인한 적이 있는 경우 MFA의 일환으로 보조 인증을 완료하라는 메시지가 표시됩니다. 이전에 관리자로 로그인하지 않은 경우 MFA 등록 프로세스를 완료하라는 메시지가 표시됩니다. 화면의 프롬프트에 따라 MFA를 설정합니다.
+
+1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시**, **규정 준수**를 차례로 선택합니다.  새 브라우저 페이지가 열리고 Microsoft Purview 포털 시작 페이지가 표시됩니다.  
 
 1. 왼쪽 탐색 창에서 **설정**을 선택하고 **역할 및 범위**를 확장한 다음 **역할 그룹**을 선택합니다.
 
