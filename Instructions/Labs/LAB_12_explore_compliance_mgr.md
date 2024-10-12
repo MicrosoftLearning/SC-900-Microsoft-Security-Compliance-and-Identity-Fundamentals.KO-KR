@@ -1,16 +1,16 @@
 ---
 lab:
-  title: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
-  module: Describe the compliance management capabilities in Microsoft Purview
+  title: Microsoft Purview 포털 및 준수 관리자 살펴보기
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# 랩: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
+# 랩: Microsoft Purview 포털 및 준수 관리자 살펴보기
 
 이 랩에 해당하는 Learn 학습 내용은 다음과 같습니다.
 
-- 학습 경로: Microsoft 규정 준수의 기능 설명
-- 모듈: Microsoft Purview의 규정 준수 관리 기능 설명
-- 단원: Microsoft Purview 규정 준수 포털 설명
+- 학습 경로: Microsoft Priva 및 Microsoft Purview의 기능 설명
+- 모듈: Microsoft Purview의 데이터 규정 준수 솔루션 설명
+- 단원: 준수 관리자 설명
 
 ## 랩 시나리오
 
@@ -26,6 +26,7 @@ Microsoft Purview 규정 준수 포털 홈 페이지를 살펴보고 카드 보�
 1. 관리자 자격 증명으로 로그인합니다.
     1. 로그인 창에 **admin@WWLxZZZZZZ.onmicrosoft.com**을 입력하고(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID) **다음**을 선택합니다.
     1. 랩 호스팅 공급자가 제공한 관리자 암호를 입력합니다. **로그인**을 선택합니다.
+    1. 이전에 관리자로 로그인한 적이 있는 경우 MFA의 일환으로 보조 인증을 완료하라는 메시지가 표시됩니다. 이전에 관리자로 로그인하지 않은 경우 MFA 등록 프로세스를 완료하라는 메시지가 표시됩니다. 화면의 프롬프트에 따라 MFA를 설정합니다.
     1. 로그인 상태를 유지할지 묻는 메시지가 표시되면 **예**를 선택합니다. 그러면 Microsoft 365 관리 센터 페이지로 이동됩니다.
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시**를 선택합니다.
