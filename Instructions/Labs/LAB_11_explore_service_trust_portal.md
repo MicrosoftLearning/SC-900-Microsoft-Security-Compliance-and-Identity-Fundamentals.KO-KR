@@ -1,15 +1,15 @@
 ---
 lab:
   title: Service Trust Portal 살펴보기
-  module: Describe the compliance management capabilities at Microsoft
+  module: Describe Microsoft’s Service Trust portal and privacy capabilities
 ---
 
 # 랩: Service Trust Portal 살펴보기
 
 이 랩에 해당하는 Learn 학습 내용은 다음과 같습니다.
 
-- 학습 경로: Microsoft 규정 준수의 기능 설명
-- 모듈: Microsoft의 규정 준수 관리 기능 설명하기
+- 학습 경로: Microsoft Priva 및 Microsoft Purview의 기능 설명
+- 모듈: Microsoft Service Trust Portal 및 개인 정보 보호 기능 설명
 - 단원: Service Trust Portal 살펴보기
 
 ## 랩 시나리오

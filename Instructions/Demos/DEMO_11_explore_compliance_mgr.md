@@ -4,7 +4,7 @@
 ---
 --->
 
-# 데모: Microsoft Purview 규정 준수 포털 및 준수 관리자 살펴보기
+# 데모: Microsoft Purview 포털 및 준수 관리자 살펴보기
 
 이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
 
