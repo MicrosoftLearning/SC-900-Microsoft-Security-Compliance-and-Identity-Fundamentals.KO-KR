@@ -1,10 +1,10 @@
 <!---
 ---
-랩: 제목: 'eDiscovery 워크플로 살펴보기' 학습 경로/모듈/단원: '학습 경로: Microsoft Priva 및 Microsoft Purview의 기능 설명, 모듈 3: Microsoft Purview의 데이터 규정 준수 솔루션 설명, 단원 2: eDiscovery 설명'
+데모: 제목: 'eDiscovery 살펴보기' 학습 경로/모듈/단원: '학습 경로: Microsoft Priva 및 Microsoft Purview의 기능 설명, 모듈 3: Microsoft Purview의 데이터 규정 준수 솔루션 설명, 단원 2: eDiscovery 설명'
 ---
 --->
 
-# 데모: eDiscovery(표준) 워크플로 살펴보기
+# 데모: eDiscovery(표준) 살펴보기
 
 이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
 

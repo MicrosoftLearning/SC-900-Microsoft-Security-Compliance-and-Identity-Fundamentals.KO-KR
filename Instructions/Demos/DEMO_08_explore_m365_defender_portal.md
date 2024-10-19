@@ -1,6 +1,6 @@
 <!---
 ---
-데모: 제목: 'Microsoft Defender 포털' 모듈: '학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 4: Microsoft 365의 위협 방지 기능 설명, 단원 7: Microsoft Defender 포털 설명'
+데모: 제목: 'Microsoft Defender 포털' 모듈: '학습 경로: Microsoft 보안 솔루션의 기능 설명, 모듈 4: Microsoft Defender XDR의 위협 방지 기능 설명, 단원 7: Microsoft Defender 포털 설명'
 ---
 --->
 
@@ -9,7 +9,7 @@
 이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
 
 - 학습 경로: Microsoft 보안 솔루션의 기능 설명
-- 모듈: Microsoft 365의 위협 방지 기능 설명
+- 모듈: Microsoft Defender XDR의 위협 방지 기능 설명
 - 단원: Microsoft Defender 포털 설명
 
 ## 데모 시나리오
@@ -20,7 +20,7 @@
 
 Microsoft Defender 방문 페이지를 살펴봅니다.
 
-1. 브라우저 탭을 열고 Microsoft 365 보안 홈 페이지로 이동합니다.  이전에 브라우저를 닫았다면 Microsoft Edge를 엽니다. 주소 표시줄에 **https://admin.microsoft.com**을 입력한 후 ALH(권한 있는 랩 호스터)에서 제공한 Microsoft 365 테넌트의 관리자 자격 증명으로 로그인하여 Microsoft 365 관리 센터에 액세스합니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시**, **보안**을 차례로 선택합니다.  새 브라우저 페이지가 열리고 Microsoft Defender 포털 시작 페이지가 표시됩니다.  
+1. 브라우저 탭을 열고 Microsoft Defender 홈 페이지로 이동합니다.  이전에 브라우저를 닫았다면 Microsoft Edge를 엽니다. 주소 표시줄에 **https://admin.microsoft.com**을 입력한 후 ALH(권한 있는 랩 호스터)에서 제공한 Microsoft 365 테넌트의 관리자 자격 증명으로 로그인하여 Microsoft 365 관리 센터에 액세스합니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **모두 표시**, **보안**을 차례로 선택합니다.  새 브라우저 페이지가 열리고 Microsoft Defender 포털 시작 페이지가 표시됩니다.  
 
 1. Microsoft Defender 포털의 홈 페이지에는 보안 팀에 필요한 여러 일반적인 카드가 표시됩니다. 카드와 데이터의 구성은 사용자 역할에 따라 다릅니다. 페이지를 스크롤하여 전역 관리자 역할을 대상으로 표시되는 기본 카드 집합을 확인합니다.
 
@@ -50,7 +50,7 @@ Microsoft Defender 방문 페이지를 살펴봅니다.
     1. **헌팅** - 사용자 지정 검색 규칙을 빌드하고 사용자 환경에서 특정 위협을 헌팅할 수 있습니다.
     1. **작업 및 제출** - 통합 알림 센터는 엔드포인트용 Microsoft Defender 및 Office 365용 Microsoft Defender에서 수정 작업을 함께 통합합니다. 디바이스, 전자 메일 및 공동 작업 콘텐츠, ID에 대한 보류 중 및 완료된 수정 작업을 한 위치에 나열합니다. Exchange Online 사서함이 있는 Microsoft 365 조직에서 관리자는 Microsoft Defender 포털의 제출 페이지를 사용하여 분석을 위해 Microsoft에 메시지, URL 및 첨부 파일을 제출할 수 있습니다.
     1. **파트너 카탈로그** - 파트너 카탈로그에는 조직이 플랫폼의 탐지, 조사 및 위협 인텔리전스 기능을 향상시키는 데 도움이 되는 지원 기술 파트너 및 전문 서비스가 나열되어 있습니다.
-1. **위협 인텔리전스** - 위협 인텔리전스 탭에서 사용자는 위협 분석, Intel 프로필, Intel 탐색기 및 Intel 프로젝트를 비롯한 Microsoft Defender 위협 인텔리전스 및 기능 지원에 액세스합니다.
+1. **위협 인텔리전스** - 위협 인텔리전스 탭에서는 사용자가 Microsoft Defender 위협 인텔리전스와 위협 분석, intel 프로필, intel 탐색기, intel 프로젝트 등 솔루션에서 지원하는 기능에 액세스합니다.
 1. **자산** - 자산 탭을 사용하면 조직의 보호되고 검색된 자산(디바이스 및 ID) 인벤토리를 보고 관리할 수 있습니다.
 1. **Microsoft Sentinel** - 다른 많은 Microsoft Sentinel 기능은 Defender 포털의 Microsoft Sentinel 섹션에서 사용할 수 있습니다.  이렇게 하려면 설정 페이지를 통해 통합을 설정해야 합니다.
 1. **ID** - ID 노드는 Microsoft Defender for Identity와 연결된 기능에 매핑됩니다. 대시보드는 ITDR(ID 위협 감지 및 응답)에 대한 중요한 인사이트와 실시간 데이터를 제공합니다. 상태 문제 페이지에는 Defender for Identity 배포 및 센서에 대한 현재 상태 문제가 나열되어 있으며 Defender for Identity 배포에 문제가 있을 경우 경고를 보냅니다. 도구 페이지에는 Microsoft Defender for Identity 환경을 관리하는 데 도움이 되는 추가 정보가 나열되어 있습니다.
@@ -68,17 +68,15 @@ Microsoft Defender 방문 페이지를 살펴봅니다.
     1. 설정 - 여기서 Defender 포털, Defender XDR, Microsoft Defender XDR의 일부인 솔루션 및 Microsoft Sentinel에 대한 설정을 구성합니다.  이를 원하는 대로 탐색합니다.
 1. **탐색 사용자 지정** - 탐색 창에서 항목을 표시하거나 숨기도록 선택할 수 있습니다. 다른 관리자는 변경 내용을 볼 수 없습니다.
 
-1. 왼쪽 탐색 패널은 인시던트와 경고, 헌팅, 작업 센터, 위협 분석, 보안 점수 등을 포함하는 Microsoft XDR(확장 검색 및 응답) 솔루션의 일부인 정보에 대한 링크/액세스를 제공합니다.  그리고 엔드포인트용 Microsoft Defender(엔드포인트 아래의 링크), Office 365용 Defender(이메일 및 공동 작업 아래의 링크), Microsoft Defender for Cloud Apps(클라우드 앱 아래의 링크) 등에 빠르게 액세스할 수 있는 옵션도 제공됩니다.  링크를 몇 개 선택하여 이러한 옵션을 살펴봅니다.   Microsoft Defender 포털 홈 페이지로 돌아오려면 왼쪽 탐색 패널에서 **홈**을 선택합니다.
-
 ### 데모 3부
 
 데모의 2부에서는 Microsoft Secure Score가 조직의 보안 태세를 개선하는 방법을 보여 줍니다.
 
-1. 왼쪽 탐색 패널에서 **Microsoft Secure Score**를 선택합니다.
+1. 왼쪽 탐색 패널에서 **노출 관리**를 확장한 다음 **보안 점수**를 선택합니다.
 
 1. Microsoft Secure Score 페이지가 개요 탭으로 열립니다. Microsoft Secure Score는 조직의 보안 태세를 측정하는 것입니다. 조직의 보안 점수는 가능한 총 점수 중 달성한 점수와 함께 백분율로 표시되며 범주별로 분류됩니다. 보안 점수 옆에 있는 **포함**을 선택합니다. 점수 보기에 달성 가능한 점수, 계획된 점수 및 현재 라이선스 점수를 포함할 수 있습니다.
 
-1. 개요 페이지에는 주요 권장 작업, 비교 점수, 기록 및 추가 리소스도 포함되어 있습니다.
+1. 개요 페이지에는 주요 권장 작업, 비교 점수, 기록, 리소스도 포함되어 있습니다.
 
 1. 페이지 위쪽에서 **권장 작업**을 선택합니다.  표의 각 항목에 대해 제공되는 정보를 확인합니다.  
 
@@ -94,4 +92,4 @@ Microsoft Defender 방문 페이지를 살펴봅니다.
 
 ### 검토
 
-이 데모에서는 방문 페이지에 표시된 콘텐츠를 통해 Microsoft Defender 포털을 살펴보고 Microsoft XDR(확장된 감지 및 대응) 솔루션, 엔드포인트용 Microsoft Defender, Office 365용 Microsoft Defender(이메일 및 협업)의 일부인 기능에 빠르게 액세스할 수 있는 탐색 패널의 옵션을 살펴보았습니다.  그리고 마지막으로, Microsoft 보안 점수를 참조하여 조직의 보안 태세를 개선하는 방법도 살펴보았습니다.
+이 데모에서는 방문 페이지에 표시된 콘텐츠를 통해 Microsoft Defender 포털을 살펴보고 Microsoft Defender XDR에 포함된 기능에 빠르게 액세스할 수 있는 탐색 패널의 옵션을 살펴보았습니다.  그리고 마지막으로, Microsoft 보안 점수를 참조하여 조직의 보안 태세를 개선하는 방법도 살펴보았습니다.
