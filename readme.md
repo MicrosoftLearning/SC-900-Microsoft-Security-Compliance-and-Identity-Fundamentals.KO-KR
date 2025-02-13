@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # SC-900: Microsoft Security, Compliance, and Identity Fundamentals
 
 이 리포지토리에는 **SC-900T00: Microsoft 보안, 규정 준수 및 ID 기본 사항**의 데모 스크립트 및 랩 지침이 포함되어 있습니다.  데모 스크립트와 랩에서는 ALH(공인 랩 호스터)에서 제공하는 미리 구성된 WWL M365 Enterprise 2019 SPE_E5 테넌트에 액세스할 수 있으며 ALH에서 제공하는 Azure 구독을 사용할 수 있다고 가정합니다. 사용자의 자체 Microsoft 365 테넌트와 Azure 구독에서 데모 스크립트와 랩 지침을 실행할 수도 있습니다. 하지만 사용자의 개인 구독에서도 동일한 기능을 사용할 수 있다는 보장은 없습니다.
