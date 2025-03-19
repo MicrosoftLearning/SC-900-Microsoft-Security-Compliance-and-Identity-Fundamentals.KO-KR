@@ -30,7 +30,14 @@
 
 1. 왼쪽 탐색 패널에서 아래로 스크롤하여 **시스템**을 확장합니다.  확장된 목록에서 **감사**를 선택합니다.  참고: Microsoft Purview 포털을 통해 감사 기능에 액세스할 수도 있습니다.
 
-1. 감사 페이지가 표시되면 1~2분 정도 기다립니다.  감사가 사용하도록 설정되어 있지 않으면 페이지 위쪽에 사용자 및 관리자 활동 기록을 시작하라는 파란색 막대가 표시됩니다.  **사용자 및 관리자 활동 기록 시작**을 선택합니다.  감사가 사용하도록 설정되면 파란색 막대는 사라집니다.  파란색 막대가 없으면 감사가 이미 사용하도록 설정된 것이므로 추가로 작업을 수행할 필요가 없습니다.
+1. 감사 페이지가 표시되면 1~2분 정도 기다립니다.  감사가 사용하도록 설정되어 있지 않으면 페이지 위쪽에 사용자 및 관리자 활동 기록을 시작하라는 파란색 막대가 표시됩니다.  **사용자 및 관리자 활동 기록 시작**을 선택합니다.  감사가 사용하도록 설정되면 파란색 막대는 사라집니다.  파란색 막대가 없으면 감사가 이미 사용하도록 설정된 것이므로 추가로 작업을 수행할 필요가 없습니다.  "죄송합니다, 활동이 기록되고 있는지 파악하는 데 문제가 있습니다"라는 메시지가 표시되는 경우 페이지를 새로 고쳐 보십시오."라는 메시지가 표시되고 페이지를 새로 고친 후에도 아무런 변화가 없으면 PowerShell을 통해 감사를 사용 설정해야 합니다.
+    1. 작업 표시줄에서 파란색 Windows PowerShell 아이콘을 마우스 오른쪽 버튼으로 선택하고 **관리자로 실행**을 선택합니다.
+    1. 컴퓨터에 Exchange Online PowerShell 모듈이 설치되어 있는지 확인하려면 **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**(을)를 입력합니다.  Exchange OnlineManagement의 이름, 버전 및 설치된 위치가 표시됩니다.
+    1. 이제 **`Import-Module ExchangeOnlineManagement`**(을)를 입력하여 모듈을 로드합니다.
+    1. 연결하려면 **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**(을)를 입력합니다.  UPN의 경우 랩의 리소스 탭에 있는 관리자 사용자 이름을 입력합니다.
+    1. 다시 로그인하라는 메시지가 표시됩니다.  랩의 리소스 탭에 있는 관리 사용자 이름 및 암호를 입력합니다.
+    1. 감사를 켜려면 **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**(을)를 입력합니다. 변경 내용이 적용되는 데 최대 60분이 걸릴 수 있다는 메시지가 표시됩니다.
+    1. 변경 내용이 적용되려면 최대 60분이 소요될 수 있지만 **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`**(을)를 입력하면 명령이 수신되었는지 확인할 수 있습니다.  감사를 사용하도록 설정한 경우 UnifiedAuditLogIngestionEnabled 속성은 true 값을 표시합니다.
 
 1. 왼쪽 탐색 패널의 시스템에서 **설정**을 선택합니다.
 
@@ -52,9 +59,9 @@
     1. **다음**을 선택하고 **저장**을 선택한 다음 마지막으로 **완료**를 선택합니다.
 1. 그러면 Microsoft 365 테넌트에 대한 설정이 종료됩니다. 브라우저 탭을 닫을 수 있습니다.
 
-## Azure Cloud Slice 구독 데모 전 설정
+## Azure 구독의 사전 데모 설정
 
-이 설정에서는 제공된 Microsoft 365 테넌트와는 별개인 Azure Cloud Slice 환경을 사용합니다. Microsoft 365 테넌트에서 로그아웃한 후 Azure Cloud Slice 자격 증명을 사용하여 로그인합니다.
+이 설정에서는 제공된 Microsoft 365 테넌트와는 별개인 Azure 환경을 사용합니다. Microsoft 365 테넌트에서 로그아웃하고 Azure 자격 증명을 사용하여 로그인합니다.
 
 ### Azure 가상 머신
 
@@ -141,4 +148,4 @@ Microsoft Sentinel 인스턴스를 이미 만들었는지 확인합니다. 인�
 
 ### 검토
 
-이 설정에서는 Microsoft 365 테넌트에서 감사 로그 기능을 사용하도록 설정했으며 Azure Cloud Slice 환경에서 VM이 미리 구성되어 있는지 확인했습니다. 그리고 클라우드용 Defender 및 Microsoft Sentinel 환경도 준비했습니다.
+이 설정에서는 Microsoft 365 테넌트에서 감사 로그 기능을 사용하도록 설정했으며 Azure 환경에서 VM이 미리 구성되어 있는지 확인했습니다. 그리고 클라우드용 Defender 및 Microsoft Sentinel 환경도 준비했습니다.
