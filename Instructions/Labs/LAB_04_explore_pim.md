@@ -48,7 +48,7 @@ lab:
 
 1. 브라우저 탭을 열고 Microsoft Entra 관리 센터 홈 페이지로 이동합니다.
 
-1. 왼쪽 탐색 패널에서 **IF 거버넌스**를 확장한 다음, **Privileged Identity Management**를 선택합니다.
+1. 왼쪽 탐색 패널에서 **ID 거버넌스**를 확장한 다음, **Privileged Identity Management**를 선택합니다.
 
 1. 그러면 Privileged Identity Management 빠른 시작 페이지가 표시됩니다. 시작 페이지의 정보를 검토합니다. 주 창의 액세스 관리라는 곳에서 **관리**를 선택합니다.
 
