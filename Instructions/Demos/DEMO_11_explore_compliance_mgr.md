@@ -1,10 +1,10 @@
 <!---
 ---
-데모: 제목: 'Microsoft Purview 포털 및 준수 관리자 살펴보기' 학습 경로/모듈/단원: 'Microsoft Priva 및 Microsoft Purview의 기능 설명, 모듈 2: Microsoft Purview의 데이터 규정 준수 솔루션 설명, 단원 4: 준수 관리자 설명'
+데모: 제목: 'Microsoft Purview 준수 관리자 살펴보기' 학습 경로/모듈/단원: 'Microsoft Priva 및 Microsoft Purview의 기능 설명; 모듈 2: Microsoft Purview의 데이터 준수 솔루션을 설명; 단원 4: 준수 관리자 설명'
 ---
 --->
 
-# 데모: Microsoft Purview 포털 및 준수 관리자 살펴보기
+# 데모: Microsoft Purview 준수 관리자 살펴보기
 
 이 데모는 다음 Learn 콘텐츠에 매핑됩니다.
 
@@ -22,7 +22,7 @@ Microsoft Purview 포털 홈페이지를 보여 줍니다.
 
 1. Microsoft Edge를 엽니다. 주소 표시줄에 **https://purview.microsoft.com**을 입력합니다. 관리자로 이미 로그인된 상태여야 합니다. 관리자로 로그인하지 않았다면 ALH(권한 있는 랩 호스터)에서 제공한 Microsoft 365 테넌트의 관리자 자격 증명으로 로그인합니다.
 
-새 브라우저 페이지가 열리고 Microsoft Purview 포털 시작 페이지가 표시됩니다.  새 Microsoft Purview 포털에 액세스하려면 **데이터 흐름 공개 및 개인정보처리방침 약관에 동의합니다**라고 표시된 부분 옆의 상자를 선택한 다음 **시작**을 선택합니다.  
+브라우저 페이지가 열리고 Microsoft Purview 포털 시작 페이지가 표시되면 **시작하기**를 선택하세요.  
 
 1. 준수 관리자로 이동하기 전에 잠시 시간을 내어 새 포털을 탐색합니다.
 
