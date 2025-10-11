@@ -20,32 +20,30 @@ lab:
 
 ### 작업 1
 
-Microsoft Sentinel 인스턴스 만들기
+Microsoft Sentinel 인스턴스를 만들려면 먼저 Microsoft Sentinel의 데이터를 저장하는 데 사용되는 Log Analytics 작업 영역을 만들어야 합니다.  Log Analytics 작업 영역이 있으면 Microsoft Sentinel 인스턴스를 만들고 해당 인스턴스에 Log analytics 작업 영역을 추가할 수 있습니다.  이 작업에서는 각 단계를 순서대로 수행합니다.
 
-1. Azure 서비스 홈 페이지가 표시되어 있어야 합니다.  이전에 브라우저를 닫았다면 Microsoft Edge를 엽니다. 주소 표시줄에 **portal.azure.com**을 입력하고 관리자 자격 증명을 사용하여 로그인합니다.
+1. Azure 서비스 홈 페이지가 표시되어 있어야 합니다.  아직 시작하지 않은 경우, Microsoft Edge를 열고 주소 표시줄에 **portal.azure.com**을 입력한 다음 Azure Portal 관리자 자격 증명을 사용하여 로그인합니다.
 
-1. 페이지 위쪽 파란색 검색 상자에 **Microsoft Sentinel**을 입력하고 검색 결과에서 **Microsoft Sentinel**을 선택합니다.
-
-1. Microsoft Sentinel 페이지에서 **Microsoft Sentinel 만들기**를 선택합니다.
-
-1. 작업 영역에 Microsoft Sentinel 추가 페이지에서 **새 작업 영역 만들기**를 선택합니다.
-
+1. 페이지 맨 위에 있는 파란색 검색 상자에 **Log Analytics**를 입력하고 검색 결과에서 해당 항목을 선택합니다.
+1. **+ 만들기**를 선택합니다.
 1. Log Analytics 작업 영역 만들기의 기본 탭에서 다음 정보를 입력합니다.
     1. 구독: 기본값을 그대로 둡니다. ALH(권한 있는 랩 호스터)에서 제공하는 Azure 구독입니다.
     1. 리소스 그룹: **SC900-Sentinel-RG**를 선택합니다. 이 리소스 그룹이 목록에 없으면 **새로 만들기**를 선택하고 이름으로 **SC900-Sentinel-RG**를 입력한 다음 **확인**을 선택하여 해당 그룹을 만듭니다.
-    1. 이름: **SC900-LogAnalytics-workspace**를 입력합니다.
+    1. 이름: **SC900-Sentinel-workspace**
     1. 지역: **미국 동부**를 선택합니다(위치에 따라 다른 기본 지역을 선택할 수 있음).
     1. **검토 + 만들기**를 선택합니다(태그가 구성되지 않음).
     1. 입력한 정보를 확인하고 **만들기**를 선택합니다.
-    1. 새 작업 영역이 목록에 표시되려면 1~2분 정도 걸릴 수 있습니다. 2분이 지났는데 작업 영역이 표시되지 않으면 **새로 고침**, **추가**를 차례로 선택합니다.
-
-1. 새 작업 영역이 추가되면 Microsoft Sentinel | 뉴스 및 가이드 페이지가 표시되어 Microsoft Sentinel 평가판이 활성화되었음을 나타냅니다.  **확인**을 선택합니다.
-
+    1. 새 작업 영역을 만드는 데는 1~2 분 정도 걸릴 수 있습니다.
+    1. 작업 영역을 만들었다면 **리소스로 이동**을 선택하여 작업 영역에 대한 정보를 확인합니다.
+1. 이 시점에서 Microsoft Sentinel 인스턴스는 아직 만들어지지 않았습니다. Sentinel 인스턴스를 만들려면 Microsoft Sentinel 페이지로 이동해야 합니다. 페이지 맨 위에 있는 파란색 검색 상자를 사용하여 **Microsoft Sentinel**을 검색하고 결과에서 해당 항목을 선택합니다.
+1. Microsoft Sentinel에 작업 영역을 추가하려면 Microsoft Sentinel 페이지로 이동해야 합니다. 페이지 맨 위에 있는 파란색 검색 상자를 사용하여 **Microsoft Sentinel**을 검색합니다.
+    1. Microsoft Sentinel 페이지에서 **+ 만들기**를 선택합니다.
+    1. 이제 방금 만든 작업 영역을 추가할 수 있습니다. **SC900-Sentinel-workspace**를 선택한 다음 **추가**를 선택합니다.  Microsoft Sentinel 무료 평가판이 활성화되려면 몇 분 정도 걸릴 수 있습니다.  활성화되면 **확인**을 선택합니다.
 1. 다음 작업에서 사용할 수 있도록 이 페이지를 열어 두세요.
 
 ### 작업 2
 
-Microsoft Sentinel 인스턴스를 만들면 Microsoft Sentinel을 지원할 책임이 있는 사용자가 필요한 권한을 갖는 것이 중요합니다.  이 작업은 지정된 사용자에게 필요한 역할 권한을 할당하여 수행됩니다.  이 작업에서는 사용할 수 있는 기본 제공 Microsoft Sentinel 역할을 확인합니다.
+Microsoft Sentinel 인스턴스를 만들고 해당 인스턴스에 Log Analytics 작업 영역을 할당했다면, Microsoft Sentinel을 지원할 책임이 있는 사용자가 필요한 권한을 보유하고 있어야 합니다.  이 작업은 지정된 사용자에게 필요한 역할 권한을 할당하여 수행됩니다.  이 작업에서는 사용할 수 있는 기본 제공 Microsoft Sentinel 역할을 확인합니다.
 
 1. 파란색 검색 상자에 **리소스 그룹**을 입력한 다음 검색 결과에서 **리소스 그룹**을 선택합니다. 
 
@@ -70,7 +68,7 @@ Microsoft Sentinel 인스턴스를 만들면 Microsoft Sentinel을 지원할 책
 
 이 작업에서는 데이터 원본에 연결하는 단계를 진행합니다. 대다수 데이터 커넥터는 분석 규칙, 통합 문서, 플레이북 등의 관련 콘텐츠와 함께 Microsoft Sentinel 솔루션의 구성 요소로 배포됩니다. Microsoft Sentinel 콘텐츠 허브는 기본 제공 콘텐츠를 검색하고 관리할 수 있는 중앙 위치입니다. 이 단계에서는 콘텐츠 허브를 사용하여 Microsoft Sentinel에서 사용할 클라우드용 Microsoft Defender 솔루션을 배포합니다.  이 솔루션을 사용하면 클라우드용 Microsoft Defender에서 보고되는 보안 경고를 수집할 수 있습니다.
 
-1. Azure 서비스 홈 페이지에서 Microsoft Sentinel을 선택하고 앞에서 만든 **SC900-LogAnalytics-workspace** 인스턴스를 선택합니다.
+1. Azure 서비스 홈페이지에서 Microsoft Sentinel을 선택하고 앞서 만든 **SC900-Sentinel-workspace** 인스턴스를 선택합니다.
 
 1. 왼쪽 탐색 패널에서 **콘텐츠 관리**를 펼친 다음 **콘텐츠 허브**를 선택합니다.
 
@@ -117,4 +115,4 @@ Microsoft Sentinel 인스턴스를 만들면 Microsoft Sentinel을 지원할 책
 
 ### 검토
 
-데모의 4부에서는 Microsoft Sentinel을 데이터 원본에 연결하는 단계를 진행하고 통합 문서를 설정했으며 Microsoft Sentinel에서 사용할 수 있는 여러 옵션을 살펴보았습니다.
+이 랩에서는 Microsoft Sentinel을 데이터 원본에 연결하는 단계를 안내하고, 통합 문서를 설정하고, Microsoft Sentinel에서 사용할 수 있는 여러 옵션을 살펴보았습니다.
